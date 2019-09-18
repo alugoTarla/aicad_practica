@@ -1,0 +1,73 @@
+<template>
+  <div id="section6">
+    <div class="p5sFondo">
+      <div class="p18s6fondoFwhite">
+        <div class="p5Video" v-responsive.lg.xl>
+          <video autoplay controls loop muted preload style="width: 100%">
+            <source :src="p18s6Video" type="video/mp4" />
+          </video>
+        </div>   
+        <div class="p5Img" v-responsive.md.sm.xs>
+          <b-img :src="p18s6Img" class="p5Img1"/>
+        </div>   
+        <b-container fluid>
+          <b-container >
+            <br />
+            <br />
+            <b-row align-v="center">
+              <b-col cols="12" class="text-center">
+                <h2>{{$t("p18s6title1")}}</h2>
+                <h2>{{$t("p18s6title2")}}</h2>
+                <br>
+                <a class="btn buttonTurqueza" :href="p18s6url">
+                  {{$t("p18s6button1")}}
+                  <br />
+                  <strong>{{$t("p18s6button2")}}</strong>
+                </a>
+              </b-col>
+            </b-row>
+            <br />
+            <br />
+          </b-container>
+        </b-container>
+      </div>      
+    </div>
+  </div>
+</template>
+
+<i18n>
+{
+  "en":{
+    "p18s6title1": "Simplify student access to all internship offers",
+    "p18s6title2":  "in companies of reputation and career opportunities",
+    "p18s6button1": "Become a partner university",
+    "p18s6button2": "Contact us"
+  },
+  "es":{
+    "p18s6title1": "Simplifica el acceso de los estudiantes a todas las ofertas",
+    "p18s6title2":  "de prácticas en empresas de prestigio y trayectoria",
+    "p18s6button1": "CONVIÉRTETE EN UNIVERSIDAD PARTNER",
+    "p18s6button2": "CONTÁCTANOS"
+  }
+}
+</i18n>
+
+<script>
+export default {
+  data() {
+    return {
+      p18s6url: "http://jobs.aicad.es",
+      p18s6Video: "https://google-my-business.aicad.es/images/video/genesis_480.mp4",
+      p18s6Img: "https://www.aicad.es/wp-content/uploads/2015/05/portada-ofertas-trabajo-aicad.jpg"
+    }
+  }
+};
+</script>
+
+<style>
+
+.p18s6fondoFwhite {
+  color: white;
+}
+
+</style>
