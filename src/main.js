@@ -95,9 +95,11 @@ Vue.use(VueYoutube);
 
 Vue.config.productionTip = false;
 
-new Vue({
+const app = new Vue({
   router,
   store,
   i18n,
   render: h => h(App)
-}).$mount('#app');
+});
+
+app.$mount('#app');

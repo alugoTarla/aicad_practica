@@ -1,245 +1,187 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '@/views/Home.vue';
-
-import Page_pe1_es from  '@/views/practica/es/Page1.vue';
-import Page_pe2_es from  '@/views/practica/es/Page2.vue';
-import Page_pe3_es from  '@/views/practica/es/Page3.vue';
-import Page_pe4_es from  '@/views/practica/es/Page4.vue';
-import Page_pe5_es from  '@/views/practica/es/Page5.vue';
-import Page_pe6_es from  '@/views/practica/es/Page6.vue';
-import Page_pe7_es from  '@/views/practica/es/Page7.vue';
-import Page_pe8_es from  '@/views/practica/es/Page8.vue';
-import Page_pe9_es from  '@/views/practica/es/Page9.vue';
-import Page_pe10_es from '@/views/practica/es/Page10.vue';
-import Page_pe11_es from '@/views/practica/es/Page11.vue';
-import Page_pe12_es from '@/views/practica/es/Page12.vue';
-import Page_pe13_es from '@/views/practica/es/Page13.vue';
-import Page_pe14_es from '@/views/practica/es/Page14.vue';
-import Page_pe16_es from '@/views/practica/es/Page16.vue';
-import Page_pe17_es from '@/views/practica/es/Page17.vue';
-import Page_pe18_es from '@/views/practica/es/Page18.vue';
-
-import Page_pe1_en from  '@/views/practica/en/Page1.vue';
-import Page_pe2_en from  '@/views/practica/en/Page2.vue';
-import Page_pe3_en from  '@/views/practica/en/Page3.vue';
-import Page_pe4_en from  '@/views/practica/en/Page4.vue';
-import Page_pe5_en from  '@/views/practica/en/Page5.vue';
-import Page_pe6_en from  '@/views/practica/en/Page6.vue';
-import Page_pe7_en from  '@/views/practica/en/Page7.vue';
-import Page_pe8_en from  '@/views/practica/en/Page8.vue';
-import Page_pe9_en from  '@/views/practica/en/Page9.vue';
-import Page_pe10_en from '@/views/practica/en/Page10.vue';
-import Page_pe11_en from '@/views/practica/en/Page11.vue';
-import Page_pe12_en from '@/views/practica/en/Page12.vue';
-import Page_pe13_en from '@/views/practica/en/Page13.vue';
-import Page_pe14_en from '@/views/practica/en/Page14.vue';
-import Page_pe16_en from '@/views/practica/en/Page16.vue';
-import Page_pe17_en from '@/views/practica/en/Page17.vue';
-import Page_pe18_en from '@/views/practica/en/Page18.vue';
-
-// import Page_pe15 from './views/practica/Page15.vue'
-// import DetallePractica from './views/practica/DetallePractica.vue'
 
 Vue.use(Router);
 
 const router = new Router({
-  // mode: 'history',
-  // hash: false,
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home,
+      redirect: '/es'
+      // name: 'home',
+      // component: () => import('@/views/Home.vue')
     },
     {
-      path: '/practica',
+      path: '/es',
       name: 'page_pe1_es',
-      component: Page_pe1_es,
+      component: () => import ('@/views/practica/es/Page1.vue')
     },
     {
-      path: '/internship',
-      name: 'page_pe1_en',
-      component: Page_pe1_en,
-    },
-    {
-      path: '/practica/tres-pasos',
+      path: '/es/tres-pasos',
       name: 'page_pe2_es',
-      component: Page_pe2_es,
+      component: () => import ('@/views/practica/es/Page2.vue')
     },
     {
-      path: '/internship/three-steps',
-      name: 'page_pe2_en',
-      component: Page_pe2_en,
-    },
-    {
-      path: '/practica/buscas-trabajo',
+      path: '/es/buscas-trabajo',
       name: 'page_pe3_es',
-      component: Page_pe3_es,
+      component: () => import ('@/views/practica/es/Page3.vue')
     },
     {
-      path: '/internship/job-search',
-      name: 'page_pe3_en',
-      component: Page_pe3_en,
-    },
-    {
-      path: '/practica/contratar-becarios',
+      path: '/es/contratar-becarios',
       name: 'page_pe4_es',
-      component: Page_pe4_es,
+      component: () => import ('@/views/practica/es/Page4.vue')
     },
     {
-      path: '/internship/host-interns',
-      name: 'page_pe4_en',
-      component: Page_pe4_en,
-    },
-    {
-      path: '/practica/practicas-empresas-vip',
+      path: '/es/practicas-empresas-vip',
       name: 'page_pe5_es',
-      component: Page_pe5_es,
+      component: () => import ('@/views/practica/es/Page5.vue')
     },
     {
-      path: '/internship/internships-companies-vip',
-      name: 'page_pe5_en',
-      component: Page_pe5_en,
-    },
-    {
-      path: '/practica/practicas-empresas-erasmus',
+      path: '/es/practicas-empresas-erasmus',
       name: 'page_pe6_es',
-      component: Page_pe6_es,
+      component: () => import ('@/views/practica/es/Page6.vue')
     },
     {
-      path: '/internship/internships-companies-erasmus',
-      name: 'page_pe6_en',
-      component: Page_pe6_en,
-    },
-    {
-      path: '/practica/agencia-practicas',
+      path: '/es/agencia-practicas',
       name: 'page_pe7_es',
-      component: Page_pe7_es,
+      component: () => import ('@/views/practica/es/Page7.vue')
     },
     {
-      path: '/internship/internship-agency',
-      name: 'page_pe7_en',
-      component: Page_pe7_en,
-    },
-    {
-      path: '/practica/paises-practicas',
+      path: '/es/paises-practicas',
       name: 'page_pe8_es',
-      component: Page_pe8_es,
+      component: () => import ('@/views/practica/es/Page8.vue')
     },
     {
-      path: '/internship/internship-countries',
-      name: 'page_pe8_en',
-      component: Page_pe8_en,
-    },
-    {
-      path: '/practica/universidades-colaboradoras',
+      path: '/es/universidades-colaboradoras',
       name: 'page_pe9_es',
-      component: Page_pe9_es,
+      component: () => import ('@/views/practica/es/Page9.vue')
     },
     {
-      path: '/internship/partner-universities',
-      name: 'page_pe9_en',
-      component: Page_pe9_en,
-    },
-    {
-      path: '/practica/contratar-becarios-extranjeros',
+      path: '/es/contratar-becarios-extranjeros',
       name: 'page_pe10_es',
-      component: Page_pe10_es,
+      component: () => import ('@/views/practica/es/Page10.vue')
     },
     {
-      path: '/internship/host-foreign-interns',
-      name: 'page_pe10_en',
-      component: Page_pe10_en,
-    },
-    {
-      path: '/practica/contratar-becarios-aicad',
+      path: '/es/contratar-becarios-aicad',
       name: 'page_pe11_es',
-      component: Page_pe11_es,
+      component: () => import ('@/views/practica/es/Page11.vue')
     },
     {
-      path: '/internship/host-interns-aicad',
-      name: 'page_pe11_en',
-      component: Page_pe11_en,
-    },
-    {
-      path: '/practica/faq-alumnos',
+      path: '/es/faq-alumnos',
       name: 'page_pe12_es',
-      component: Page_pe12_es,
+      component: () => import ('@/views/practica/es/Page12.vue')
     },
     {
-      path: '/internship/faq-students',
-      name: 'page_pe12_en',
-      component: Page_pe12_en,
-    },
-    {
-      path: '/practica/faq-empresas',
+      path: '/es/faq-empresas',
       name: 'page_pe13_es',
-      component: Page_pe13_es,
+      component: () => import ('@/views/practica/es/Page13.vue')
     },
     {
-      path: '/internship/faq-companies',
-      name: 'page_pe13_en',
-      component: Page_pe13_en,
-    },
-    {
-      path: '/practica/contratar-seguro',
+      path: '/es/contratar-seguro',
       name: 'page_pe14_es',
-      component: Page_pe14_es,
+      component: () => import ('@/views/practica/es/Page14.vue')
     },
     {
-      path: '/internship/employment-insurance',
-      name: 'page_pe14_en',
-      component: Page_pe14_en,
-    },
-    {
-      path: '/practica/agencias-work-and-travel',
+      path: '/es/agencias-work-and-travel',
       name: 'page_pe16_es',
-      component: Page_pe16_es,
-      props: true,
+      component: () => import ('@/views/practica/es/Page16.vue')
     },
     {
-      path: '/internship/companies-work-and-travel',
-      name: 'page_pe16_en',
-      component: Page_pe16_en,
-      props: true,
-    },
-    {
-      path: '/practica/internacionales-universidad-y-agencias',
+      path: '/es/internacionales-universidad-y-agencias',
       name: 'page_pe17_es',
-      component: Page_pe17_es,
-      props: true,
+      component: () => import ('@/views/practica/es/Page17.vue')
     },
     {
-      path: '/internship/internationals-universities-and-agencies',
-      name: 'page_pe17_en',
-      component: Page_pe17_en,
-      props: true,
-    },
-    {
-      path: '/practica/universidades-career-centre',
+      path: '/es/universidades-career-centre',
       name: 'page_pe18_es',
-      component: Page_pe18_es,
-      props: true,
+      component: () => import ('@/views/practica/es/Page18.vue')
     },
     {
-      path: '/internship/universities-career-centre',
+      path: '/en',
+      name: 'page_pe1_en',
+      component: () => import ('@/views/practica/en/Page1.vue')
+    },    
+    {
+      path: '/en/three-steps',
+      name: 'page_pe2_en',
+      component: () => import ('@/views/practica/en/Page2.vue')
+    },
+    {
+      path: '/en/job-search',
+      name: 'page_pe3_en',
+      component: () => import ('@/views/practica/en/Page3.vue')
+    },
+    {
+      path: '/en/host-interns',
+      name: 'page_pe4_en',
+      component: () => import ('@/views/practica/en/Page4.vue')
+    },
+    {
+      path: '/en/internships-companies-vip',
+      name: 'page_pe5_en',
+      component: () => import ('@/views/practica/en/Page5.vue')
+    },
+    {
+      path: '/en/internships-companies-erasmus',
+      name: 'page_pe6_en',
+      component: () => import ('@/views/practica/en/Page6.vue')
+    },
+    {
+      path: '/en/internship-agency',
+      name: 'page_pe7_en',
+      component: () => import ('@/views/practica/en/Page7.vue')
+    },
+    {
+      path: '/en/internship-countries',
+      name: 'page_pe8_en',
+      component: () => import ('@/views/practica/en/Page8.vue')
+    },
+    {
+      path: '/en/partner-universities',
+      name: 'page_pe9_en',
+      component: () => import ('@/views/practica/en/Page9.vue')
+    },
+    {
+      path: '/en/host-foreign-interns',
+      name: 'page_pe10_en',
+      component: () => import ('@/views/practica/en/Page10.vue')
+    },
+    {
+      path: '/en/host-interns-aicad',
+      name: 'page_pe11_en',
+      component: () => import ('@/views/practica/en/Page11.vue')
+    },
+    {
+      path: '/en/faq-students',
+      name: 'page_pe12_en',
+      component: () => import ('@/views/practica/en/Page12.vue')
+    },
+    {
+      path: '/en/faq-companies',
+      name: 'page_pe13_en',
+      component: () => import ('@/views/practica/en/Page13.vue')
+    },
+    {
+      path: '/en/employment-insurance',
+      name: 'page_pe14_en',
+      component: () => import ('@/views/practica/en/Page14.vue')
+    },
+    {
+      path: '/en/companies-work-and-travel',
+      name: 'page_pe16_en',
+      component: () => import ('@/views/practica/en/Page16.vue')
+    },
+    {
+      path: '/en/internationals-universities-and-agencies',
+      name: 'page_pe17_en',
+      component: () => import ('@/views/practica/en/Page17.vue')
+    },
+    {
+      path: '/en/universities-career-centre',
       name: 'page_pe18_en',
-      component: Page_pe18_en,
-      props: true,
-    }
-    // {
-    //   path: '/practica/Page15',
-    //   name: 'page_pe15',
-    //   component: Page_pe15,
-    //   props: true,
-    // },
-    // {
-    //   path: '/practica/DetallePractica/:idpractica',
-    //   name: 'detallePractica',
-    //   component: DetallePractica,
-    //   props: true,
-    // },
+      component: () => import ('@/views/practica/en/Page18.vue')
+    }    
   ],
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
