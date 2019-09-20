@@ -12,8 +12,8 @@
 export default {
   name: "home",
   created() {
-    // var itemName = 'page_pe1_'+this.$i18n.locale;
-    // this.$router.push({ name: itemName });
+    var itemName = 'page_pe1_'+this.$i18n.locale;
+    this.$router.push({ name: itemName });
   }
 };
 </script>
