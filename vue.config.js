@@ -4,11 +4,11 @@ const PrerenderSpaPlugin = require('prerender-spa-plugin');
 const productionPlugins = [
   new PrerenderSpaPlugin({
     staticDir: path.join(__dirname, 'dist'),
-    outputDir: path.join(__dirname, 'dist/aicad-practica/'),
+    outputDir: path.join(__dirname, 'dist/aicad-practica'),
     indexPath: path.join(__dirname, 'dist', '/aicad-practica/index.html'),
     routes: ['/'
-      ,'/es'
-      ,'/tres-pasos'      
+      ,'/es/'
+      ,'/tres-pasos'
       ,'/buscas-trabajo'
       ,'/contratar-becarios'
       ,'/practicas-empresas-vip'
@@ -24,7 +24,7 @@ const productionPlugins = [
       ,'/agencias-work-and-travel'
       ,'/internacionales-universidad-y-agencias'
       ,'/universidades-career-centre'
-      ,'/en'
+      ,'/en/'
       ,'/three-steps'
       ,'/job-search'
       ,'/host-interns'
@@ -53,8 +53,14 @@ const productionPlugins = [
 ];
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/dist/aicad-practica/' : '/',
+  publicPath: '/aicad-practica',
   outputDir: path.join(__dirname, 'dist/aicad-practica'),
+  lintOnSave: true,
+  configureWebpack: (config) => {
+    if (process.env.NODE_ENV === 'production') {
+      config.plugins.push(...productionPlugins);
+    }
+  },
 
   pluginOptions: {
     i18n: {
@@ -65,12 +71,6 @@ module.exports = {
     }
   },
 
-  lintOnSave: true,
-  configureWebpack: (config) => {
-    if (process.env.NODE_ENV === 'production') {
-      config.plugins.push(...productionPlugins);
-    }
-  },
 
   chainWebpack: config => {
     config.module
@@ -80,5 +80,5 @@ module.exports = {
       .use('i18n')
       .loader('@kazupon/vue-i18n-loader')
   }
-  
-}
+
+};
