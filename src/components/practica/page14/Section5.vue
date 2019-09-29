@@ -11,7 +11,7 @@
               </span>
             </h2>
             <p class="text-justify">
-              {{p14s5text}}
+              {{$t("p14s5text")}}
             </p>
             <br />
             <b-row align-v="start">

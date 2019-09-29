@@ -15,13 +15,13 @@
             <li>
               <a v-bind:class="[language == 'es' ? 'activeLang' : '']" 
               name="es" @click="changeLanguage('es')" class="langText">
-              <b-img src="icon/es.png" />
+              <b-img :src="require('@/assets/icon/es.png')" />
               </a>
             </li>
             &nbsp;
             <li><a v-bind:class="[language == 'en' ? 'activeLang' : '']" 
               name="en" @click="changeLanguage('en')" class="langText">
-              <b-img src="icon/en.png" />
+              <b-img :src="require('@/assets/icon/en.png')" />
               </a>
             </li>
           </ul>

@@ -37,7 +37,7 @@
                       <strong>{{item.p14s3p2}}</strong>{{item.p14s3p3}}
                       <span>
                         <b-button v-b-tooltip.left.hover="{ customClass: 'my-tooltip-class14' }" :title="item.p14s3tt" class="p14cardIcon">
-                        <font-awesome-icon :icon="item.p14s3icon" size="2x"/>
+                        <font-awesome-icon :icon='["fas","info-circle"]' size="2x"/>
                         </b-button>
                       </span>
                     </h4>
@@ -45,7 +45,7 @@
                 </b-card-body>
                 <b-card-footer class="text-center p14cardContentF">
                   <p>
-                    {{item.p14s3p4}} <a @click="$bvModal.show('m2p14s3')" 
+                    {{item.p14s3p4}} <a @click="$bvModal.show('bm1p14s3')" 
                     style="text-decoration: underline !important;">{{item.p14s3plink}}</a>
                   </p>
                 </b-card-footer>
@@ -54,19 +54,21 @@
           </b-row>
           
           <div>
-            <b-modal id="m2p14s3" 
-              hide-footer hide-header
+            <b-modal id="bm1p14s3" 
+              hide-footer 
               scrollable centered  >
-              <div v-for="(item, idx) in m2p14s3" :key="idx" style="padding: 0 1em; padding-top: 1em;">
+              <br>
+              <br>
+              <div v-for="(item, idx) in m1p14s3" :key="idx" style="padding: 0 1em; padding-top: 1em;">
                 <h3>
-                  {{item.m2p14s3tt}}
+                  {{item.m1p14s3tt}}
                 </h3>
-                <p>{{item.m2p14s3tp}}</p>
+                <p>{{item.m1p14s3tp}}</p>
                 <ul style="padding-left: 1em;">
-                  <li v-for="(item1, idx1) in item.m2p14s3ll" :key="idx1" >
-                    {{item1.m2p14s3llitem}}
-                    <ul v-if="item1.m2p14s3llitemf" style="padding-left: 1em;">
-                      <li v-for="(item2, idx2) in item1.m2p14s3llitemSub" :key="idx2" >
+                  <li v-for="(item1, idx1) in item.m1p14s3ll" :key="idx1" >
+                    {{item1.m1p14s3llitem}}
+                    <ul v-if="item1.m1p14s3llitemf" style="padding-left: 1em;">
+                      <li v-for="(item2, idx2) in item1.m1p14s3llitemSub" :key="idx2" >
                         {{item2}}                        
                       </li>
                     </ul>
@@ -103,12 +105,10 @@
         , "p14s3btn": "Get your policy!"
         , "p14s3url": "#"
         , "p14s3p2": "70,06€"
-        , "p14s3p3": " for students who have obtained their internships through AICAD Business School. Check the conditions of this Insurance"
-        , "p14s3icon": ["fas","info-circle"]
+        , "p14s3p3": " for students who have obtained their internships through AICAD Business School. Check the conditions of this Insurance"       
         , "p14s3tt": "Any fraudulent use of the promotion by the user can result in the cancellation of the policy and the loss of the payment made"
         , "p14s3p4": "Check the conditions of this "
         , "p14s3plink": "insurance"
-        , "p14s3lmodal": "m2p14s3"
       },
       {
         "p14s3t1": "Up to 6 months"
@@ -118,11 +118,9 @@
         , "p14s3url": "#"
         , "p14s3p2": "74,63€"
         , "p14s3p3": " for students who have obtained their internships through AICAD Business School. Check the conditions of this Insurance"
-        , "p14s3icon": ["fas","info-circle"]
         , "p14s3tt": "Any fraudulent use of the promotion by the user can result in the cancellation of the policy and the loss of the payment made"
         , "p14s3p4": "Check the conditions of this "
         , "p14s3plink": "insurance"
-        , "p14s3lmodal": "m2p14s3"
       },
       {
         "p14s3t1": "Up to 9 months"
@@ -132,51 +130,49 @@
         , "p14s3url": "#"
         , "p14s3p2": "80,11€"
         , "p14s3p3": " for students who have obtained their internships through AICAD Business School. Check the conditions of this Insurance"
-        , "p14s3icon": ["fas","info-circle"]
         , "p14s3tt": "Any fraudulent use of the promotion by the user can result in the cancellation of the policy and the loss of the payment made"
         , "p14s3p4": "Check the conditions of this "
         , "p14s3plink": "insurance"
-        , "p14s3lmodal": "m2p14s3"
       }
     ]
-    , "m2p14s3": [
+    , "m1p14s3": [
       {
-        "m2p14s3tt": "Liability and accident insurance"
-        , "m2p14s3tp": ""
-        , "m2p14s3ll": [
+        "m1p14s3tt": "Liability and accident insurance"
+        , "m1p14s3tp": ""
+        , "m1p14s3ll": [
           {
-            "m2p14s3llitem": "Civil Liability of the insured activity; € 150,000 or"
-            , "m2p14s3llitemf": true
-            , "m2p14s3llitemSub": [
+            "m1p14s3llitem": "Civil Liability of the insured activity; € 150,000 or"
+            , "m1p14s3llitemf": true
+            , "m1p14s3llitemSub": [
                 "Sublimit victim € 60,000 or"
               , "Franchise: € 150 or"
               , "Scope: Liabilities arising from damages incurred in any country in the world, except USA, Canada and Mexico, for claims made before the Courts of those countries"
             ]
           },
           {
-            "m2p14s3llitem": "Bail Bonds and Defense"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Bail Bonds and Defense"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Death due to an accident: € 30,000"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Death due to an accident: € 30,000"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Permanent Partial Disability due to an accident: € 30,000"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Permanent Partial Disability due to an accident: € 30,000"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Permanent Complete Disability due to an accident: € 30,000"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Permanent Complete Disability due to an accident: € 30,000"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Healthcare assistance due to an accident: or"
-            , "m2p14s3llitemf": true
-            , "m2p14s3llitemSub": [
+            "m1p14s3llitem": "Healthcare assistance due to an accident: or"
+            , "m1p14s3llitemf": true
+            , "m1p14s3llitemSub": [
                "Unlimited in Concerted Centers. All INSALUD centers are considered concerted or"
               , "€ 1,500 in free choice."              
             ]
@@ -204,12 +200,10 @@
         , "p14s3btn": "¡Obtén tu póliza!"
         , "p14s3url": "#"
         , "p14s3p2": "70,06€"
-        , "p14s3p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."
-        , "p14s3icon": ["fas","info-circle"]
+        , "p14s3p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."       
         , "p14s3tt": "Cualquier uso fraudulento de la promoción por parte del usuario puede acarrear la cancelación de la póliza y la pérdida del pago realizado"
         , "p14s3p4": "Consulta las condiciones de esta "
         , "p14s3plink": "cobertura"
-        , "p14s3lmodal": "m2p14s3"
       },
       {
         "p14s3t1": "Hasta 6 meses"
@@ -218,12 +212,10 @@
         , "p14s3btn": "¡Obtén tu póliza!"
         , "p14s3url": "#"
         , "p14s3p2": "74,63€"
-        , "p14s3p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."
-        , "p14s3icon": ["fas","info-circle"]
+        , "p14s3p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."     
         , "p14s3tt": "Cualquier uso fraudulento de la promoción por parte del usuario puede acarrear la cancelación de la póliza y la pérdida del pago realizado"
         , "p14s3p4": "Consulta las condiciones de esta "
         , "p14s3plink": "cobertura"
-        , "p14s3lmodal": "m2p14s3"
       },
       {
         "p14s3t1": "Hasta 9 meses"
@@ -232,52 +224,50 @@
         , "p14s3btn": "¡Obtén tu póliza!"
         , "p14s3url": "#"
         , "p14s3p2": "80,11€"
-        , "p14s3p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."
-        , "p14s3icon": ["fas","info-circle"]
+        , "p14s3p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."      
         , "p14s3tt": "Cualquier uso fraudulento de la promoción por parte del usuario puede acarrear la cancelación de la póliza y la pérdida del pago realizado"
         , "p14s3p4": "Consulta las condiciones de esta "
         , "p14s3plink": "cobertura"
-        , "p14s3lmodal": "m2p14s3"
       }
     ]
-    , "m2p14s3": [
+    , "m1p14s3": [
       {
-        "m2p14s3tt": "Cobertura de responsabilidad civil y accidentes"
-        , "m2p14s3tp": ""
-        , "m2p14s3ll": [
+        "m1p14s3tt": "Cobertura de responsabilidad civil y accidentes"
+        , "m1p14s3tp": ""
+        , "m1p14s3ll": [
           {
-            "m2p14s3llitem": "Responsabilidad Civil de la actividad asegurada; 150.000€ o"
-            , "m2p14s3llitemf": true
-            , "m2p14s3llitemSub": [
+            "m1p14s3llitem": "Responsabilidad Civil de la actividad asegurada; 150.000€ o"
+            , "m1p14s3llitemf": true
+            , "m1p14s3llitemSub": [
                 "Sublímite víctima 60.000€ o"
               , "Franquicia: 150€ o"
               , "Ámbito: responsabilidades derivadas de daños sobrevenidos en cualquier país del mundo, excepto USA, Canadá y México, por reclamaciones formuladas ante Tribunales de dichos países"
             ]
           },
           {
-            "m2p14s3llitem": "Fianzas y Defensa"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Fianzas y Defensa"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Fallecimiento por accidente: 30.000€"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Fallecimiento por accidente: 30.000€"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Invalidez Permanente Parcial por accidente: 30.000€"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Invalidez Permanente Parcial por accidente: 30.000€"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Invalidez Permanente Absoluta por accidente: 30.000€"
-            , "m2p14s3llitemf": false
-            , "m2p14s3llitemSub": []
+            "m1p14s3llitem": "Invalidez Permanente Absoluta por accidente: 30.000€"
+            , "m1p14s3llitemf": false
+            , "m1p14s3llitemSub": []
           },
           {
-            "m2p14s3llitem": "Asistencia Sanitaria por accidente: o"
-            , "m2p14s3llitemf": true
-            , "m2p14s3llitemSub": [
+            "m1p14s3llitem": "Asistencia Sanitaria por accidente: o"
+            , "m1p14s3llitemf": true
+            , "m1p14s3llitemSub": [
                "Ilimitada en Centros Concertados. Todos los centros del INSALUD se consideran concertados o"
               , "1.500€ en libre elección."              
             ]

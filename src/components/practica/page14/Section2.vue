@@ -37,7 +37,7 @@
                       <strong>{{item.p14s2p2}}</strong>{{item.p14s2p3}}
                       <span>
                         <b-button v-b-tooltip.left.hover="{ customClass: 'my-tooltip-class14' }" :title="item.p14s2tt" class="p14cardIcon">
-                        <font-awesome-icon :icon="item.p14s2icon" size="2x"/>
+                        <font-awesome-icon :icon='["fas","info-circle"]' size="2x"/>
                         </b-button>
                       </span>
                     </h4>
@@ -45,7 +45,7 @@
                 </b-card-body>
                 <b-card-footer class="text-center p14cardContentF">
                   <p>
-                    {{item.p14s2p4}} <a @click="$bvModal.show('m1p14s2')" 
+                    {{item.p14s2p4}} <a @click="$bvModal.show('bm1p14s2')" 
                     style="text-decoration: underline !important;">{{item.p14s2plink}}</a>
                   </p>
                 </b-card-footer>
@@ -54,9 +54,11 @@
           </b-row>
           
           <div>
-            <b-modal id="m1p14s2" 
-              hide-footer hide-header
-              scrollable >
+            <b-modal id="bm1p14s2" 
+              hide-footer 
+              scrollable centered  >
+              <br>
+              <br>
               <div v-for="(item, idx) in m1p14s2" :key="idx" style="padding: 0 1em; padding-top: 1em;">
                 <h3>
                   {{item.m1p14s2tt}}
@@ -104,11 +106,10 @@
         , "p14s2url": "#"
         , "p14s2p2": "131,06€"
         , "p14s2p3": " for students who have obtained their internships through AICAD Business School."
-        , "p14s2icon": ["fas","info-circle"]
+        
         , "p14s2tt": "Any fraudulent use of the promotion by the user can result in the cancellation of the policy and the loss of the payment made"
         , "p14s2p4": "Check the conditions of this "
         , "p14s2plink": "insurance"
-        , "p14s2lmodal": "m1p14s2"
       },
       {
         "p14s2t1": "Up to 6 months"
@@ -117,12 +118,10 @@
         , "p14s2btn": "Get your policy!"
         , "p14s2url": "#"
         , "p14s2p2": "160,63€"
-        , "p14s2p3": " for students who have obtained their internships through AICAD Business School."
-        , "p14s2icon": ["fas","info-circle"]
+        , "p14s2p3": " for students who have obtained their internships through AICAD Business School."       
         , "p14s2tt": "Any fraudulent use of the promotion by the user can result in the cancellation of the policy and the loss of the payment made"
         , "p14s2p4": "Check the conditions of this "
         , "p14s2plink": "insurance"
-        , "p14s2lmodal": "m1p14s2"
       },
       {
         "p14s2t1": "Up to 9 months"
@@ -131,12 +130,10 @@
         , "p14s2btn": "Get your policy!"
         , "p14s2url": "#"
         , "p14s2p2": "210,11€"
-        , "p14s2p3": " for students who have obtained their internships through AICAD Business School."
-        , "p14s2icon": ["fas","info-circle"]
+        , "p14s2p3": " for students who have obtained their internships through AICAD Business School."       
         , "p14s2tt": "Any fraudulent use of the promotion by the user can result in the cancellation of the policy and the loss of the payment made"
         , "p14s2p4": "Check the conditions of this "
         , "p14s2plink": "insurance"
-        , "p14s2lmodal": "m1p14s2"
       }
     ]
     , "m1p14s2": [
@@ -305,12 +302,10 @@
         , "p14s2btn": "¡Obtén tu póliza!"
         , "p14s2url": "#"
         , "p14s2p2": "131,06€"
-        , "p14s2p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."
-        , "p14s2icon": ["fas","info-circle"]
+        , "p14s2p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."        
         , "p14s2tt": "Cualquier uso fraudulento de la promoción por parte del usuario puede acarrear la cancelación de la póliza y la pérdida del pago realizado"
         , "p14s2p4": "Consulta las condiciones de esta "
         , "p14s2plink": "cobertura"
-        , "p14s2lmodal": "m1p14s2"
       },
       {
         "p14s2t1": "Hasta 6 meses"
@@ -319,12 +314,10 @@
         , "p14s2btn": "¡Obtén tu póliza!"
         , "p14s2url": "#"
         , "p14s2p2": "160,63€"
-        , "p14s2p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."
-        , "p14s2icon": ["fas","info-circle"]
+        , "p14s2p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."      
         , "p14s2tt": "Cualquier uso fraudulento de la promoción por parte del usuario puede acarrear la cancelación de la póliza y la pérdida del pago realizado"
         , "p14s2p4": "Consulta las condiciones de esta "
         , "p14s2plink": "cobertura"
-        , "p14s2lmodal": "m1p14s2"
       },
       {
         "p14s2t1": "Hasta 9 meses"
@@ -333,12 +326,10 @@
         , "p14s2btn": "¡Obtén tu póliza!"
         , "p14s2url": "#"
         , "p14s2p2": "210,11€"
-        , "p14s2p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."
-        , "p14s2icon": ["fas","info-circle"]
+        , "p14s2p3": " para estudiantes que hayan obtenido sus prácticas a través de AICAD Business School."      
         , "p14s2tt": "Cualquier uso fraudulento de la promoción por parte del usuario puede acarrear la cancelación de la póliza y la pérdida del pago realizado"
         , "p14s2p4": "Consulta las condiciones de esta "
         , "p14s2plink": "cobertura"
-        , "p14s2lmodal": "m1p14s2"
       }
     ]
     , "m1p14s2": [
