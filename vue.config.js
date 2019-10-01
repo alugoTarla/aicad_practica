@@ -3,44 +3,44 @@ const PrerenderSpaPlugin = require('prerender-spa-plugin');
 
 const productionPlugins = [
   new PrerenderSpaPlugin({
-    staticDir: path.join(__dirname, 'dist/aicad-practica'),
+    staticDir: path.join(__dirname, 'dist/aicad'),
     outputDir: path.join(__dirname, 'dist/'),
-    indexPath: path.join(__dirname, 'dist/aicad-practica', '/index.html'),
+    indexPath: path.join(__dirname, 'dist/aicad', '/index.html'),
     routes: [
-       '/aicad-practica/es/'
-      ,'/aicad-practica/es/tres-pasos/'
-      ,'/aicad-practica/es/buscas-trabajo/'
-      ,'/aicad-practica/es/contratar-becarios/'
-      ,'/aicad-practica/es/practicas-empresas-vip/'
-      ,'/aicad-practica/es/practicas-empresas-erasmus/'
-      ,'/aicad-practica/es/agencia-practicas/'
-      ,'/aicad-practica/es/paises-practicas/'
-      ,'/aicad-practica/es/universidades-colaboradoras/'
-      ,'/aicad-practica/es/contratar-becarios-extranjeros/'
-      ,'/aicad-practica/es/contratar-becarios-aicad/'
-      ,'/aicad-practica/es/faq-alumnos/'
-      ,'/aicad-practica/es/faq-empresas/'
-      ,'/aicad-practica/es/contratar-seguro/'
-      ,'/aicad-practica/es/agencias-work-and-travel/'
-      ,'/aicad-practica/es/internacionales-universidad-y-agencias/'
-      ,'/aicad-practica/es/universidades-career-centre/'
-      ,'/aicad-practica/en/'
-      ,'/aicad-practica/en/three-steps/'
-      ,'/aicad-practica/en/job-search/'
-      ,'/aicad-practica/en/host-interns/'
-      ,'/aicad-practica/en/internships-companies-vip/'
-      ,'/aicad-practica/en/internships-companies-erasmus/'
-      ,'/aicad-practica/en/internship-agency/'
-      ,'/aicad-practica/en/internship-countries/'
-      ,'/aicad-practica/en/partner-universities/'
-      ,'/aicad-practica/en/host-foreign-interns/'
-      ,'/aicad-practica/en/host-interns-aicad/'
-      ,'/aicad-practica/en/faq-students/'
-      ,'/aicad-practica/en/faq-companies/'
-      ,'/aicad-practica/en/employment-insurance/'
-      ,'/aicad-practica/en/companies-work-and-travel/'
-      ,'/aicad-practica/en/internationals-universities-and-agencies/'
-      ,'/aicad-practica/en/universities-career-centre/'
+       '/aicad/practicas/'
+      ,'/aicad/practicas/tres-pasos/'
+      ,'/aicad/practicas/buscas-trabajo/'
+      ,'/aicad/practicas/contratar-becarios/'
+      ,'/aicad/practicas/empresas-vip/'
+      ,'/aicad/practicas/empresas-erasmus/'
+      ,'/aicad/practicas/agencia-practicas/'
+      ,'/aicad/practicas/paises-practicas/'
+      ,'/aicad/practicas/universidades-colaboradoras/'
+      ,'/aicad/practicas/contratar-becarios-extranjeros/'
+      ,'/aicad/practicas/contratar-becarios-aicad/'
+      ,'/aicad/practicas/faq-alumnos/'
+      ,'/aicad/practicas/faq-empresas/'
+      ,'/aicad/practicas/contratar-seguro/'
+      ,'/aicad/practicas/agencias-work-and-travel/'
+      ,'/aicad/practicas/internacionales-universidad-y-agencias/'
+      ,'/aicad/practicas/universidades-career-centre/'
+      ,'/aicad/internships/'
+      ,'/aicad/internships/three-steps/'
+      ,'/aicad/internships/job-search/'
+      ,'/aicad/internships/host-interns/'
+      ,'/aicad/internships/companies-vip/'
+      ,'/aicad/internships/companies-erasmus/'
+      ,'/aicad/internships/internship-agency/'
+      ,'/aicad/internships/internship-countries/'
+      ,'/aicad/internships/partner-universities/'
+      ,'/aicad/internships/host-foreign-interns/'
+      ,'/aicad/internships/host-interns-aicad/'
+      ,'/aicad/internships/faq-students/'
+      ,'/aicad/internships/faq-companies/'
+      ,'/aicad/internships/employment-insurance/'
+      ,'/aicad/internships/companies-work-and-travel/'
+      ,'/aicad/internships/internationals-universities-and-agencies/'
+      ,'/aicad/internships/universities-career-centre/'
   ],
     renderer: new PrerenderSpaPlugin.PuppeteerRenderer({
       //renderAfterElementExists: "meta[name='description']",
@@ -53,8 +53,9 @@ const productionPlugins = [
 ];
 
 module.exports = {
-  publicPath: '/aicad-practica/',
-  outputDir: path.join(__dirname, 'dist/aicad-practica/'),
+  // publicPath: process.env.NODE_ENV === 'production' ? '/aicad/' : './',
+  publicPath: '/aicad/',
+  outputDir: path.join(__dirname, 'dist/aicad/'),
   lintOnSave: true,
   configureWebpack: (config) => {
     if (process.env.NODE_ENV === 'production') {
