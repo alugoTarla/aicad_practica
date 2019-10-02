@@ -179,7 +179,7 @@ export default {
           p1s5icon: require("@/assets/images/iconos/page1/presenciainternet.png"),
         }
       ],
-      p1s52url: require("@/assets/images/middle-aicad.png"),
+      p1s52url: require("@/assets/new_imgs/circle-girl.png"),
       p1s53itemsI: [
         {
           p1s5icon: require("@/assets/images/iconos/page1/cv.png"),

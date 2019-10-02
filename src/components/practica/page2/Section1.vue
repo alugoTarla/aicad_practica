@@ -9,7 +9,7 @@
           <h3>{{$t("s1title2")}}</h3>
           <br />
             <b-row align-v="start" class="justify-content-md-center">
-              <b-col cols lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in s1items" :key="idx">
+              <b-col lg="4" md="6" sm="12" class="text-center cardd" v-for="(item, idx) in s1items" :key="idx">
                 <div class="p2fondoIconos">
                   <b-img :src="s1itemsI[idx].s1img" />
                 </div>
@@ -159,8 +159,25 @@ export default {
 };
 </script>
 
-<style>
-
+<style lang="scss">
+.fondoGrisClaro{
+  h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;}
+  h3{font-family: "Lato Medium", sans-serif !important; color: whitesmoke; background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
+  li{font-family: "Lato Light", sans-serif !important; color: whitesmoke;}
+  background-image: url("../../../assets/new_imgs/Banner-3-pasos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardd{
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+  height: 500px;
+  background: rgba(200,200,200,0.4);
+  border-radius: 20px;
+  padding: 20px;
+}
 .p2s1li {
   font-size: 1em;
   font-weight: 400;

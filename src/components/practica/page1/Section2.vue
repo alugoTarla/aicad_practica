@@ -5,47 +5,36 @@
         <b-container >
           <br />
         <b-row>
-          <b-col md="4" sm="12" 
-            v-for="(item ,idx) of s2items" :key="idx">
+          <b-col lg="3" md="4" sm="12"
+            v-for="(item ,idx) of s2items" :key="idx" class="cardd col-lg-offset-1 col-md-offset-1">
             <div
-               style="padding: 10px 10px 0 10px;">
+               style="padding: 10px 10px 0 10px; height: 150px; text-align: center;">
               <h2>
                 <a href="#">{{item.s2title}}</a>
               </h2>
             </div>
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col md="4" sm="12" v-for="(item ,idx) of s2items" :key="idx">
-            <div style="padding: 0 10px 10px 10px;">
+            <div style="padding: 0 10px 10px 10px; height: 180px;">
               <p class="text-justify">{{item.s2text}}</p>
+            </div>
+            <div style="padding: 10px;" id="section2Div">
+              <transition name="bounce">
+                <div v-if="show">
+                      <p style="text-align: center; height: 100px;">
+                        <a :href="item.s2url" class="btn buttonTurqueza btn-lg">
+                          {{item.s2button1}}
+                          <br />
+                          <strong>{{item.s2button2}}</strong>
+                        </a>
+                      </p>
+                </div>
+              </transition>
             </div>
           </b-col>
         </b-row>
-        <div style="padding: 10px;" id="section2Div">
-        <transition name="bounce">
-        <div v-if="show">
-        <b-row>
-          <b-col
-            md="4"
-            sm="12"
-            class="text-center"
-            style="padding: 10px; height: 110px"
-            v-for="(item ,idx) of s2items"
-            :key="idx"
-          >
-            <p style="text-center">
-              <a :href="item.s2url" class="btn buttonTurqueza btn-lg">
-                {{item.s2button1}}
-                <br />
-                <strong>{{item.s2button2}}</strong>
-              </a>
-            </p>
-          </b-col>
-        </b-row>
-        </div>
-        </transition>
-        </div>
+<!--        <b-row>-->
+<!--          <b-col md="4" sm="12" v-for="(item ,idx) of s2items" :key="idx">-->
+<!--          </b-col>-->
+<!--        </b-row>-->
         <br>
         </b-container>
       </b-container>
@@ -156,3 +145,12 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+  .cardd{
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+  }
+
+</style>
