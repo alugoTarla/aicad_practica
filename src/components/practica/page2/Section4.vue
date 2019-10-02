@@ -8,7 +8,10 @@
           <br />
           <b-row class="justify-content-md-center">
             <b-col cols md="4" class="text-center" v-for="(item, idx) in p2items" :key="idx">
-              <b-card class="p2card">
+              <b-card class="p2card" style="
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);">
                 <div class="p2fondoIconos">
                   <b-img :src="p2itemsI[idx].p2img" />
                 </div>

@@ -3,7 +3,7 @@
     <div class="p1s7fondoFwhite">
       <div class="wrapper">
         <b-container fluid class="p1s7carrusel">
-          <b-container class="text-center">
+          <b-container class="text-center" style="background-color: rgba(200,200,200,0.4)">
             <carousel
               :autoplay="true"
               :autoplayTimeout="3000"
@@ -131,9 +131,9 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top center;
+  background-position: bottom center;
   background-color: #2c3e50;
-  background-image: url("~@/assets/images/banners/banner8.jpg");
+  background-image: url("~@/assets/new_imgs/business-people-standing-in-row-YTS9UM2.jpg");
 }
 
 .p1s7carrusel {

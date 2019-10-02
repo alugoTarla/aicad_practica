@@ -50,14 +50,15 @@ export default {
 </script>
 
 <style>
+  h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
 .p3s1fondoWhite {
   color: white;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner_p3_1.jpg");
+  background-image: url("~@/assets/new_imgs/Banner-unete.jpg");
   padding: 2rem 0;
   vertical-align: middle;
 }
