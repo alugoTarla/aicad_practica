@@ -53,6 +53,6 @@ export default {
   background-attachment: scroll;
   background-position: center center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/background-aicad.png");
+  background-image: url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
 }
 </style>

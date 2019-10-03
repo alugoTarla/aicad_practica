@@ -88,13 +88,13 @@ export default {
     return {
       p3itemsI: [
         {
-          p3img: require("@/assets/images/banners/bannermini.png")
+          p3img: require("@/assets/new_imgs/young-woman.png")
         },
         {
-          p3img: require("@/assets/images/banners/bannermini.png")
+          p3img: require("@/assets/new_imgs/1787860.jpg")
         },
         {
-          p3img: require("@/assets/images/banners/bannermini.png")
+          p3img: require("@/assets/new_imgs/business-intern-using-computer-MRC5FSL.jpg")
         }
       ]
     }

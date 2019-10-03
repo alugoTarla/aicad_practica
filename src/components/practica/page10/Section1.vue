@@ -60,7 +60,7 @@ export default {
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner6.jpg");
+  background-image: url("~@/assets/new_imgs/recruiters-and-job-applicant-P29WVWZ.jpg");
   vertical-align: middle;
 }
 </style>

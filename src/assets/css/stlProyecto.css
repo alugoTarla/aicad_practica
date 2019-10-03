@@ -77,6 +77,8 @@ p {
 .fondoWhite {
     background-color: white;
     color: #2c3e50;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .fondoWhite h2 {
@@ -560,6 +562,7 @@ p {
 .ptab .nav-tabs ul {
     margin: 0;
     background-color: transparent !important;
+    border-radius: 20px;
 }
 
 .ptab .nav-tabs>li {
@@ -568,7 +571,7 @@ p {
     text-align: center;
     vertical-align: middle;
     background-color: transparent !important;
-    border-color: #2c3e50;
+    border-color: transparent;
 }
 
 .ptab .nav-tabs>li>a {
@@ -576,20 +579,20 @@ p {
     min-height: 100%;
     text-decoration: none;
     border: 1px solid #2c3e50 !important;
-    border-radius: 5px 5px 0 0;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .ptab .nav-tabs>li>a:hover {
     text-decoration: none !important;
     border-style: solid !important;
-    border-color: #2c3e50 !important;
-    border: 1px 1px 0 1px !important;
+    border-color: #3ba6ff !important;
 }
 
 .ptab .card-text {
     padding: 1.1rem !important;
     background-color: white;
     border: 1px solid #2c3e50 !important;
+    border-radius: 20px;
 }
 
 .hrFondo2 {

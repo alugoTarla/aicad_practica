@@ -58,9 +58,9 @@ export default {
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: top center;
+  background-position: center center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner8.jpg");
+  background-image: url("~@/assets/new_imgs/Banner-contratar-becatios-aicad.jpg");
   vertical-align: middle;
 }
 </style>
