@@ -8,7 +8,7 @@
           <b-col lg="3" md="4" sm="12"
             v-for="(item ,idx) of s2items" :key="idx" class="cardd col-lg-offset-1 col-md-offset-1">
             <div
-               style="padding: 10px 10px 0 10px; height: 150px; text-align: center;">
+               style="padding: 10px 10px 0 10px; height: 150px !important; text-align: center !important;">
               <h2>
                 <a href="#">{{item.s2title}}</a>
               </h2>
@@ -146,11 +146,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .cardd{
     -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 40px;
+    background-color: whitesmoke !important;
   }
 
 </style>
