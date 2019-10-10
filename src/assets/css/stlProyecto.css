@@ -158,6 +158,7 @@ p {
 }
 
 .fondoSilver {
+    text-align: center;
     background-color: silver;
     color: #2c3e50;
 }
@@ -173,14 +174,6 @@ p {
 .fondoGris {
     background-color: gray;
     color: white;
-}
-
-.fondoSilver>p {
-    display: inline-block;
-    padding-top: 10px;
-    font-weight: 300;
-    max-width: 800px;
-    line-height: 24px;
 }
 
 .fondoTurquesa {
@@ -205,19 +198,25 @@ p {
 }
 
 .buttonTurqueza {
-    border-radius: 22px !important;
+    font-family: "Lato Medium",sans-serif !important;
+    border-radius: 40px !important;
     border-color: #009090 !important;
-    background-color: #009090 !important;
+    background-color: #0072B0 !important;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     color: #fff !important;
     margin: 0 auto;
-    padding: 5px 11px !important;
+    padding: 3px 11px !important;
     cursor: pointer;
     font-size: 1.1em !important;
+    transition: 0.5s ease;
 }
 
 .buttonTurqueza:hover {
     opacity: .85;
+    background-color: #00C8C3 !important;
     text-decoration: inherit !important;
+    transform: scale(1.1);
 }
 
 .buttonTurqueza>strong {
