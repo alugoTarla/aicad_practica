@@ -23,9 +23,9 @@
                         <a :href="item.s2url" class="btn buttonTurqueza btn-lg">
                           {{item.s2button1}}
                           <br />
-                          <strong>{{item.s2button2}}</strong>
                         </a>
                       </p>
+                  <strong>{{item.s2button2}}</strong>
                 </div>
               </transition>
             </div>
@@ -78,7 +78,7 @@
         "s2title": "Entrevista de prácticas",
         "s2text":
           "Estás a tan sólo 3 pasos de encontrar prácticas en empresas y conseguir que una empresa, una start-up o un hotel se convierta en un centro de aprendizaje donde harás uso de tu formación universitaria, mejorarás tus idiomas y vivirás una experiencia de 360 grados.",
-        "s2button1": "Conoce a detalle",
+        "s2button1": "Conoce",
         "s2button2": "Los 3 pasos del proceso",
         "s2url": "#"
       },
@@ -86,7 +86,7 @@
         "s2title": "Cientos de ofertas de prácticas en empresas",
         "s2text":
           "Tienes a tu alcance cientos de ofertas de prácticas en empresas en países como España, Francia, México o Alemania en empresas y hoteles: Todas las ofertas de prácticas en empresas que verás aquí han sido publicadas por nuestros consultores y tiene lugar en organizaciones de confianza.",
-        "s2button1": "Consulta las",
+        "s2button1": "Consulta",
         "s2button2": "Ofertas de prácticas en empresas disponibles",
         "s2url": "#"
       },
@@ -94,7 +94,7 @@
         "s2title": "Información transparente",
         "s2text":
           "Ponemos a tu disposición toda la información importante sobre las etapas del proceso, tarifas y, en definitiva, los detalles de cómo podemos ayudarte a encontrar prácticas en empresas en condiciones seguras y con el respaldo de empresas respetables.",
-        "s2button1": "Infórmate sobre",
+        "s2button1": "Infórmate",
         "s2button2": "Nuestros servicios y tarifas",
         "s2url": "#"
       }

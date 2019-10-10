@@ -48,7 +48,7 @@
 export default {
   data() {
     return {
-      p16s1Img: require("@/assets/images/banners/banner6.jpg")
+      p16s1Img: require("@/assets/new_imgs/Banner-work-travel.jpg")
     };
   },
   computed: {

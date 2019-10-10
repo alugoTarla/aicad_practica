@@ -5,7 +5,7 @@
                 <source src="../../../assets/full-width-video.mp4" type="video/mp4">
             </video>
             <div class="content">
-                <button id="myBtn" v-on:click="myFunction()">Pause</button>
+                <button id="myBtn" v-on:click="myFunction()"><font-awesome-icon :icon="icon"/></button>
             </div>
         </div>
       <div class="fuck">
@@ -49,6 +49,7 @@
     export default {
         data() {
             return {
+                icon:'pause',
                 s1subtitlepurl: "http://jobs.aicad.es",
                 s1urlvideo:
                     "https://www.youtube.com/embed/zQxqpyQ4woM?"
@@ -72,10 +73,10 @@
                 var btn = document.getElementById("myBtn");
                 if (video.paused) {
                     video.play();
-                    btn.innerHTML = "Pause";
+                    this.icon='pause'
                 } else {
                     video.pause();
-                    btn.innerHTML = "Play";
+                    this.icon='play'
                 }
             }
         }
@@ -84,6 +85,7 @@
 
 <style lang="scss">
   .fuck{
+      position: relative;
       .me{
           background-color: rgba(1,161,255,0.4);
       }
@@ -108,30 +110,37 @@
     }
   }
     #myVideo {
-        margin-top: 20px;
+        margin-top: -120px;
+        margin-bottom: -100px;
         position: relative;
+        z-index: 0;
         right: 0;
         bottom: 0;
-        /*min-width: 100%;*/
-        min-height: 100%;
-        width: 100vw;
+        width: 100%;
+        height: 100%;
+        @media (max-width: 770px) {
+            height: 500px;
+            margin-bottom: -60px;
+        }
     }
 
     /* Add some content at the bottom of the video/page */
     .content {
         /*float: right;*/
-        background: rgba(0, 0, 0, 0.5);
-        padding: 20px;
+        border-radius: 0 50px 50px 0;
+        background: rgba(150, 150, 150, 0.5);
+        padding: 10px 5px 10px 20px;
         position: absolute;
-        margin-top: -100px;
+        margin-top: -90px;
         /*bottom: calc(-150px + 150px + 400px);*/
         max-height: calc(100vh - 50px - 80px);
     }
 
     /* Style the button used to pause/play the video */
     #myBtn {
-        width: 15vh;
-        max-width: 200px;
+        width: 6vh;
+        border-radius: 50px;
+        max-width: 100px;
         font-size: 1rem;
         padding: 10px;
         border: none;

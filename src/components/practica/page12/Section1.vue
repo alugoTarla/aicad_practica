@@ -11,7 +11,7 @@
             </span>
           </h2>
           <br />
-          <div role="tablist">
+          <div role="tablist" style="max-width: 800px; margin: 0 auto;">
             <b-card no-body class="mb-1" v-for="(item, index) in p12s1list" :key="index">
               <b-card-header header-tag="header" class="p-1" role="tab">
                 <b-button block href="#" v-b-toggle="'accordion-'+index" class="buttonTurqueza">

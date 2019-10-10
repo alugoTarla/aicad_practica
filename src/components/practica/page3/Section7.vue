@@ -108,8 +108,8 @@ export default {
 }
 
 .btnIcon {
-  width: 12rem;
-  height: 12rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 10em !important;
   background-color: darkgray;
   position: relative;
@@ -117,8 +117,8 @@ export default {
 }
 
 .btnIcon .socialIcon7 {
-  margin-top: 2.7rem;
-  font-size: 6rem;
+  margin-top: 1rem;
+  font-size: 2rem;
   color: white;
 }
 
