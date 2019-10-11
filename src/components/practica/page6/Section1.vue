@@ -70,9 +70,9 @@ export default {
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: bottom center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner4.jpg");
+  background-image: url("~@/assets/new_imgs/Banner-prácticas-empresa.jpg");
   vertical-align: middle;
 }
 </style>

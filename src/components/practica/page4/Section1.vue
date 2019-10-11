@@ -69,9 +69,8 @@ export default {
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: top center;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner3.jpg");
+  background-position: bottom center;
+  background-image: linear-gradient(90deg, rgba(59,166,255,0.1) 0%, rgba(59,166,255,0.65) 100%), url("~@/assets/new_imgs/Banner-convenio-prácticas.jpg");
   vertical-align: middle;
 }
 </style>

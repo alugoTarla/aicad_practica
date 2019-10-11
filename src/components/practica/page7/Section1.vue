@@ -73,7 +73,7 @@ export default {
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner5.jpg");
+  background-image: url("~@/assets/new_imgs/doctor-of-medicine-holding-file-PFZF2HS.jpg");
   vertical-align: middle;
 }
 </style>
