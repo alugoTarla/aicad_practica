@@ -53,7 +53,7 @@ export default {
 .p3s1h2 {
   font-family: "Lato Heavy", sans-serif !important;
   color: whitesmoke;
-  background: rgba(200, 200, 200, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 1em;
   padding: 1em;
 }

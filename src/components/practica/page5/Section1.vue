@@ -9,8 +9,14 @@
               <br>
               <h1 style="font-size: 3em !important;">{{$t("p5s1title1")}}</h1>
               <br>
-              <h1>{{$t("p5s1title2")}}</h1>              
-              <h1>{{$t("p5s1title3")}}</h1>     
+              <h1>
+                <div>
+                  {{$t("p5s1title2")}}
+                </div>   
+                <div>
+                  {{$t("p5s1title3")}}
+                </div> 
+              </h1>     
               <br>         
             </b-col>
           </b-row>
@@ -45,8 +51,15 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p5s1fondoFwhite {
+  h1 {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    background: #00000033;
+    border-radius: 1em;
+    padding: 0.5em;
+  };
   color: white;
   background-size: cover;
   background-repeat: repeat;

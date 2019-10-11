@@ -63,9 +63,22 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p4s1fondoFwhite {
-  color: white;
+  h2 {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    background: #00000033;
+    border-radius: 1em;
+    padding: 1em;
+  };
+  h3 {
+    font-family: "Lato Light", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;

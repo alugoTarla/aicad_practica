@@ -3,9 +3,6 @@ const PrerenderSpaPlugin = require('prerender-spa-plugin');
 
 const productionPlugins = [
   new PrerenderSpaPlugin({
-    // staticDir: path.join(__dirname, 'dist/practicas'),
-    // outputDir: path.join(__dirname, 'dist/practicas/'),
-    // indexPath: path.join(__dirname, 'dist/practicas', '/index.html'),
     staticDir: path.join(__dirname, 'dist/internships'),
     outputDir: path.join(__dirname, 'dist/internships/'),
     indexPath: path.join(__dirname, 'dist/internships', '/index.html'),
@@ -56,9 +53,6 @@ const productionPlugins = [
 ];
 
 module.exports = {
-  // publicPath: process.env.NODE_ENV === 'production' ? '/aicad/' : './',
-  // publicPath: '/practicas/',
-  // outputDir: path.join(__dirname, 'dist/practicas/'),
   publicPath: '/internships/',
   outputDir: path.join(__dirname, 'dist/internships/'),
   lintOnSave: true,
