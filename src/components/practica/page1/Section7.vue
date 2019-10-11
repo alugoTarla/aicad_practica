@@ -3,7 +3,7 @@
     <div class="p1s7fondoFwhite">
       <div class="wrapper">
         <b-container fluid class="p1s7carrusel">
-          <b-container class="text-center" style="background-color: rgba(200,200,200,0.4)">
+          <b-container class="text-center" style="background-color: rgba(0,0,0,0.2)">
             <carousel
               :autoplay="true"
               :autoplayTimeout="3000"

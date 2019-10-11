@@ -1,8 +1,8 @@
 <template>
   <div id="section1">
     <div class="fuck">
-        <br />
-      <b-container class="me">
+      <br />
+      <b-container class="me pt-2">
         <h1>
           <a href="#">{{$t("s1title")}}</a>
         </h1>

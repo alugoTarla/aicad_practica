@@ -1,7 +1,7 @@
 <template>
   <div id="section6">
     <div class="p5sFondo">
-      <div class="p18s6fondoFwhite">
+      <div class="p18s6imgfondo">
         <div class="p5Video" v-responsive.lg.xl>
           <video autoplay controls loop muted preload style="width: 100%">
             <source :src="p18s6Video" type="video/mp4" />
@@ -16,8 +16,10 @@
             <br />
             <b-row align-v="center">
               <b-col cols="12" class="text-center">
-                <h2>{{$t("p18s6title1")}}</h2>
-                <h2>{{$t("p18s6title2")}}</h2>
+                <h2>
+                  <div>{{$t("p18s6title1")}}</div>
+                  <div>{{$t("p18s6title2")}}</div>                  
+                </h2>
                 <br>
                 <a class="btn buttonTurqueza" :href="p18s6url">
                   {{$t("p18s6button1")}}
@@ -64,10 +66,22 @@ export default {
 };
 </script>
 
-<style>
-
-.p18s6fondoFwhite {
-  color: white;
+<style lang="scss">
+.p18s6imgfondo{
+  h2 {
+    font-family: "Lato Heavy", sans-serif !important;
+    color: whitesmoke;
+    background: #00000033;
+    border-radius: 1em;
+    padding: 1em;
+  };
+  p {
+    font-family: "Lato Light", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
 }
 
 </style>

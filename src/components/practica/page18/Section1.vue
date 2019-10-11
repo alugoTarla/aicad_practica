@@ -87,8 +87,22 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p18s1fondoWhite {
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
+    color: whitesmoke;
+    background: #00000033;
+    border-radius: 1em;
+    padding: 1em;
+  };
+  h3 {
+    font-family: "Lato Light", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
   color: white;
   background-size: cover;
   background-repeat: repeat;

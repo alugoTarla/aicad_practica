@@ -70,8 +70,22 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p18s8imgfondo{
+  h2 {
+    font-family: "Lato Heavy", sans-serif !important;
+    color: whitesmoke;
+    background: #00000033;
+    border-radius: 1em;
+    padding: 1em;
+  };
+  p {
+    font-family: "Lato Light", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
     background-size: cover;
     height: 16em;
 }

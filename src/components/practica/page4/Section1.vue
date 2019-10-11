@@ -5,25 +5,23 @@
         <b-container>
           <b-container class="text-center">
             <br />
-            <b-row align-v="center">
-              <b-col>
-                <b-row align-v="center" align-h="center">
-                  <b-col sm="12" md="10" lg="8">
-                    <br />
-                    <h2>{{$t("p4s1Title")}}</h2>
-                    <br />
-                    <h3>{{$t("p4s1SubTitle")}}</h3>
-                    <br />
-                    <a class="btn buttonWhite" :href="p4s1url">
-                      <span>{{$t("p4s1Button1")}}</span>
-                      <span>
-                        <strong>&nbsp;{{$t("p4s1Button2")}}</strong>
-                      </span>
-                    </a>
-                  </b-col>
-                </b-row>
+            <b-row align-v="center" align-h="center">
+              <b-col sm="12" md="10" lg="8">
+                <br />
+                <h2>{{$t("p4s1Title")}}</h2>
+                <br />
+                <h3>{{$t("p4s1SubTitle")}}</h3>
               </b-col>
             </b-row>
+            <br />
+            <div>
+              <a class="btn buttonWhite" :href="p4s1url">
+                <span>{{$t("p4s1Button1")}}</span>
+                <span>
+                  <strong>&nbsp;{{$t("p4s1Button2")}}</strong>
+                </span>
+              </a>
+            </div>
             <br />
           </b-container>
         </b-container>

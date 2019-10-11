@@ -4,8 +4,8 @@
       <div class="pytcardContent">
         <div class="pytcardTime" v-if="divload">{{divTime}}</div>
         <div class="pytcardLink">
-          <a class="btn btn-default" rel="shadowbox" @click="displayRef(divId)">
-            <font-awesome-icon :icon="['fab', 'youtube']" class="fa-2x"/>
+          <a class="btn" rel="shadowbox" @click="displayRef(divId)">
+            <font-awesome-icon :icon="['fab', 'youtube']" class="fa-3x"/>
           </a>
         </div>
         <b-card-img :src="divImg" />
