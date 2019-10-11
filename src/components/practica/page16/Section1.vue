@@ -6,7 +6,11 @@
           <b-container class="text-center">
             <br />
             <br />
-            <h2 v-for="(item, idx) in p16s1titulos" :key="idx">{{item}}</h2>
+            <h2>
+              <div v-for="(item, idx) in p16s1titulos" :key="idx">
+                {{item}}
+              </div>
+            </h2>
             <br />
             <b-row align-h="center" align-v="center">
               <b-col md="10" sm="12">
@@ -59,9 +63,22 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p16s1fondoFwhite {
-  color: white;
+  h2 {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
+  h3 {
+    font-family: "Lato Light", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;

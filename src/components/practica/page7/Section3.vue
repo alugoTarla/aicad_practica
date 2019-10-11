@@ -4,7 +4,7 @@
       <div class="fondoWhite">
         <b-container fluid>
           <b-container class="text-center">
-            <b-row align-v="start" >
+            <b-row align-h="center" >
               <b-col cols lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in p7s3items" :key="idx">
                 <div class="p7s3fondoIconos">
                   <b-img :src="p7s3itemsI[idx].p7s3img" />

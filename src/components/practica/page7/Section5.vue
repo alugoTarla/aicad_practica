@@ -32,7 +32,6 @@
             <span><strong>{{$t("p7s5button1s")}}</strong></span>            
           </a>
           <br>
-          <br>
           <div style="padding: 1em 0;">
             <hr class="hrFondo2" />
           </div>

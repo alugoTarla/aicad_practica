@@ -3,16 +3,16 @@
     <div class="fondoWhite">
       <b-container fluid>
         <b-container class="text-center">
-          <b-row >
-            <b-col lg="4" sm="12" class="text-center" v-for="(item, idx) in p3items" :key="idx">
-              <b-card :img-src="p3itemsI[idx].p3img" class="p3card">
+          <b-row align-h="center">
+            <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in p3items" :key="idx">
+              <b-card :img-src="p3itemsI[idx].p3img" class="p3card cardd" footer-tag="footer">
                 <div class="picon">
                   <font-awesome-icon :icon="['fas','user-circle']"  
                   style="background-color: silver; border-radius: 60px; border: 0.1rem; border-style: solid;" />
                 </div>
                 <b-card-title class="p3cardtitle">{{item.p3title}}</b-card-title>
-                <b-card-text class="p3cardbody">{{item.p3descript}}</b-card-text>
-                <b-card-footer class="p3cardfooter">
+                <b-card-body class="p3cardbody">{{item.p3descript}}</b-card-body>
+                <b-card-footer class="p3cardfooter" >
                   <a :href="item.p3url">
                     {{item.p3link}}
                   </a>
@@ -32,21 +32,21 @@
   "en":{
     "p3items": [
       {
-        "p3url": "http://jobs.aicad.es",
+        "p3url": "https://jobs.aicad.es",
         "p3link": "Send your CV and join us",
         "p3title": "HR and business consultant Junior",
         "p3descript":
           "The consultants create and maintain confiding relationship with partner companies that entrust us with the difficult task of finding potential interns from all over Europe. This position requires commercial and negotiation skills as well as a special human resources and people skills."
       },
       {
-        "p3url": "http://jobs.aicad.es",
+        "p3url": "https://jobs.aicad.es",
         "p3link": "Send your CV and join us",
         "p3title": "Talent acquisition and communication",
         "p3descript":
           "The Talent is our selection team and is responsible for disseminating and publishing internship announcements in specialized portals and partner universities to then contact the candidates, present our service and advise them before starting the pre-selection and the most specialized interviews."
       },
       {
-        "p3url": "http://jobs.aicad.es",
+        "p3url": "https://jobs.aicad.es",
         "p3link": "Send your CV and join us",
         "p3title": "Digital marketing and social networks specialist",
         "p3descript":
@@ -57,21 +57,21 @@
   "es":{
     "p3items": [
       {
-        "p3url": "http://jobs.aicad.es",
+        "p3url": "https://jobs.aicad.es",
         "p3link": "Envía tu CV y únete",
         "p3title": "HR and business consultant Junior",
         "p3descript":
           "Los consultores crean y mantienen una relación de confianza con las empresas que nos confían la difícil tarea de encontrar becarios de toda Europa que ocupen sus puestos de prácticas en empresas. Es una posición que requiere de habilidades comerciales y de negociación además de un gusto especial por las personas y los recursos humanos."
       },
       {
-        "p3url": "http://jobs.aicad.es",
+        "p3url": "https://jobs.aicad.es",
         "p3link": "Envía tu CV y únete",
         "p3title": "Talent acquisition and communication",
         "p3descript":
           "Los Talent son nuestro equipo de selección y se ocupan de difundir y publicar los anuncios de prácticas en empresas en portales especializados y universidades-partner para seguidamente contactar con los candidatos, presentarles nuestro servicio y asesorarles antes de comenzar la preselección y las entrevistas más especializadas."
       },
       {
-        "p3url": "http://jobs.aicad.es",
+        "p3url": "https://jobs.aicad.es",
         "p3link": "Envía tu CV y únete",
         "p3title": "Digital marketing and social networks specialist",
         "p3descript":

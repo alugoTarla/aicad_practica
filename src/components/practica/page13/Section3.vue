@@ -13,7 +13,7 @@
           <div role="tablist">
             <b-card no-body class="mb-1" v-for="(item, index) in list" :key="index">
               <b-card-header header-tag="header" class="p-1" role="tab">
-                <b-button block href="#" v-b-toggle="'accordion-'+index" class="buttonTurqueza">
+                <b-button block href="#" v-b-toggle="'accordion-'+index" class="buttonTurqueza1">
                   <div class="text-left">
                   <font-awesome-icon :icon="['fas', 'asterisk']" />
                   {{item.quest}}

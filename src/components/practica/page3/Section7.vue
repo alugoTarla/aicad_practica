@@ -16,7 +16,7 @@
                       <strong>{{$t("p3s7SubTitle2")}}</strong>
                     </h3>
                     <br />
-                    <b-row align-v="center">
+                    <b-row align-h="center">
                       <b-col
                         lg="4"
                         md="6"

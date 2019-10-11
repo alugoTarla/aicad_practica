@@ -1,790 +1,900 @@
 * {
-    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    /* font-family: "Open Sans", Arial, sans-serif !important; */
-    padding: 0;
-    margin: 0;
+	font-family: "Lato Medium", sans-serif !important;
+	/* font-family: "Open Sans", Arial, sans-serif !important; */
+	padding: 0;
+	margin: 0;
 }
 
 html {
-    font-size: 100%;
+	font-size: 100%;
 }
 
 a {
-    border: none;
-    text-decoration: inherit;
-    color: #2c3e50 !important;
+	border: none;
+	text-decoration: inherit;
+	color: #2c3e50 !important;
 }
 
 a:hover {
-    opacity: .85;
-    text-decoration: underline !important;
+	opacity: .85;
+	text-decoration: underline !important;
 }
 
 strong {
-    font-weight: bold !important;
-    font-size: 1em !important;
+	font-weight: bold !important;
+	font-size: 1em !important;
 }
 
 h1 {
-    font-weight: 700 !important;
-    font-size: 2.25rem !important;
-    line-height: 1em !important;
-    letter-spacing: normal;
+	font-weight: 700 !important;
+	font-size: 2.25rem !important;
+	line-height: 1em !important;
+	letter-spacing: normal;
 }
 
 h2 {
-    font-weight: 600 !important;
-    font-size: 1.75em !important;
-    line-height: 1.25em !important;
-    letter-spacing: normal;
+	font-weight: 600 !important;
+	font-size: 1.75em !important;
+	line-height: 1.25em !important;
+	letter-spacing: normal;
 }
 
 h2 strong {
-    font-weight: 800 !important;
+	font-weight: 800 !important;
 }
 
 h3 {
-    font-weight: 500 !important;
-    font-size: 1.35em !important;
-    line-height: 1.15em !important;
-    letter-spacing: normal;
+	font-weight: 500 !important;
+	font-size: 1.35em !important;
+	line-height: 1.15em !important;
+	letter-spacing: normal;
 }
 
 h3 strong {
-    font-weight: 700 !important;
+	font-weight: 700 !important;
 }
 
 h4 {
-    font-weight: 400 !important;
-    font-size: 1.125em !important;
-    line-height: 1.22222222em !important;
-    letter-spacing: normal;
+	font-weight: 400 !important;
+	font-size: 1.125em !important;
+	line-height: 1.22222222em !important;
+	letter-spacing: normal;
 }
 
 h5 {
-    font-weight: 300 !important;
-    font-size: 1.125em !important;
-    line-height: 1.22222222em !important;
-    letter-spacing: normal;
+	font-weight: 300 !important;
+	font-size: 1.125em !important;
+	line-height: 1.22222222em !important;
+	letter-spacing: normal;
 }
 
 p {
-    font-size: 1em !important;
-    line-height: 1.375em !important;
-    letter-spacing: normal;
+	font-size: 1em !important;
+	line-height: 1.375em !important;
+	letter-spacing: normal;
 }
 
 .fondoWhite {
-    background-color: white;
-    color: #2c3e50;
+	background-color: white;
+	color: #2c3e50;
 }
 
 .fondoWhite h2 {
-    text-decoration: inherit;
-    margin-bottom: 1em !important;
+	text-decoration: inherit;
+	margin-bottom: 1em !important;
 }
 
 .fondoWhite h2 a {
-    border: none;
-    text-decoration: inherit;
-    color: inherit;
+	border: none;
+	text-decoration: inherit;
+	color: inherit;
 }
 
 .fondoWhite h2 a:hover {
-    opacity: .85;
-    text-decoration: inherit !important;
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .fondoWhite h3 {
-    padding-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 .fondoWhite h3 a {
-    border: none;
-    text-decoration: inherit;
-    color: inherit;
+	border: none;
+	text-decoration: inherit;
+	color: inherit;
 }
 
 .fondoWhite h3 a:hover {
-    opacity: .85;
-    text-decoration: inherit !important;
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .fondoWhite p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin: 0 !important;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin: 0 !important;
 }
 
 .fondoGrisClaro {
-    background-color: #d3d5d6;
-    color: #2c3e50;
-    padding: 1em 0 0;
+	background-color: #d3d5d6;
+	color: #2c3e50;
+	padding: 1em 0 0;
 }
 
 .fondoGrisClaro h2 {
-    text-decoration: inherit;
-    margin-bottom: 1em !important;
+	text-decoration: inherit;
+	margin-bottom: 1em !important;
 }
 
 .fondoGrisClaro h2 a {
-    border: none;
-    text-decoration: inherit;
-    color: inherit;
+	border: none;
+	text-decoration: inherit;
+	color: inherit;
 }
 
 .fondoGrisClaro h2 a:hover {
-    opacity: .85;
-    text-decoration: inherit !important;
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .fondoGrisClaro a:hover h2 {
-    opacity: .85;
-    text-decoration: none !important;
+	opacity: .85;
+	text-decoration: none !important;
 }
 
 .fondoGrisClaro p {
-    display: inline-block;
-    padding-top: 10px;
-    font-size: 1.15em;
-    font-weight: 300;
-    max-width: 800px;
-    line-height: 24px;
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 1.15em;
+	font-weight: 300;
+	max-width: 800px;
+	line-height: 24px;
 }
 
 .fondoSilver {
-    background-color: silver;
-    color: #2c3e50;
+	background-color: silver;
+	color: #2c3e50;
 }
 
 .fondoSilver>p {
-    display: inline-block;
-    padding-top: 10px;
-    font-weight: 300;
-    max-width: 800px;
-    line-height: 24px;
+	display: inline-block;
+	padding-top: 10px;
+	font-weight: 300;
+	max-width: 800px;
+	line-height: 24px;
 }
 
 .fondoGris {
-    background-color: gray;
-    color: white;
+	background-color: gray;
+	color: whitesmoke;
+}
+
+.fondoGris h2 {
+	text-decoration: inherit;
+	margin-bottom: 1em !important;
+}
+
+.fondoGris h2 a {
+	border: none;
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.fondoGris h2 a:hover {
+	opacity: .85;
+	text-decoration: inherit !important;
+}
+
+.fondoGris a:hover h2 {
+	opacity: .85;
+	text-decoration: none !important;
+}
+
+.fondoGris p {
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 1.15em;
+	font-weight: 300;
+	max-width: 800px;
+	line-height: 24px;
 }
 
 .fondoSilver>p {
-    display: inline-block;
-    padding-top: 10px;
-    font-weight: 300;
-    max-width: 800px;
-    line-height: 24px;
+	display: inline-block;
+	padding-top: 10px;
+	font-weight: 300;
+	max-width: 800px;
+	line-height: 24px;
 }
 
 .fondoTurquesa {
-    background-color: #d8e8e7;
-    color: #2c3e50;
+	background-color: #d8e8e7;
+	color: #2c3e50;
 }
 
 .fondoTurquesa h1 {
-    margin-bottom: 0.4em;
+	margin-bottom: 0.4em;
 }
 
 .fondoTurquesa h2 {
-    margin-bottom: 0.2em;
+	margin-bottom: 0.2em;
 }
 
 .fondoTurquesa h5 {
-    margin-bottom: 0.2em;
+	margin-bottom: 0.2em;
 }
 
 .container-fluid.fcontainer {
-    padding: 2rem 10rem;
+	padding: 2rem 10rem;
 }
 
 .buttonTurqueza {
-    border-radius: 22px !important;
-    border-color: #009090 !important;
-    background-color: #009090 !important;
-    color: #fff !important;
-    margin: 0 auto;
-    padding: 5px 11px !important;
-    cursor: pointer;
-    font-size: 1.1em !important;
+	border-radius: 22px !important;
+	border-color: #009090 !important;
+	background-color: #009090 !important;
+	color: #fff !important;
+	margin: 0 auto;
+	padding: 5px 11px !important;
+	cursor: pointer;
+	font-size: 1.1em !important;
 }
 
 .buttonTurqueza:hover {
-    opacity: .85;
-    text-decoration: inherit !important;
+	opacity: .85;
+	text-decoration: inherit !important;
+}
+
+.buttonTurqueza1 {
+	border-color: #009090 !important;
+	background: linear-gradient(90deg, rgba(0,144,144,1) 0%, rgba(117,200,250,0.8) 100%);
+	color: #fff !important;
+	margin: 0 auto;
+	padding: 5px 11px !important;
+	cursor: pointer;
+	font-size: 1.1em !important;
+}
+
+.buttonTurqueza1:hover {
+	opacity: .85;
+	text-decoration: inherit !important;
+}
+
+.buttonTurqueza:hover {
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .buttonTurqueza>strong {
-    color: #fff;
-    display: block;
-    font-size: 1.125em !important;
-    font-weight: 600;
-    padding-bottom: 5px !important;
+	color: #fff;
+	display: block;
+	font-size: 1.125em !important;
+	font-weight: 600;
+	padding-bottom: 5px !important;
 }
 
 .buttonTurqueza>p {
-    color: #fff;
-    display: block;
-    font-size: 1.125em !important;
-    font-weight: 300;
-    padding-bottom: 5px !important;
-    margin: 0 !important;
+	color: #fff;
+	display: block;
+	font-size: 1.125em !important;
+	font-weight: 300;
+	padding-bottom: 5px !important;
+	margin: 0 !important;
 }
 
 .buttonWhite {
-    border-radius: 8px !important;
-    border-color: white !important;
-    background-color: white !important;
-    color: #009090 !important;
-    margin: 0 auto;
-    padding: 5px 9px !important;
-    cursor: pointer;
-    font-size: 1.1em !important;
+	border-radius: 8px !important;
+	border-color: white !important;
+	background-color: white !important;
+	color: #009090 !important;
+	margin: 0 auto;
+	padding: 5px 9px !important;
+	cursor: pointer;
+	font-size: 1.1em !important;
 }
 
 .buttonWhite:hover {
-    opacity: .85;
-    text-decoration: inherit !important;
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .buttonWhite>strong {
-    color: #009090;
-    display: block;
-    font-size: 1.125em !important;
-    font-weight: 600;
-    padding-bottom: 5px !important;
+	color: #009090;
+	display: block;
+	font-size: 1.125em !important;
+	font-weight: 600;
+	padding-bottom: 5px !important;
 }
 
 .buttonWhite>p {
-    color: #009090;
-    display: block;
-    font-size: 1.125em !important;
-    font-weight: 300;
-    padding-bottom: 5px !important;
-    margin: 0 !important;
+	color: #009090;
+	display: block;
+	font-size: 1.125em !important;
+	font-weight: 300;
+	padding-bottom: 5px !important;
+	margin: 0 !important;
 }
 
 .buttonTurqueza-outline {
-    border-radius: 30px !important;
-    border-color: #009090 !important;
-    border-width: 2px !important;
-    background-color: transparent !important;
-    color: #009090 !important;
-    margin: 0 auto;
-    padding: 15px 25px !important;
-    cursor: pointer;
-    font-size: 1.2em !important;
+	border-radius: 30px !important;
+	border-color: #009090 !important;
+	border-width: 2px !important;
+	background-color: transparent !important;
+	color: #009090 !important;
+	margin: 0 auto;
+	padding: 15px 25px !important;
+	cursor: pointer;
+	font-size: 1.2em !important;
 }
 
 .buttonTurqueza-outline:hover {
-    border-color: #009090 !important;
-    background-color: #009090 !important;
-    color: white !important;
-    opacity: .85;
-    text-decoration: inherit !important;
+	border-color: #009090 !important;
+	background-color: #009090 !important;
+	color: white !important;
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .buttonTurqueza-outline>strong {
-    display: block;
-    font-size: 1.2em !important;
-    font-weight: 600;
-    padding-bottom: 5px !important;
+	display: block;
+	font-size: 1.2em !important;
+	font-weight: 600;
+	padding-bottom: 5px !important;
 }
 
 .buttonTurqueza-outline>p {
-    display: block;
-    font-size: 1.2em !important;
-    font-weight: 300;
-    padding-bottom: 5px !important;
-    margin: 0 !important;
+	display: block;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	padding-bottom: 5px !important;
+	margin: 0 !important;
 }
 
 .buttonWhite-outline {
-    border-radius: 30px !important;
-    border-width: 2px !important;
-    border-color: white !important;
-    background-color: transparent !important;
-    color: white !important;
-    margin: 0 auto;
-    padding: 0.6em 0.9em !important;
-    cursor: pointer;
-    font-size: 1.1em !important;
+	border-radius: 30px !important;
+	border-width: 2px !important;
+	border-color: white !important;
+	background-color: transparent !important;
+	color: whitesmoke !important;
+	margin: 0 auto;
+	padding: 0.6em 0.9em !important;
+	cursor: pointer !important;
+	font-size: 1.1em !important;
 }
 
 .buttonWhite-outline:hover {
-    border-color: #2c3e50 !important;
-    background-color: white !important;
-    color: #2c3e50 !important;
-    opacity: .85;
-    text-decoration: inherit !important;
+	border-color: #2c3e50 !important;
+	background-color: white !important;
+	color: #2c3e50 !important;
+	opacity: .85;
+	text-decoration: inherit !important;
 }
 
 .buttonWhite-outline>strong {
-    display: block;
-    font-size: 1.2em !important;
-    font-weight: 600;
-    padding-bottom: 5px !important;
+	display: block;
+	font-size: 1.2em !important;
+	font-weight: 600;
+	padding-bottom: 5px !important;
 }
 
 .buttonWhite-outline>p {
-    display: block;
-    font-size: 1.2em !important;
-    font-weight: 300;
-    padding-bottom: 5px !important;
-    margin: 0 !important;
+	display: block;
+	font-size: 1.2em !important;
+	font-weight: 300;
+	padding-bottom: 5px !important;
+	margin: 0 !important;
 }
 
 .text50gris {
-    font-size: 2em !important;
-    color: #777777 !important;
-    font-weight: bold;
+	font-size: 2em !important;
+	color: #777777 !important;
+	font-weight: bold;
 }
 
 .text20gris {
-    font-size: 1.1em !important;
-    color: #777777 !important;
-    font-weight: 300;
-    margin-top: -10px;
+	font-size: 1.1em !important;
+	color: #777777 !important;
+	font-weight: 300;
+	margin-top: -10px;
 }
 
 .bounce-enter-active {
-    animation: bounce-in 0.5s;
+	animation: bounce-in 0.5s;
 }
 
 .bounce-levea-active {
-    animation: bounce-out 0.5s reverse;
+	animation: bounce-out 0.5s reverse;
 }
 
 @keyframes bounce-in {
-    0% {
-        transform: scale(0.5);
-    }
+	0% {
+		transform: scale(0.5);
+	}
 
-    50% {
-        transform: scale(1.5);
-    }
+	50% {
+		transform: scale(1.5);
+	}
 
-    100% {
-        transform: scale(1);
-    }
+	100% {
+		transform: scale(1);
+	}
 }
 
 @keyframes bounce-out {
-    0% {
-        transform: scale(1);
-    }
+	0% {
+		transform: scale(1);
+	}
 
-    50% {
-        transform: scale(0.5);
-    }
+	50% {
+		transform: scale(0.5);
+	}
 
-    100% {
-        transform: scale(0);
-    }
+	100% {
+		transform: scale(0);
+	}
 }
 
 .p2fondoIconos {
-    border-radius: 16px;
-    width: 12em;
-    height: auto;
-    overflow: hidden;
-    margin-left: 50%;
-    margin-bottom: 16px;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
+	border-radius: 16px;
+	width: 10m;
+	height: auto;
+	overflow: hidden;
+	margin-left: 50%;
+	margin-bottom: 16px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
+.p1card .card-body {
+	padding: 0 !important;
+}
+
+.p1cardContentH {
+	position: relative;
+	height: 6em;
+	padding: 1em !important;
+	vertical-align: middle !important;
+}
+
+.p1cardContentB {
+	position: relative;
+	height: 12em;
+	margin: 1em;
+	overflow: auto;
+}
+
+.p1cardContentF {
+	position: relative;
+	height: 8em;
+	vertical-align: middle !important;
+	padding: 0.5em !important;
+}
+
+
 .card.p2card {
-    border: 5px;
-    border-style: solid;
-    border-radius: 16px;
-    border-color: rgba(0, 0, 0, 0.125);
-    height: calc(100%);
-    padding: 0 !important;
+	border: 5px;
+	border-style: solid;
+	border-radius: 16px;
+	border-color: rgba(0, 0, 0, 0.125);
+	height: calc(100%);
+	padding: 0 !important;
 }
 
 .card-title.p2cardtitle {
-    font-size: 1.25em !important;
-    font-weight: bold !important;
+	font-size: 1.25em !important;
+	font-weight: bold !important;
 }
 
 .card-body.p2cardbody {
-    font-size: 1.1em !important;
-    text-align: justify !important;
-    padding: 0 0 1em !important;
+	font-size: 1.1em !important;
+	text-align: justify !important;
+	padding: 0 0 1em !important;
+}
+
+.p2cardContentH {
+	position: relative;
+}
+
+.p2cardfooter {
+	position: relative;
 }
 
 .card.p3card {
-    border: 0.5em;
-    border-style: solid;
-    border-radius: 16px;
-    border-color: rgba(0, 0, 0, 0.125);
-    height: calc(98%);
-    background-color: #2c3e50;
-    color: white;
-    padding: 0.5em !important;
-    margin: 1em 0 !important;
+	border: 0.5em;
+	border-style: solid;
+	border-radius: 1em;
+	border-color: rgba(0, 0, 0, 0.125);
+	height: calc(98%);
+	background-color: #2c3e50;
+	color: whitesmoke;
+	padding: 0.5em !important;
+	margin: 1em 0 !important;
+}
+
+.p3card .card-body {
+	padding: 0 !important;
 }
 
 .picon {
-    margin-top: -1em;
-    z-index: 9;
-    text-align: center;
-    font-size: 5em;
+	margin-top: -0.8em;
+	z-index: 9;
+	text-align: center;
+	font-size: 5em;
 }
 
 .picon>span {
-    background-color: #777;
+	background-color: #777;
 }
 
-.card.p3card>.card-img {
-    height: 25vh !important;
-    width: auto;
-    object-fit: cover !important;
+.p3card > img {
+	height: 10em !important;
+	width: auto;
+	object-fit: cover !important;
 }
 
 .card-title.p3cardtitle {
-    font-size: 1.25em !important;
-    font-weight: bold !important;
-    padding-top: 0.5em !important;
-    margin-bottom: 1em;
+	font-size: 1.25em !important;
+	font-weight: bold !important;
+	padding-top: 0.5em !important;
+	margin-bottom: 1em;
 }
 
-.card-text.p3cardbody {
-    font-size: 1.1em !important;
-    text-align: justify !important;
-    padding: 0 0 1em !important;
+.card-body.p3cardbody {
+	font-size: 1em !important;
+	text-align: justify !important;
+	padding: 0 0.8em !important;
+	min-height: 15em;
+}
+
+.card-body.p7cardbody {
+	font-size: 0.9em !important;
+	text-align: justify !important;
+	padding: 0 0.8em !important;
+	min-height: 16.5em;
 }
 
 .card-footer.p3cardfooter {
-    bottom: 0 !important;
-    text-align-last: center;
-    margin-top: 1em;
+	position: relative;
+	bottom: 0 !important;
+	text-align-last: center;
+	margin-top: 1em;
 }
 
 .card-footer.p3cardfooter a {
-    color: white !important;
-    text-decoration: underline !important;
+	color: whitesmoke !important;
+	text-decoration: underline !important;
+	cursor: pointer;
 }
 
 .card.p4card {
-    border: 5px;
-    border-style: solid;
-    border-radius: 16px;
-    border-color: gray;
-    background-color: silver;
-    padding: 10px !important;
+	border: 5px;
+	border-style: solid;
+	border-radius: 16px;
+	border-color: gray;
+	background-color: silver;
+	padding: 10px !important;
 }
 
 .card-title.p4cardtitle {
-    font-size: 1.25em !important;
-    font-weight: bold !important;
-    text-align: center;
+	font-size: 1.25em !important;
+	font-weight: bold !important;
+	text-align: center;
 }
 
 .card-body.p4cardbody {
-    font-size: 1.1em !important;
-    text-align: justify !important;
-    padding: 1em !important;
+	font-size: 1.1em !important;
+	text-align: justify !important;
+	padding: 1em !important;
 }
 
 .card-text.p4cardbody {
-    font-size: 1.1em !important;
-    text-align: justify !important;
-    padding: 1em !important;
+	font-size: 1.1em !important;
+	text-align: justify !important;
+	padding: 1em !important;
 }
 
 .card-footer.p4cardfooter {
-    bottom: 0 !important;
-    text-align-last: center;
-    margin-top: 1em;
+	bottom: 0 !important;
+	text-align-last: center;
+	margin-top: 1em;
 }
 
 .card-footer.p4cardfooter a {
-    color: white !important;
+	color: whitesmoke !important;
 }
 
 .card.p5card {
-    border: 1px;
-    border-style: solid;
-    border-radius: 16px;
-    border-top-color: gray;
-    border-top-width: 5px !important;
-    padding: 0.05rem !important;
+	border: 1px;
+	border-style: solid;
+	border-radius: 16px;
+	border-top-color: gray;
+	border-top-width: 5px !important;
+	padding: 0.05rem !important;
 }
 
 .card-title.p5cardtitle {
-    font-size: 1.25em !important;
-    font-weight: bold !important;
-    text-align: center;
+	font-size: 1.25em !important;
+	font-weight: bold !important;
+	text-align: center;
 }
 
 .p5card .card-body {
-    text-align: center !important;
-    padding: 0.5em !important;
+	text-align: center !important;
+	padding: 0.5em !important;
 }
 
 .card.p5card>div.card-body p {
-    padding-bottom: 0.5em !important;
+	padding-bottom: 0.5em !important;
 }
 
 .card-footer.p5cardfooter {
-    bottom: 0 !important;
-    text-align-last: center;
-    margin-top: 1em;
+	bottom: 0 !important;
+	text-align-last: center;
+	margin-top: 1em;
 }
 
 .card-footer.p5cardfooter a {
-    color: white !important;
+	color: whitesmoke !important;
 }
 
 .ptab {
-    margin: 0;
+	margin: 0;
 }
 
 .ptab .card {
-    background-color: transparent !important;
-    margin: 0;
+	background-color: transparent !important;
+	margin: 0;
 }
 
 .ptab .nav-tabs {
-    background-color: transparent !important;
-    padding-bottom: 0 !important;
+	background-color: transparent !important;
+	padding-bottom: 0 !important;
 }
 
 .ptab .nav-tabs ul {
-    margin: 0;
-    background-color: transparent !important;
+	margin: 0;
+	background-color: transparent !important;
 }
 
 .ptab .nav-tabs>li {
-    font-size: 1em;
-    font-weight: 500;
-    text-align: center;
-    vertical-align: middle;
-    background-color: transparent !important;
-    border-color: #2c3e50;
+	font-size: 1em;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	background-color: transparent !important;
+	border-color: #2c3e50;
 }
 
 .ptab .nav-tabs>li>a {
-    padding: 1em;
-    min-height: 100%;
-    text-decoration: none;
-    border: 1px solid #2c3e50 !important;
-    border-radius: 5px 5px 0 0;
+	padding: 1em;
+	min-height: 100%;
+	text-decoration: none;
+	border: 1px solid #2c3e50 !important;
+	border-radius: 5px 5px 0 0;
 }
 
 .ptab .nav-tabs>li>a:hover {
-    text-decoration: none !important;
-    border-style: solid !important;
-    border-color: #2c3e50 !important;
-    border: 1px 1px 0 1px !important;
+	text-decoration: none !important;
+	border-style: solid !important;
+	border-color: #2c3e50 !important;
+	border: 1px 1px 0 1px !important;
 }
 
 .ptab .card-text {
-    padding: 1.1rem !important;
-    background-color: white;
-    border: 1px solid #2c3e50 !important;
+	padding: 1.1rem !important;
+	background-color: white;
+	border: 1px solid #2c3e50 !important;
 }
 
 .hrFondo2 {
-    background-image: -webkit-linear-gradient(left, transparent, grey, transparent);
-    background-image: linear-gradient(to right, transparent, grey, transparent);
-    height: 2px;
-    margin: 0 1em 1em 1em !important;
+	background-image: -webkit-linear-gradient(left, transparent, grey, transparent);
+	background-image: linear-gradient(to right, transparent, grey, transparent);
+	height: 2px;
+	margin: 0 1em 1em 1em !important;
 }
 
 .hrFondo {
-    background-image: -webkit-linear-gradient(left, transparent, grey, transparent);
-    background-image: linear-gradient(to right, transparent, grey, transparent);
-    height: 4px;
-    margin: 0 1em 1em 1em !important;
+	background-image: -webkit-linear-gradient(left, transparent, grey, transparent);
+	background-image: linear-gradient(to right, transparent, grey, transparent);
+	height: 4px;
+	margin: 0 1em 1em 1em !important;
 }
 
 .if-image {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    transition: filter 0.4s;
-    -webkit-transition: -webkit-filter 1s;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: filter 0.4s;
+	-webkit-transition: -webkit-filter 1s;
 }
 
 .if-image:hover {
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    transition: filter 0.4s;
-    -webkit-transition: -webkit-filter 1s;
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	transition: filter 0.4s;
+	-webkit-transition: -webkit-filter 1s;
 }
 
 .pytcard .card-body {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 .pytcardContent {
-    position: relative;
+	position: relative;
+}
+
+.pytcardContent > img {
+	width: 100%;
+	min-height: auto;
+	object-fit: contain;
+	margin: 0;
 }
 
 .pytcardTime {
-    position: absolute;
-    bottom: 1em;
-    right: 1em;
-    background-color: silver;
-    opacity: .75;
-    padding: 0.1em 0.3em;
-    border-radius: 0.3em;
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	opacity: .75;
+	padding: 0.1em 0.3em;
+	border-radius: 0.3em;
 }
 
 .pytcardLink {
-    position: absolute;
-    top: calc(50% - 1em);
-    left: calc(50% - 1em);
+	position: absolute;
+	top: calc(50% - 1em);
+	left: calc(50% - 1em);
 
 }
 
 .pytcardLink svg.svg-inline--fa.fa-youtube {
-    color: silver;
-    text-decoration: none;
+	color: silver;
+	text-decoration: none;
 }
 
 .pytcardLink svg.svg-inline--fa.fa-youtube:hover {
-    color: red;
-    text-decoration: none;
+	color: red;
+	text-decoration: none;
 }
 
 .pytcardLink .btn {
-    padding: 0em !important;
-    border-radius: 5em !important;
+	padding: 0em !important;
+	border-radius: 5em !important;
 
 }
 
 .fade {
-    opacity: 100;
+	opacity: 100;
 }
 
-
 .p14card .card-body {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 .p14cardContentH {
-    position: relative;
-    height: 28vh;
+	position: relative;
+	height: 28vh;
 }
 
 .p14cardContentB {
-    position: relative;
-    height: 25vh;
-    top: 1em;
-    margin: 2em 1em;
+	position: relative;
+	height: 25vh;
+	top: 1em;
+	margin: 2em 1em;
 }
 
 .p14cardContentF {
-    position: relative;
-    height: 8vh;
+	position: relative;
+	height: 8vh;
 }
 
 .p14cardImport {
-    position: absolute;
-    top: 20vh;
-    left: calc(50% - 3em);
-    padding: 0.8em;
-    border-color: white;
-    border-width: 0.5rem;
-    border-style: solid;
-    border-radius: 3em;
-    background-color: gray;
-    font-weight: 700;
-    color: white;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	position: absolute;
+	top: 20vh;
+	left: calc(50% - 3em);
+	padding: 0.8em;
+	border-color: white;
+	border-width: 0.5rem;
+	border-style: solid;
+	border-radius: 3em;
+	background-color: gray;
+	font-weight: 700;
+	color: whitesmoke;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .p14cardIcon {
-    padding: 0 !important;
-    border-radius: 3em !important;
-    color: #009090 !important;
-    background-color: white !important;
-    border-color: white !important;
+	padding: 0 !important;
+	border-radius: 3em !important;
+	color: #009090 !important;
+	background-color: white !important;
+	border-color: white !important;
 }
 
 .my-tooltip-class14>div {
-    font-size: 1em !important;
-    font-weight: 500;
+	font-size: 1em !important;
+	font-weight: 500;
 }
 
 .p5Imagenes {
-    width: 100%;
-    max-height: 70vh;
-    object-fit: cover !important;
+	width: 100%;
+	max-height: 70vh;
+	object-fit: cover !important;
 }
 
 .p5sFondo {
-    position: relative;
-    vertical-align: middle;
-    box-sizing: border-box;
-    left: 0;
+	position: relative;
+	vertical-align: middle;
+	box-sizing: border-box;
+	left: 0;
+  color: whitesmoke;
 }
 
 .p5Video {
-    position: absolute;
-    width: 100%;
-    top: -25vh;
-    overflow: hidden;
-    pointer-events: none;
-    position: absolute;
-    z-index: -1;
-    background-color: #777;
+	position: absolute;
+	width: 100%;
+	top: -25vh;
+	overflow: hidden;
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	background-color: #777;
 }
 
 .p5Img {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    overflow: hidden;
-    pointer-events: none;
-    position: absolute;
-    z-index: -1;
-    background-color: #777;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	background-color: #777;
 }
 
 .p5Img1 {
-    height: 100%;
-    object-fit: cover !important;
+	height: 100%;
+	object-fit: cover !important;
 }
 
 .p8iconos {
-    padding: 0.5em;
+	padding: 0.5em;
 }
 
 .p1s1Escuela {
-    background-color: silver;
-    padding: 0.5em 1em;
-    margin: 1em;
+	background-color: silver;
+	padding: 0.5em 1em;
+	margin: 1em;
 }
 
 .p2s1Escuela {
-    background-color: silver;
-    padding: 1em 0.5em;
-    margin: 0.3em;
-    width: 20%;
-    text-align: center;
-    font-size: 0.9em !important;
+	background-color: silver;
+	padding: 1em 0.5em;
+	margin: 0.3em;
+	width: 20%;
+	text-align: center;
+	font-size: 0.9em !important;
 }
 
 .p1s1Escuela img {
-    height: 10vh;
-    padding: 0.3em;
-    margin-bottom: 0.5em 0 ;
+	height: 10vh;
+	padding: 0.3em;
+	margin-bottom: 0.5em 0;
 }
 
 .iframeIG {
-    width: 100%;
-    height: 75vh;
+	width: 100%;
+	height: 25em;
+}
+
+.cardd {
+	-webkit-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }

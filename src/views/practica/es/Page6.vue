@@ -6,8 +6,8 @@
       <Section2 />
       <Section3 />
       <Section4 />
-      <Section5 />
       <Section6 />
+      <Section5 />
       <Section />
     </div>
   </div>
@@ -57,9 +57,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="scss">
-@import "../../../assets/css/master-postgrado/bootstrap.min.css";
-@import "../../../assets/css/master-postgrado/main.css";
-@import "../../../assets/css/stlProyecto.css";
-</style>

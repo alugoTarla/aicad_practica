@@ -24,7 +24,7 @@
       </b-container>
     </div>
   </div>
-</template>
+</template> 
 
 <i18n>
 {
@@ -46,15 +46,27 @@
 <script>
 export default {
   data() {
-    return {
-      
-    };
+    return {};
   }
 };
 </script>
 
-<style>
+<style lang="scss">
 .p7s1fondoFwhite {
+  h2 {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    background: #00000033;
+    border-radius: 1em;
+    padding: 1em;
+  };
+  p {
+    font-family: "Lato Light", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
   color: white;
   background-size: cover;
   background-repeat: repeat;

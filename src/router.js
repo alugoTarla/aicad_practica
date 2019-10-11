@@ -2,10 +2,9 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 Vue.use(Router);
-console.log(__dirname);
+
 const router = new Router({
   mode: 'history',  
-  // base: '/practicas/',
   base: '/internships/',
   routes: [
     {

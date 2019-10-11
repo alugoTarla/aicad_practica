@@ -7,11 +7,11 @@
             <source :src="p7s4Video" type="video/mp4" />
           </video>
         </div>   
-        <div class="p5Img" v-responsive.md.sm>
+        <div class="p5Img" v-responsive.md.sm.xs>
           <b-img :src="p7s4Img" class="p5Img1"/>
         </div>   
         <b-container fluid>
-          <b-container >
+          <b-container class="pt-5 pb-5">
             <br />
             <b-row align-v="center" align-h="center">
               <b-col md="9" sm="10" class="text-center">
@@ -60,9 +60,23 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p7s4fondoFwhite {
-  color: white;
+  color: whitesmoke;
+  h1 {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 0.3em;
+  };
+  h3 {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 0.3em 1em;
+  };
 }
 
 .buttonWhite-outline svg.svg-inline--fa.fa-angle-right.fa-w-8 {

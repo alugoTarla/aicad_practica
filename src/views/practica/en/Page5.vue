@@ -6,12 +6,10 @@
       <Section3 />
       <Section4 />
       <Section5 />
-      <Section />
       <Section6 />
       <Section7 />
       <Section8 />
       <Section9 />
-      <Section />
       <Section10 />
       <Section11 />
       <Section12 />
@@ -76,9 +74,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="scss">
-@import "../../../assets/css/master-postgrado/bootstrap.min.css";
-@import "../../../assets/css/master-postgrado/main.css";
-@import "../../../assets/css/stlProyecto.css";
-</style>

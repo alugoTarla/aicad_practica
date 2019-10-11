@@ -56,7 +56,7 @@
 export default {
   data() {
     return {
-      p18s6url: "http://jobs.aicad.es",
+      p18s6url: "https://jobs.aicad.es",
       p18s6Video: "https://google-my-business.aicad.es/images/video/genesis_480.mp4",
       p18s6Img: "https://www.aicad.es/wp-content/uploads/2015/05/portada-ofertas-trabajo-aicad.jpg"
     }

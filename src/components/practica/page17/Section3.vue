@@ -59,7 +59,7 @@
       {
         "titulo": "What do we offer to Universities and Career Centers?"
         , "texto": "See more information about the advantages of being a Partner University"
-        , "urlBtn": "http://jobs.aicad.es"
+        , "urlBtn": "https://jobs.aicad.es"
         , "textBtn": [
           {
             "txtS": false
@@ -88,7 +88,7 @@
       {
         "titulo": "Alternatives for Student Mobility Agencies and Work and Travel:"
         , "texto": "Find out about the advantages of being a Partner Agency"
-        , "urlBtn": "http://jobs.aicad.es"
+        , "urlBtn": "https://jobs.aicad.es"
         , "textBtn": [
           {
             "txtS": false
@@ -121,7 +121,7 @@
       {
         "titulo": "¿Qué le ofrecemos a las Universidades y Career Centres?"
         , "texto": "Consulta más información sobre las ventajas de ser Universidad Partner"
-        , "urlBtn": "http://jobs.aicad.es"
+        , "urlBtn": "https://jobs.aicad.es"
         , "textBtn": [
           {
             "txtS": false
@@ -150,7 +150,7 @@
       {
         "titulo": "Alternativas para Agencias de movilidad estudiantil y Work and Travel:"
         , "texto": "Infórmate de las ventajas ser Agencia Partner"
-        , "urlBtn": "http://jobs.aicad.es"
+        , "urlBtn": "https://jobs.aicad.es"
         , "textBtn": [
           {
             "txtS": false

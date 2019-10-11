@@ -1,7 +1,7 @@
 <template>
   <div id="section">
     <div class="p5sFondo">
-      <div class="p5sfondoFwhite">
+      <div>
         <div class="p5Video" v-responsive.lg.xl>
           <video autoplay controls loop muted preload style="width: 100%">
             <source :src="p5sVideo" type="video/mp4" />
@@ -11,7 +11,7 @@
           <b-img :src="p5sImg" class="p5Img1"/>
         </div>   
         <b-container fluid>
-          <b-container >
+          <b-container class="pt-5 pb-5">
             <br />
             <b-row align-v="center">
               <b-col cols="12" class="text-center">
@@ -55,7 +55,7 @@
 export default {
   data() {
     return {
-      p5surl: "http://jobs.aicad.es",
+      p5surl: "https://jobs.aicad.es",
       p5sVideo: "https://google-my-business.aicad.es/images/video/genesis_480.mp4",
       p5sImg: "https://www.aicad.es/wp-content/uploads/2015/05/portada-ofertas-trabajo-aicad.jpg"
     }
@@ -78,10 +78,6 @@ export default {
 </script>
 
 <style>
-
-.p5sfondoFwhite {
-  color: white;
-}
 
 .buttonWhite-outline svg.svg-inline--fa.fa-angle-right.fa-w-8 {
   visibility: hidden;

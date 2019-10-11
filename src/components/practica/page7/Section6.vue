@@ -4,14 +4,14 @@
       <b-container fluid>
         <b-container class="text-center">
           <b-row >
-            <b-col lg="4" sm="12" class="text-center" v-for="(item, idx) in p7s6items" :key="idx">
-              <b-card :img-src="p7s6itemsI[idx].p7s6img" class="p3card">
+            <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in p7s6items" :key="idx">
+              <b-card :img-src="p7s6itemsI[idx].p7s6img" class="p3card cardd" footer-tag="footer">
                 <div class="picon">
                   <font-awesome-icon :icon="['fas','user-circle']"  
                   style="background-color: silver; border-radius: 60px; border: 0.1rem; border-style: solid;" />
                 </div>
                 <b-card-title class="p3cardtitle">{{item.p7s6title}}</b-card-title>
-                <b-card-text class="p3cardbody">{{item.p7s6descript}}</b-card-text>
+                <b-card-body class="p7cardbody">{{item.p7s6descript}}</b-card-body>
                 <b-card-footer class="p3cardfooter">
                   <a :href="item.p7s6url">
                     <strong>{{item.p7s6link}}</strong>

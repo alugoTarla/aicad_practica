@@ -26,4 +26,7 @@ export default {
 
 <style lang="scss">
 @import "assets/font-awesome-4.7.0/css/font-awesome.min.css";
+@import "assets/css/master-postgrado/bootstrap.min.css";
+@import "assets/css/master-postgrado/main.css";
+@import "assets/css/stlProyecto.css";
 </style>

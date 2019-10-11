@@ -4,14 +4,16 @@
       <Section1 />
       <Section2 />
       <Section3 />
-      <Section4 />
       <Section5 />
+      <Section4 />
+      <Section />
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Section from "@/components/practica/page17/Section";
 import Section1 from "@/components/practica/page17/Section1";
 import Section2 from "@/components/practica/page17/Section2";
 import Section3 from "@/components/practica/page17/Section3";
@@ -21,7 +23,8 @@ import Section5 from "@/components/practica/page17/Section5";
 export default {
   name: "page17",
   components: {
-    Section1
+    Section
+    , Section1
     , Section2
     , Section3
     , Section4
@@ -50,9 +53,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="scss">
-@import "../../../assets/css/master-postgrado/bootstrap.min.css";
-@import "../../../assets/css/master-postgrado/main.css";
-@import "../../../assets/css/stlProyecto.css";
-</style>

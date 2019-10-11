@@ -52,8 +52,20 @@ export default {
 };
 </script>
 
-<style>
-.p10s1fondoFwhite {
+<style lang="scss">
+.p10s1fondoFwhite {  
+  h2 {
+    font-family: "Lato Medium", sans-serif !important;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
+  p {
+    font-family: "Lato Light", sans-serif !important;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1em;
+  };
   color: white;
   background-size: cover;
   background-repeat: repeat;

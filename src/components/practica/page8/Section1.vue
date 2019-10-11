@@ -102,7 +102,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .p8s1sliderIMG {
 	top: 0;
 	left: 0;
@@ -119,9 +119,14 @@ export default {
 }
 
 .p8s1sliderFoo {
-	top: 1em;
+	top: 1.5em;
 	padding: 1em;
 	z-index: 2;
-	position: relative;
+  position: relative;
+  p {
+    font-family: "Lato Light", sans-serif !important;
+    padding: 1em 0;
+    font-size: 1.4em !important;
+  };
 }
 </style>

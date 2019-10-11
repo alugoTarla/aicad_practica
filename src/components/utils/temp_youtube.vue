@@ -1,6 +1,6 @@
 <template>
   <div id="section">
-    <div class="fondoGrisClaro">
+    <div class="fondoGris">
       <b-container fluid>
           <b-container class="text-center">
             <br />
@@ -14,9 +14,10 @@
                 </span>
               </span>
             </h2>
-            <b-row class="justify-content-md-center" align-v="center">
+            <b-row align-h="center" align-v="center">
               <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item ,idx) of videos" :key="idx">
                 <yt :idvideo="item" :key="idx" :activo="activo"></yt>
+                <br />
               </b-col>
             </b-row>
             <br />

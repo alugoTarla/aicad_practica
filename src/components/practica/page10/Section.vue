@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      p10surl: "http://jobs.aicad.es"
+      p10surl: "https://jobs.aicad.es"
     }
   },
   computed: {

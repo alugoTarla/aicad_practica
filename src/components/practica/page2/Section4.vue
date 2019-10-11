@@ -6,12 +6,9 @@
           <br />
           <h2>{{$t("p2title1")}}</h2>
           <br />
-          <b-row class="justify-content-md-center">
-            <b-col cols md="4" class="text-center" v-for="(item, idx) in p2items" :key="idx">
-              <b-card class="p2card" style="
-  -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);">
+          <b-row align-h="center">
+              <b-col lg="4" md="6" sm="12" class="text-center pb-3" v-for="(item, idx) in p2items" :key="idx">
+              <b-card class="p2card cardd">
                 <div class="p2fondoIconos">
                   <b-img :src="p2itemsI[idx].p2img" />
                 </div>

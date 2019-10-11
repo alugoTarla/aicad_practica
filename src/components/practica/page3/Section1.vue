@@ -5,9 +5,9 @@
         <b-container fluid>
           <b-container class="text-center">
             <br />
-            <h1>{{$t("p3s1Title")}}</h1>
+            <h1 class="p3s1h2">{{$t("p3s1Title")}}</h1>
             <br />
-            <h2>{{$t("p3s1SubTitle")}}</h2>
+            <h2 class="p3s1h2">{{$t("p3s1SubTitle")}}</h2>
             <br />
             <a class="btn buttonTurqueza" :href="s1url">
               {{$t("p3s1Button1")}}
@@ -50,7 +50,14 @@ export default {
 </script>
 
 <style>
-  h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
+.p3s1h2 {
+  font-family: "Lato Heavy", sans-serif !important;
+  color: whitesmoke;
+  background: rgba(200, 200, 200, 0.4);
+  border-radius: 1em;
+  padding: 1em;
+}
+
 .p3s1fondoWhite {
   color: white;
   background-size: cover;

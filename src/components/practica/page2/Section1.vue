@@ -1,30 +1,36 @@
 <template>
   <div id="section1">
     <div class="wrapper">
-      <div class="fondoGrisClaro">
+      <div class="fondoGrisClarop2s1">
         <b-container fluid>
           <b-container class="text-center">
           <br />
           <h2>{{$t("s1title1")}}</h2>
           <h3>{{$t("s1title2")}}</h3>
           <br />
-            <b-row align-v="start" class="justify-content-md-center">
-              <b-col lg="4" md="6" sm="12" class="text-center cardd" v-for="(item, idx) in s1items" :key="idx">
-                <div class="p2fondoIconos">
-                  <b-img :src="s1itemsI[idx].s1img" />
+            <b-row align-h="center">
+              <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in s1items" :key="idx">
+                <div class="text-center cardd p2s1Card">
+                  <div class="p2fondoIconos">
+                    <b-img :src="s1itemsI[idx].s1img" />
+                  </div>
+                  <div>
+                    <h2>{{item.s1ititle}}</h2>
+                  </div>
+                  <div class="p2s1ol">
+                    <ol>
+                      <li
+                        v-for="(sitem, idx1) in item.s1sub"
+                        :key="idx1" >
+                        {{sitem.s1subi}}
+                      </li>
+                    </ol>
+                  </div>
                 </div>
-                <h2>{{item.s1ititle}}</h2>
-                <ol class="p2s1ol">
-                  <li
-                    class="text-left p2s1li"
-                    v-for="(sitem, idx1) in item.s1sub"
-                    :key="idx1"
-                  >{{sitem.s1subi}}</li>
-                </ol>
+                <br>
               </b-col>
             </b-row>
           </b-container>
-          <br />
         </b-container>
       </div>
     </div>
@@ -160,7 +166,7 @@ export default {
 </script>
 
 <style lang="scss">
-.fondoGrisClaro{
+.fondoGrisClarop2s1{
   h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;}
   h3{font-family: "Lato Medium", sans-serif !important; color: whitesmoke; background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
   li{font-family: "Lato Light", sans-serif !important; color: whitesmoke;}
@@ -169,22 +175,28 @@ export default {
   background-size: cover;
   background-position: center;
 }
-.cardd{
-  -webkit-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: -1px 4px 5px 0px rgba(0,0,0,0.75);
-  height: 500px;
-  background: rgba(200,200,200,0.4);
-  border-radius: 20px;
-  padding: 20px;
+
+.p2s1Card{
+  position: relative;
+  background-color: rgba(0,0,0,0.5);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
 }
-.p2s1li {
-  font-size: 1em;
+
+.p2s1ol {
+  position: relative;
+  height: 14em;
+}
+
+.p2s1ol > ol{
+  position: absolute;
+  padding: 0 1em;
+}
+
+.p2s1ol > ol > li{
+  font-size: 0.95em;
   font-weight: 400;
-  line-height: 1.5em;
-}
-.p2s1ol ol li{
-  padding: 0 22vw;
-  text-align: justify;
+  text-align: left;
 }
 </style>

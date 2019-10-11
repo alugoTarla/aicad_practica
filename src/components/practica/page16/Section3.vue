@@ -133,7 +133,7 @@
 export default {
   data() {
     return {
-      p16s4url: "http://jobs.aicad.es",
+      p16s4url: "https://jobs.aicad.es",
       p16s3itemsI: [
         {
           p16s3icon: require("@/assets/images/vectores/page16/ofertastodoelaño.png")

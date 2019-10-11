@@ -142,7 +142,7 @@
 export default {
   data() {
     return {
-      p11s4url: "#",
+      p11s4url: "https://jobs.aicad.es",
       p11s2itemsI: [
         {
           p11s2icon: require("@/assets/images/vectores/page10/coordinamos.png")
