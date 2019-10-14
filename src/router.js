@@ -5,7 +5,7 @@ Vue.use(Router);
 
 const router = new Router({
   mode: 'history',  
-  base: '/internships/',
+  base: '/practicas/',
   routes: [
     {
       path: '/',

@@ -3,9 +3,9 @@ const PrerenderSpaPlugin = require('prerender-spa-plugin');
 
 const productionPlugins = [
   new PrerenderSpaPlugin({
-    staticDir: path.join(__dirname, 'dist/internships'),
-    outputDir: path.join(__dirname, 'dist/internships/'),
-    indexPath: path.join(__dirname, 'dist/internships', '/index.html'),
+    staticDir: path.join(__dirname, 'dist/practicas'),
+    outputDir: path.join(__dirname, 'dist/practicas/'),
+    indexPath: path.join(__dirname, 'dist/practicas', '/index.html'),
     routes: [
        '/practicas/'
       ,'/tres-pasos/'
@@ -53,8 +53,8 @@ const productionPlugins = [
 ];
 
 module.exports = {
-  publicPath: '/internships/',
-  outputDir: path.join(__dirname, 'dist/internships/'),
+  publicPath: '/practicas/',
+  outputDir: path.join(__dirname, 'dist/practicas/'),
   lintOnSave: true,
   configureWebpack: (config) => {
     if (process.env.NODE_ENV === 'production') {
