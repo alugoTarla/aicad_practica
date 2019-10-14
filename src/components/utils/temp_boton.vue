@@ -5,18 +5,20 @@
         <b-container fluid>
           <b-container>
             <br />
-            <b-row align-v="center">
-              <b-col md="8" sm="12">
+            <div>
+              <div class="text-center">
                 <h2>{{TBtxt1}}</h2>
                 <p>{{TBtxt2}}</p>
-              </b-col>
-              <b-col md="4" sm="12" class="text-center">
+              </div>
+              <div class="text-center">
                 <a class="btn buttonTurqueza" :href="TBurl" target="_blank">
                   {{TButton1}}
-                  <strong>{{TButton2}}</strong>
                 </a>
-              </b-col>
-            </b-row>
+              </div>
+              <div class="buttonfix2">
+                <strong>{{TButton2}}</strong>
+              </div>
+            </div>
           </b-container>
         </b-container>
         <br />

@@ -9,7 +9,7 @@
           preserveAspectRatio="none"
           style="background-color: #f3f3f3;margin-bottom:20px; height: 100px;width: 100%;"
         >
-          <polygon fill="#C0C0C0" points="0,100 100,0 0,0"></polygon>
+          <polygon fill="rgba(0,144,144,0.67)" points="0,100 100,0 0,0"></polygon>
         </svg>
         <div class="mainFooter">
           <div class="container">

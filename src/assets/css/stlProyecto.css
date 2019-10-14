@@ -172,8 +172,10 @@ p {
 }
 
 .fondoSilver {
-	background-color: silver;
-	color: #2c3e50;
+	background: url("../images/rhombus-bg.2d4c782d.png");
+	background-attachment: fixed;
+	background-color: rgba(0,144,144,0.7);
+	color: white;
 }
 
 .fondoSilver>p {
@@ -252,14 +254,14 @@ p {
 .buttonTurqueza {
 	border-radius: 22px !important;
 	border-color: #009090 !important;
-	background-color: #009090 !important;
+	background-color: rgba(0,144,144,0.5) !important;
 	color: whitesmoke !important;
 	margin: 0 auto;
 	letter-spacing: 2px;
 	padding: 0.3em 1em !important;
 	cursor: pointer;
 	font-size: 1.1em !important;
-	transition: 0.5s ease;
+	transition: 0.3s !important;
 }
 
 .buttonTurqueza:hover {
@@ -351,7 +353,7 @@ p {
 	padding: 0.3em 1em !important;
 	cursor: pointer;
 	font-size: 1.2em !important;
-	transition: 0.5s ease;
+	transition: 0.5s ease !important;
 }
 
 .buttonTurqueza-outline:hover {
@@ -361,6 +363,7 @@ p {
 	opacity: .85;
 	text-decoration: inherit !important;
 	transform: scale(1.1);
+	letter-spacing: 4px;
 }
 
 .buttonTurqueza-outline>strong {
@@ -925,4 +928,21 @@ p {
 	-webkit-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 	box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 40px !important;
+	transition: 0.3s;
+}
+
+.cardd:hover{
+	margin-top: -20px;
+}
+
+.buttonfix{
+	margin-top: -50px !important;
+	color: #cccccc !important;
+}
+
+.buttonfix2{
+	text-align: center;
+	margin-top: 5px;
+	color: white !important;
 }

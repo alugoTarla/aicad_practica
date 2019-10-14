@@ -25,10 +25,12 @@
                       <a :href="item.s2url" class="btn buttonTurqueza btn-lg">
                         {{item.s2button1}}
                         <br />
-                        <strong>{{item.s2button2}}</strong>
                       </a>
                     </div>
                   </transition>
+                </div>
+                <div class="buttonfix">
+                  <strong>{{item.s2button2}}</strong>
                 </div>
               </b-card-footer>              
             </b-card>
