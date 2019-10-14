@@ -1,5 +1,5 @@
 <template>
-  <div id="section">
+  <div id="section" style="z-index: 1; position: relative;">
     <tb :TBtxt1="p1stitle1" :TBtxt2="p1stitle2" 
     :TButton1="p1sbutton1" :TButton2="p1sbutton2" 
     :TBurl="p1surl" />

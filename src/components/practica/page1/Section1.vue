@@ -84,6 +84,7 @@
 <style lang="scss">
     .fuck{
         position: absolute;
+        z-index: 0;
         .me{
             background-color: rgba(1,161,255,0.4);
             border-radius: 40px !important;
@@ -139,6 +140,7 @@
         background: rgba(150, 150, 150, 0.5);
         padding: 10px 5px 10px 20px;
         position: absolute;
+        z-index: 99;
         margin-top: -90px;
         /*bottom: calc(-150px + 150px + 400px);*/
         max-height: calc(100vh - 50px - 80px);
