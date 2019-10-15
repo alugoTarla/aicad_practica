@@ -339,7 +339,6 @@ p {
 .buttonTurqueza1:hover {
 	opacity: .85;
 	text-decoration: inherit !important;
-	transform: scale(1.1);
 }
 
 .buttonTurqueza-outline {
@@ -487,8 +486,10 @@ p {
 .p1cardContentH {
 	position: relative;
 	height: 6em;
-	padding: 1em !important;
+	padding: 2em 1em 1em !important;
 	vertical-align: middle !important;
+	border-top-left-radius: 40px !important;
+	border-top-right-radius: 40px !important;
 }
 
 .p1cardContentB {
@@ -503,6 +504,8 @@ p {
 	height: 8em;
 	vertical-align: middle !important;
 	padding: 0.5em !important;
+	border-bottom-left-radius: 40px !important;
+	border-bottom-right-radius: 40px !important;
 }
 
 
@@ -938,7 +941,6 @@ p {
 
 .buttonfix{
 	margin-top: -50px !important;
-	color: #cccccc !important;
 }
 
 .buttonfix2{

@@ -86,7 +86,7 @@
                           {{$t("p11s4card2Text1")}}
                         </p>
                         <p class="text-justify">
-                          <strong>{{p11s4card2Text2}}</strong>
+                          <strong>{{p11s4card2Text2_}}</strong>
                         </p>
                         <p class="text-justify">
                           <strong>{{$t("p11s4card2Text3")}}</strong>
@@ -97,7 +97,7 @@
                       </b-card-body>  
                     </b-card>
                     <br>
-                    <a @click="limpiarSeleccion()">
+                    <a @click="limpiarSeleccion()" style="cursor: pointer">
                       {{$t("p11s4cardBtt3")}}
                     </a>
                   </b-card-body>
@@ -269,6 +269,7 @@ export default {
           p11s4icon: require("@/assets/images/vectores/page11/route-1.png")
         }
       ],
+      p11s4card2Text2_: "",
       p11s4DatoB1base: 390,
       p11s4DatoB1var: 55,
       p11s4DatoB1fre: [0,0,1,2,3,4,5,6,7,8,9,10],
@@ -282,7 +283,7 @@ export default {
   },
   methods: {    
     limpiarTodo: function(){
-      this.p11s4card2Text2 = this.$t("p11s4card2TextRef");
+      this.p11s4card2Text2_ = this.$t("p11s4card2TextRef");
       for (let index = 0; index < this.isActive1.length; index++) {
         this.isActive1[index] = false;
       }
@@ -301,7 +302,7 @@ export default {
         total = this.p11s4DatoB2base + (this.p11s4DatoB2var * this.p11s4DatoB2fre[idx]);
         this.isActive2[idx] = true;
       }      
-      this.p11s4card2Text2 = this.$t("p11s4card2TextRef").replace("0.00",total+".00");
+      this.p11s4card2Text2_ = this.$t("p11s4card2TextRef").replace("0.00",total+".00");
     },
     limpiarSeleccion: function(){
       this.limpiarTodo();
@@ -309,7 +310,8 @@ export default {
   },
   computed: {
     p11s4card2Text2() {
-      return this.$t("p11s4card2TextRef");
+      this.p11s4card2Text2_ = this.$t("p11s4card2TextRef");
+      return this.p11s4card2Text2_;
     },
     p11s4list() {
       return this.$t("p11s4list");
