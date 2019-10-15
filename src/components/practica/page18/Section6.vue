@@ -22,10 +22,11 @@
                 </h2>
                 <br>
                 <a class="btn buttonTurqueza" :href="p18s6url">
-                  {{$t("p18s6button1")}}
-                  <br />
                   <strong>{{$t("p18s6button2")}}</strong>
                 </a>
+                <div class="buttonfix2">
+                  {{$t("p18s6button1")}}
+                </div>
               </b-col>
             </b-row>
             <br />
@@ -34,6 +35,7 @@
         </b-container>
       </div>      
     </div>
+    <div class="green"></div>
   </div>
 </template>
 

@@ -53,26 +53,33 @@ export default {
 </script>
 
 <style lang="scss">
-.p10s1fondoFwhite {  
+.p10s1fondoFwhite {
   h2 {
     font-family: "Lato Medium", sans-serif !important;
-    background: rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+    text-align: center !important;
+    padding: 20px;
     border-radius: 1em;
-    padding: 1em;
-  };
-  p {
-    font-family: "Lato Light", sans-serif !important;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 1em;
-    padding: 1em;
+    margin: 0 auto;
+    max-width: 800px;
   };
   color: white;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top center;
+  background-position: bottom center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/new_imgs/recruiters-and-job-applicant-P29WVWZ.jpg");
-  vertical-align: middle;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/recruiters-and-job-applicant-P29WVWZ.jpg");
+  min-height: 500px;
+  height: auto;
+  p {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    text-align: center !important;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0 auto;
+    max-width: 800px;
+  };
 }
 </style>

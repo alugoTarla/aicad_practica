@@ -1,6 +1,6 @@
 <template>
   <div id="section2">
-    <div class="fondoWhite">
+    <div class="fondoClaro">
       <b-container fluid>
         <b-container class="text-center">
           <br />

@@ -18,9 +18,10 @@
             </h3>
             <br />
             <div>
-              <a class="btn buttonTurqueza" :href="p18s1url">
+              <div class="buttonfix2">
                 {{$t("p18s1Button1")}}
-                <br />
+              </div>
+              <a class="btn buttonTurqueza" :href="p18s1url">
                 <strong>{{$t("p18s1Button2")}}</strong>
               </a>
             </div>
@@ -88,28 +89,34 @@ export default {
 </script>
 
 <style lang="scss">
+
 .p18s1fondoWhite {
-  h1 {
-    font-family: "Lato Heavy", sans-serif !important;
+  h2 {
+    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    background: #00000033;
+    text-align: center !important;
+    padding: 20px;
     border-radius: 1em;
-    padding: 1em;
-  };
-  h3 {
-    font-family: "Lato Light", sans-serif !important;
-    color: whitesmoke;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 1em;
-    padding: 1em;
+    margin: 0 auto;
+    max-width: 800px;
   };
   color: white;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner8.jpg");
-  vertical-align: middle;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner8.jpg");
+  min-height: 500px;
+  height: auto;
+  p {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    text-align: center !important;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0 auto;
+    max-width: 800px;
+  };
 }
 </style>

@@ -17,7 +17,7 @@
                 <b-img :src="p8s1itemsI[idx].p8s1img"></b-img>
               </div>
               <div class="p8s1sliderFoo">
-                <p>{{item.p8s1title}}</p>
+                <h1 class="titfix">{{item.p8s1title}}</h1>
               </div>
             </div>
           </slide>
@@ -129,4 +129,11 @@ export default {
     font-size: 1.4em !important;
   };
 }
+  .titfix{
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    padding: 10px;
+  }
 </style>

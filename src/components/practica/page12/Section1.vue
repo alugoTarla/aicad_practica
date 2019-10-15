@@ -46,15 +46,20 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+
 .p13s1fondoFwhite {
+  h1 {
+    font-size: 4rem !important;
+  };
   color: white;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner_p4_1.jpg");
-  vertical-align: middle;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner_p4_1.jpg");
+  min-height: 500px;
+  height: auto;
 }
 </style>

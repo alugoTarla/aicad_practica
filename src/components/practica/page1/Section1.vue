@@ -75,7 +75,7 @@ export default {
     border-radius: 2em !important;
     padding: 1.5em 2.5em;
   }
-	bottom: 1.1em;
+	bottom: 8em;
   width: 100%;
   a {
     text-decoration: none !important;

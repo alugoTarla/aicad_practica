@@ -12,8 +12,10 @@
             <a class="btn buttonTurqueza" :href="s1url">
               {{$t("p3s1Button1")}}
               <br />
-              <strong>{{$t("p3s1Button2")}}</strong>
             </a>
+            <div class="buttonfix2">
+              <strong>{{$t("p3s1Button2")}}</strong>
+            </div>
             <br />
           </b-container>
         </b-container>
@@ -53,7 +55,7 @@ export default {
 .p3s1h2 {
   font-family: "Lato Heavy", sans-serif !important;
   color: whitesmoke;
-  background: rgba(0, 0, 0, 0.4);
+  /*background: rgba(0, 0, 0, 0.4);*/
   border-radius: 1em;
   padding: 1em;
 }
@@ -61,12 +63,14 @@ export default {
 .p3s1fondoWhite {
   color: white;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/new_imgs/Banner-unete.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-unete.jpg");
   padding: 2rem 0;
   vertical-align: middle;
+  min-height: 500px;
+  height: auto;
 }
 </style>

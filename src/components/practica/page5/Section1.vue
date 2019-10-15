@@ -56,16 +56,18 @@ export default {
   h1 {
     font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    background: #00000033;
+    /*background: #00000033;*/
     border-radius: 1em;
     padding: 0.5em;
   };
   color: white;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
+  min-height: 500px;
+  height: auto;
 }
 </style>

@@ -37,9 +37,6 @@
                   <strong v-if="item2.txtS">
                     {{item2.txt}}
                   </strong>
-                  <span v-else>
-                    {{item2.txt}}<br/>
-                  </span>
                 </span>
               </a>
             </b-col>

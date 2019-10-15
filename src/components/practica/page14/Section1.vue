@@ -4,12 +4,12 @@
       <b-container fluid>
         <b-container class="text-center pt-5 pb-5">
           <br />
-          <h2>
+          <h1>
             <span v-for="(item, index) in p14s1title" :key="index">
               <strong v-if="item.p14s1titleF">{{item.p14s1titleT}}</strong>
               <span v-else>{{item.p14s1titleT}}</span>
             </span>
-          </h2>
+          </h1>
           <br />
         </b-container>
       </b-container>
@@ -53,21 +53,34 @@ export default {
 </script>
 
 <style lang="scss">
+
 .p14s1fondoFwhite {
   h2 {
     font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    background: #00000033;
+    text-align: center !important;
+    padding: 20px;
     border-radius: 1em;
-    padding: 1em;
+    margin: 0 auto;
+    max-width: 800px;
   };
   color: white;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("~@/assets/images/banners/banner5.jpg");
-  vertical-align: middle;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner5.jpg");
+  min-height: 500px;
+  height: auto;
+  p {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    text-align: center !important;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0 auto;
+    max-width: 800px;
+  };
 }
 </style>

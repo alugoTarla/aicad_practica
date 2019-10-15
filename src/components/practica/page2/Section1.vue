@@ -10,7 +10,7 @@
           <br />
             <b-row align-h="center">
               <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in s1items" :key="idx">
-                <div class="text-center cardd p2s1Card">
+                <div class="text-center p2s1Card">
                   <div class="p2fondoIconos">
                     <b-img :src="s1itemsI[idx].s1img" />
                   </div>
@@ -170,33 +170,13 @@ export default {
   h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;}
   h3{font-family: "Lato Medium", sans-serif !important; color: whitesmoke; background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
   li{font-family: "Lato Light", sans-serif !important; color: whitesmoke;}
-  background-image: url("../../../assets/new_imgs/Banner-3-pasos.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("../../../assets/new_imgs/Banner-3-pasos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 500px;
+  height: auto;
 }
 
-.p2s1Card{
-  position: relative;
-  background-color: rgba(0,0,0,0.5);
-  margin: 1em;
-  padding: 1em;
-  border-radius: 1em;
-}
 
-.p2s1ol {
-  position: relative;
-  height: 14em;
-}
-
-.p2s1ol > ol{
-  position: absolute;
-  padding: 0 1em;
-}
-
-.p2s1ol > ol > li{
-  font-size: 0.95em;
-  font-weight: 400;
-  text-align: left;
-}
 </style>

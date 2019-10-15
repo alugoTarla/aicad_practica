@@ -15,8 +15,11 @@
             </b-row>
             <br />
             <div>
-              <a class="btn buttonWhite" :href="p4s1url">
+              <div class="buttonfix2">
                 <span>{{$t("p4s1Button1")}}</span>
+              </div>
+              <br>
+              <a class="btn buttonWhite-outline" :href="p4s1url">
                 <span>
                   <strong>&nbsp;{{$t("p4s1Button2")}}</strong>
                 </span>
@@ -64,24 +67,27 @@ export default {
 <style lang="scss">
 .p4s1fondoFwhite {
   h2 {
-    font-family: "Lato Medium", sans-serif !important;
+    font-family: "Lato Black", sans-serif !important;
+    font-size: 2rem !important;
     color: whitesmoke;
-    background: #00000033;
+    /*background: #00000033;*/
     border-radius: 1em;
     padding: 1em;
   };
   h3 {
-    font-family: "Lato Light", sans-serif !important;
+    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    background: rgba(0, 0, 0, 0.2);
+    /*background: rgba(0, 0, 0, 0.2);*/
     border-radius: 1em;
     padding: 1em;
   };
   background-size: cover;
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: bottom center;
-  background-image: linear-gradient(90deg, rgba(59,166,255,0.1) 0%, rgba(59,166,255,0.65) 100%), url("~@/assets/new_imgs/Banner-convenio-prácticas.jpg");
+  background-position: center left;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-convenio-prácticas.jpg");
   vertical-align: middle;
+  min-height: 450px;
+  height: auto;
 }
 </style>
