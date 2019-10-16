@@ -59,7 +59,7 @@
           , "text": "AICAD Business School in the last 10 years has placed thousands of students from a multitude of universities in Spain and around Europe in the world of work. As a collaborating center for trainees at the University of Las Palmas de Gran Canaria."
         }
       ],
-      "p18s3texts1": "In Las Palmas de Gran Canaria, Dr. Rafael Robaina Romero"
+      "p18s3texts1": " "
   },
   "es":{
     "p18s3titulo": [
@@ -74,7 +74,7 @@
           , "text": "AICAD Business School en los últimos 10 años ha colocado miles de alumnos de multitud de unversidades de España y alrededor de Europa en el mundo laboral. Como centro colaborador para alumnos en prácticas de la universidad de las Palmas de Gran Canaria."
         }
       ],
-      "p18s3texts1": "En las Palmas de Gran Canaria, Dr. Rafael Robaina Romero"
+      "p18s3texts1": " "
   }
 }
 </i18n>

@@ -25,6 +25,25 @@ export default {
 </script>
 
 <style lang="scss">
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #7DD2D9;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #009090;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #007c7c;
+  }
 @import "assets/font-awesome-4.7.0/css/font-awesome.min.css";
 @import "assets/css/master-postgrado/bootstrap.min.css";
 @import "assets/css/master-postgrado/main.css";

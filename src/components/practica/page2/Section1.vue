@@ -170,7 +170,7 @@ export default {
   h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;}
   h3{font-family: "Lato Medium", sans-serif !important; color: whitesmoke; background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
   li{font-family: "Lato Light", sans-serif !important; color: whitesmoke;}
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("../../../assets/new_imgs/Banner-3-pasos.jpg");
+  background: linear-gradient(0deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.50) 100%), url("../../../assets/new_imgs/Banner-3-pasos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
