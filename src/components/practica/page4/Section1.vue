@@ -82,7 +82,7 @@ export default {
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center left;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-convenio-prácticas.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.50) 100%), url("~@/assets/new_imgs/Banner-convenio-prácticas.jpg");
   vertical-align: middle;
   min-height: 450px;
   height: auto;
