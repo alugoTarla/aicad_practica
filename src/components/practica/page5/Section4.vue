@@ -46,7 +46,8 @@
 export default {
   data() {
     return {
-      p5s4img: require("@/assets/images/banners/panel-de-control.jpg")
+      p5s4img: require("@/assets/images/banners/page5/Jobboards-reconocidos.jpg")
+      // p5s4img: require("@/assets/images/banners/panel-de-control.jpg")
     };
   }
 };

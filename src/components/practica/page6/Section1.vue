@@ -7,11 +7,11 @@
           <b-col md="9" lg="10" class="text-left">
             <div>
             <br />
-              <h2>
+              <h1>
                 {{$t("p6s1title1")}}
                 <br />
                 {{$t("p6s1title2")}}
-              </h2>
+              </h1>
               <br />
               <p>{{$t("p6s1title3")}}</p>
             <br />
@@ -66,8 +66,8 @@ export default {
 
 <style lang="scss">
 .p6s1fondoFwhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
     padding: 20px;
@@ -81,7 +81,8 @@ export default {
   background-attachment: scroll;
   background-position: center center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-prácticas-empresa.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-membresia-vip2.jpg");
+  // background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-prácticas-empresa.jpg");
   min-height: 500px;
   height: auto;
   p {

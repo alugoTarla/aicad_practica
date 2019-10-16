@@ -5,7 +5,7 @@
         <b-container>
           <br />
           <b-row align-v="center" align-h="center">
-            <b-col md="9" sm="12" class="text-center">
+            <b-col md="9" sm="12" class="text-center pt-5">
               <br>
               <h1 style="font-size: 3em !important;">{{$t("p5s1title1")}}</h1>
               <br>

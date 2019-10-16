@@ -46,12 +46,8 @@
 export default {
   data() {
     return {
-      p5s5title1: "3. Cada oferta será visible en Google en tiempo record",
-      p5s5desc1:
-        "Dependiendo las Keywords que uses, te ayudaremos a subir a los primeros lugares de búsqueda de todas tus ofertas de prácticas, para que tengan el espacio que merecen en Internet.",
-      p5s5desc2:
-        "Cada oferta de empleo o prácticas en empresas contará con una url propia y amigable al SEO que la hace susceptible de ser encontrada en buscadores y de ser compartida en redes sociales.",
-      p5s5img: require("@/assets/images/banners/resenas.jpg")
+      p5s5img: require("@/assets/images/banners/page5/Google-tiempo-record.jpg")
+      // p5s5img: require("@/assets/images/banners/resenas.jpg")
     };
   }
 };

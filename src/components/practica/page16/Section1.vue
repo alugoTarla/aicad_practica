@@ -3,21 +3,19 @@
     <div class="p16s1fondoFwhite">
       <div class="overlay">
         <b-container fluid>
-          <b-container class="text-center">
+          <b-container class="text-center pt-5">
             <br />
-            <br />
-            <h2>
+            <h1>
               <div v-for="(item, idx) in p16s1titulos" :key="idx">
                 {{item}}
               </div>
-            </h2>
+            </h1>
             <br />
             <b-row align-h="center" align-v="center">
               <b-col md="10" sm="12">
                 <h3>{{$t("p16s1titulos2")}}</h3>
               </b-col>
             </b-row>            
-            <br />
             <br />
           </b-container>
         </b-container>
@@ -61,8 +59,8 @@ export default {
 <style lang="scss">
 
 .p16s1fondoFwhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
     padding: 20px;

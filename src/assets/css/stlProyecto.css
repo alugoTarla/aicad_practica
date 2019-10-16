@@ -809,24 +809,32 @@ p {
 
 .p14cardContentH {
 	position: relative;
-	height: 28vh;
+	height: 9em;
+	border-top-left-radius: 2.5em !important;
+	border-top-right-radius: 2.5em !important;
 }
 
 .p14cardContentB {
 	position: relative;
-	height: 25vh;
+	height: 10em;
 	top: 1em;
 	margin: 2em 1em;
 }
 
 .p14cardContentF {
 	position: relative;
-	height: 8vh;
+	height: 4em;
+	border-bottom-left-radius: 2.5em !important;
+	border-bottom-right-radius: 2.5em !important;
+}
+
+.p14cardContentF p {
+	font-weight: 600;
 }
 
 .p14cardImport {
 	position: absolute;
-	top: 20vh;
+	top: 6.5em;
 	left: calc(50% - 3em);
 	padding: 0.8em;
 	border-color: white;
@@ -924,7 +932,7 @@ p {
 
 .iframeIG {
 	width: 100%;
-	height: 25em;
+	height: 28em;
 }
 
 .cardd {

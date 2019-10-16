@@ -3,8 +3,7 @@
     <div class="p18s1fondoWhite">
       <div class="wrapper">
         <b-container fluid>
-          <b-container class="text-center">
-            <br />
+          <b-container class="text-center pt-4">
             <br />
             <h1>
               <div v-for="(item, idx) in p18s1Title" :key="idx">{{item}}</div>
@@ -26,7 +25,6 @@
               </a>
             </div>
             <br />
-            <br />
           </b-container>
         </b-container>
       </div>
@@ -38,8 +36,7 @@
 {
   "en":{
     "p18s1Title": [
-      "Simplify student access to all internship offers"
-      ," in companies of reputation and career opportunities"
+      "Simplify student access to all internship offers in companies of reputation and career opportunities"
     ]
     , "p18s1SubTitle": [
       {
@@ -53,8 +50,7 @@
   },
   "es":{
     "p18s1Title": [
-      "Simplifica el acceso de los estudiantes a todas las ofertas"
-      ," de prácticas en empresas de prestigio y trayectoria"
+      "Simplifica el acceso de los estudiantes a todas las ofertas de prácticas en empresas de prestigio y trayectoria"
     ]
     , "p18s1SubTitle": [
       {
@@ -91,8 +87,8 @@ export default {
 <style lang="scss">
 
 .p18s1fondoWhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
     padding: 20px;

@@ -46,7 +46,8 @@
 export default {
   data() {
     return {
-      p5s8img: require("@/assets/images/banners/Copia-di-DSC_2664-big-1.jpg")
+      p5s8img: require("@/assets/images/banners/page5/P2XMQ4R.jpg")
+      // p5s8img: require("@/assets/images/banners/Copia-di-DSC_2664-big-1.jpg")
     };
   }
 };

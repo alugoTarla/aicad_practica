@@ -46,12 +46,8 @@
 export default {
   data() {
     return {
-      p5s7title1: "5. Enriquecemos el contenido de las ofertas de prácticas en empresas con las mejores Keywords para ganar impacto rápido",
-      p5s7desc1:
-        "Cada oferta de prácticas en empresas o empleo debe ser tan atractiva y visualmente estética con un diseño limpio que genere confianza y motive a registrarse.",
-      p5s7desc2:
-        "El equipo copy writer de nuestras oficinas crean el contenido de las ofertas de empleo o prácticas en empresas para hacerlas interesantes, fáciles leer, fomentando así el interés en aplicar a la oferta.",
-      p5s7img: require("@/assets/images/banners/keywords.jpg")
+      p5s7img: require("@/assets/images/banners/page5/empresas-keyword.jpg")
+      // p5s7img: require("@/assets/images/banners/keywords.jpg")
     };
   }
 };

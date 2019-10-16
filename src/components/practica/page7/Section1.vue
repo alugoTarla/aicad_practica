@@ -6,7 +6,7 @@
         <b-row align-v="center" align-h="center" v-responsive.md.lg.xl>
           <b-col lg="8" md="10" class="text-left">
             <br />
-            <h2>{{$t("p7s1title1")}}</h2>
+            <h1>{{$t("p7s1title1")}}</h1>
             <br />
             <p>{{$t("p7s1title2")}}</p>
             <br />
@@ -53,8 +53,8 @@ export default {
 
 <style lang="scss">
 .p7s1fondoFwhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
     padding: 20px;

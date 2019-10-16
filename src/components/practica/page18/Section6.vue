@@ -73,7 +73,6 @@ export default {
   h2 {
     font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
-    background: #00000033;
     border-radius: 1em;
     padding: 1em;
   };

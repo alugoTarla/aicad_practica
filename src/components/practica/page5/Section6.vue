@@ -46,7 +46,8 @@
 export default {
   data() {
     return {
-      p5s6img: require("@/assets/images/banners/estadisticas.jpg")
+      p5s6img: require("@/assets/images/banners/page5/posicionamiento-online.jpg")
+      // p5s6img: require("@/assets/images/banners/estadisticas.jpg")
     };
   }
 };

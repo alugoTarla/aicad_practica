@@ -3,14 +3,14 @@
     <div class="p17s1fondoFwhite">
       <div class="overlay">
         <b-container fluid>
-          <b-container class="text-center">
+          <b-container class="text-center pt-3">
             <br />
             <br />
-            <h2 >
+            <h1 >
               <div v-for="(item, idx) in p17s1titulos" :key="idx">
                 {{item}}
               </div>
-            </h2>
+            </h1>
             <br />
             <b-row align-h="center" align-v="center">
               <b-col md="10" sm="12">
@@ -30,18 +30,16 @@
 {
   "en":{
     "p17s1titulos": [
-        "Find out about the benefits we offer to",
-        "Work and Travel universities and agencies to help",
-        "The students to find internships in Spain"
+        "Find out about the benefits we offer to "
+        ,"Work and Travel universities and agencies to help the students to find internships in Spain"
       ],
     "p17s1titulos2":
         "We facilitate students’ access to numerous internship offers throughout Spain so they can live a unique professional experience."  
   },
   "es":{
     "p17s1titulos": [
-        "Infórmate sobre los beneficios que ofrecemos a las",
-        "universidades y agenciad de Work and Travel para ayudar",
-        "a estudiantes a encontrar prácticas profesionales en España"
+        "Infórmate sobre los beneficios que ofrecemos a las universidades y agenciad "
+        ,"de Work and Travel para ayudar a estudiantes a encontrar prácticas profesionales en España"
       ],
     "p17s1titulos2":
         "Facilitamos el acceso de los estudiantes a numerosas ofertas de prácticas en empresas de toda España para que vivan una experiencia profesional única."  
@@ -67,8 +65,8 @@ export default {
 <style lang="scss">
 
 .p17s1fondoFwhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
     padding: 20px;
