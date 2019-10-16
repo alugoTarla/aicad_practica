@@ -3,22 +3,19 @@
     <div class="p4s1fondoFwhite">
       <div class="wrapper">
         <b-container>
-          <b-container class="text-center">
+          <b-container class="text-center pt-3 pb-5">
             <br />
             <b-row align-v="center" align-h="center">
               <b-col sm="12" md="10" lg="8">
                 <br />
                 <h2>{{$t("p4s1Title")}}</h2>
-                <br />
                 <h3>{{$t("p4s1SubTitle")}}</h3>
               </b-col>
             </b-row>
-            <br />
             <div>
               <div class="buttonfix2">
                 <span>{{$t("p4s1Button1")}}</span>
               </div>
-              <br>
               <a class="btn buttonWhite-outline" :href="p4s1url">
                 <span>
                   <strong>&nbsp;{{$t("p4s1Button2")}}</strong>

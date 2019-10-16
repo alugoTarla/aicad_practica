@@ -1,6 +1,5 @@
 <template>
   <div id="section4">
-    <div class="wrapper">
       <div class="fondoWhite">
         <b-container fluid>
           <b-container>
@@ -110,7 +109,6 @@
         <br />
       </div>
     </div>
-  </div>
 </template>
 
 <i18n>
@@ -269,7 +267,7 @@ export default {
           p11s4icon: require("@/assets/images/vectores/page11/route-1.png")
         }
       ],
-      p11s4card2Text2_: "",
+      p11s4card2Text2_: this.$t("p11s4card2TextRef"),
       p11s4DatoB1base: 390,
       p11s4DatoB1var: 55,
       p11s4DatoB1fre: [0,0,1,2,3,4,5,6,7,8,9,10],
@@ -309,10 +307,6 @@ export default {
     }
   },
   computed: {
-    p11s4card2Text2() {
-      this.p11s4card2Text2_ = this.$t("p11s4card2TextRef");
-      return this.p11s4card2Text2_;
-    },
     p11s4list() {
       return this.$t("p11s4list");
     },

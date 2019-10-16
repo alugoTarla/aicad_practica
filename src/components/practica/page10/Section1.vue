@@ -4,9 +4,9 @@
       <b-container fluid>
         <br />
         <b-row align-v="center" align-h="center" v-responsive.md.lg.xl>
-          <b-col lg="8" md="8" class="text-left">
+          <b-col lg="8" md="8" class="text-left pt-5">
             <br />
-            <h2>{{$t("p10s1title1")}}</h2>
+            <h1>{{$t("p10s1title1")}}</h1>
             <br />
             <p>{{$t("p10s1title2")}}</p>
             <br />
@@ -54,8 +54,8 @@ export default {
 
 <style lang="scss">
 .p10s1fondoFwhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
     padding: 20px;

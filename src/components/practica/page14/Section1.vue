@@ -1,8 +1,8 @@
 <template>
   <div id="section1">
-    <div class="p14s1fondoFwhite">
+    <div class="p14s1fondoFwhite pt-5 ">
       <b-container fluid>
-        <b-container class="text-center pt-5 pb-5">
+        <b-container class="text-center pt-5">
           <br />
           <h1>
             <span v-for="(item, index) in p14s1title" :key="index">
@@ -55,32 +55,23 @@ export default {
 <style lang="scss">
 
 .p14s1fondoFwhite {
-  h2 {
-    font-family: "Lato Medium", sans-serif !important;
+  h1 {
+    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     text-align: center !important;
-    padding: 20px;
-    border-radius: 1em;
+    padding: 1em;
     margin: 0 auto;
     max-width: 800px;
   };
-  color: white;
+  color: whitesmoke;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner5.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/banner-contratar-seguro.jpg");
+  // background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner5.jpg");
   min-height: 500px;
   height: auto;
-  p {
-    font-family: "Lato Medium", sans-serif !important;
-    color: whitesmoke;
-    text-align: center !important;
-    border-radius: 1em;
-    padding: 0.5em;
-    margin: 0 auto;
-    max-width: 800px;
-  };
 }
 </style>

@@ -46,7 +46,8 @@
 export default {
   data() {
     return {
-      p5s9img: require("@/assets/images/banners/Image1-1-1080x675.jpg")
+      p5s9img: require("@/assets/images/banners/page5/P6AMUS6.jpg")
+      // p5s9img: require("@/assets/images/banners/Image1-1-1080x675.jpg")
     };
   }
 };

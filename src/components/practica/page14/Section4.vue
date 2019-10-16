@@ -1,5 +1,5 @@
 <template>
-  <div id="section2">
+  <div id="section4">
     <div class="fondoClaro">
       <b-container fluid>
         <b-container class="text-center">
@@ -15,7 +15,7 @@
             <b-col lg="4" md="6" sm="13" 
             v-for="(item, idx) in p14s4list" :key="idx"
             class="text-center" >
-              <b-card class="p14card" footer-tag="footer">
+              <b-card class="p14card cardd" footer-tag="footer">
                 <b-card-header class="text-center p14cardContentH" >
                   <h3>
                     {{item.p14s4t1}}

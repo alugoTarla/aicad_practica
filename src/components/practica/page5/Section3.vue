@@ -46,7 +46,8 @@
 export default {
   data() {
     return {
-      p5s3img: require("@/assets/images/banners/4.png")
+      p5s3img: require("@/assets/images/banners/page5/primeros-lugares-de-google.jpg")
+      // p5s3img: require("@/assets/images/banners/4.png")
     };
   }
 };

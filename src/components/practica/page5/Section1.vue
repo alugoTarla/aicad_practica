@@ -5,7 +5,7 @@
         <b-container>
           <br />
           <b-row align-v="center" align-h="center">
-            <b-col md="9" sm="12" class="text-center">
+            <b-col md="9" sm="12" class="text-center pt-5">
               <br>
               <h1 style="font-size: 3em !important;">{{$t("p5s1title1")}}</h1>
               <br>
@@ -66,7 +66,8 @@ export default {
   background-attachment: scroll;
   background-position: center center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-membresia-vip2.jpg");
+  // background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
   min-height: 500px;
   height: auto;
 }
