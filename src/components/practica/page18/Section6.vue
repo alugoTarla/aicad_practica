@@ -71,13 +71,11 @@ export default {
 <style lang="scss">
 .p18s6imgfondo{
   h2 {
-    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
     border-radius: 1em;
     padding: 1em;
   };
   p {
-    font-family: "Lato Light", sans-serif !important;
     color: whitesmoke;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 1em;

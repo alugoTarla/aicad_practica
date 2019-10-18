@@ -12,12 +12,12 @@
     "p10ssubtitlep4": "Contact us to publish an internship offer",
     "p10ssubtitlep5": "It is as simple as completing the form, write or call us. We will help you.",
     "p10ssubtitlep6": "Post publish ",
-    "p10ssubtitlep7": "your internship offer"
+    "p10ssubtitlep7": "Your internship offer"
   },
   "es":{
     "p10ssubtitlep4": "Contáctanos para publicar una oferta de prácticas en empresas",
     "p10ssubtitlep5": "Es tan simple como completar el formulario, escribirnos o llamarnos. Nosotros te ayudaremos.",
-    "p10ssubtitlep6": "Publica gratuitamente tu",
+    "p10ssubtitlep6": "Publica gratis",
     "p10ssubtitlep7": "Oferta de prácticas en empresas"
   }
 }

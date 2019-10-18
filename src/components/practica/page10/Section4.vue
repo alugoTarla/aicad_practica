@@ -34,10 +34,7 @@
           <br />
           <div>
             <a class="btn buttonTurqueza" :href="p10s4url">
-              <span>{{$t("p10s4button")}}</span>
-              <span>
-                <strong>{{$t("p10s4buttonS")}}</strong>
-              </span>
+              <strong>{{$t("p10s4buttonS")}}</strong>
             </a>
           </div>
           <br />
@@ -56,8 +53,7 @@
         "p10s4titleS": true
       }
     ],
-    "p10s4button": "Read more about ",
-    "p10s4buttonS": "the Internship Agreements and Social Security",
+    "p10s4buttonS": "Read more about ",
     "p10s4items": [
       {
         "p10s4title":
@@ -104,8 +100,7 @@
         "p10s4titleS": true
       }
     ],
-    "p10s4button": "Lee más sobre los ",
-    "p10s4buttonS": "Convenios de prácticas en empresas y Seguridad social",
+    "p10s4buttonS": "Más información",
     "p10s4items": [
       {
         "p10s4title":

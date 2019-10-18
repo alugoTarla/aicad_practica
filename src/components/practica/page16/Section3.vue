@@ -27,13 +27,7 @@
             </b-col>
           </b-row>
           <br />
-          <div>
-            <a class="btn buttonTurqueza" :href="p16s4url" target="_blank">
-              {{$t("p16s4button")}}
-              <strong>{{$t("p16s4buttonS")}}</strong>
-            </a>
-          </div>
-          <br />
+          
         </b-container>
       </b-container>
     </div>
@@ -49,8 +43,6 @@
         , "titulo": "Become a Partner Agency and enjoy the benefits of collaborating with AICAD Business School"
       }
     ],
-    "p16s4button": "Become a partner agency",
-    "p16s4buttonS": "Contact us",
     "p16s3items": [
       {
         "p16s3title": "We have offers all year",
@@ -91,8 +83,6 @@
         , "titulo": "Hazte Agencia Partner y disfruta de los beneficios de colaborar con AICAD Business School"
       }
     ],
-    "p16s4button": "Hazte agencia partner",
-    "p16s4buttonS": "CONTÁCTANOS",
     "p16s3items": [
       {
         "p16s3title": "Contamos con ofertas todo el año",

@@ -54,10 +54,7 @@ export default {
 <style lang="scss">
 .p5s1fondoFwhite {
   h1 {
-    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    /*background: #00000033;*/
-    border-radius: 1em;
     padding: 0.5em;
   };
   color: white;
@@ -66,8 +63,8 @@ export default {
   background-attachment: scroll;
   background-position: center center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.50) 100%), url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.50)), url("~@/assets/new_imgs/Banner-membresia-vip2.jpg");
+  // background-image: linear-gradient(rgba(0,0,0,0.50)), url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
   min-height: 500px;
-  height: auto;
 }
 </style>

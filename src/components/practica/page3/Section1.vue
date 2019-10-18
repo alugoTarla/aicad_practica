@@ -1,25 +1,21 @@
 <template>
   <div id="section1">
     <div class="p3s1fondoWhite">
-      <div class="wrapper">
-        <b-container fluid>
-          <b-container class="text-center">
+      <b-container fluid>
+        <b-container class="text-center pt-3">
+          <h1>{{$t("p3s1Title")}}</h1>
+          <br />
+          <h1>{{$t("p3s1SubTitle")}}</h1>
+          <br />
+          <a class="btn buttonTurqueza" :href="s1url">
+            {{$t("p3s1Button1")}}
             <br />
-            <h1 class="p3s1h2">{{$t("p3s1Title")}}</h1>
-            <br />
-            <h2 class="p3s1h2">{{$t("p3s1SubTitle")}}</h2>
-            <br />
-            <a class="btn buttonTurqueza" :href="s1url">
-              {{$t("p3s1Button1")}}
-              <br />
-            </a>
-            <div class="buttonfix2">
-              <strong>{{$t("p3s1Button2")}}</strong>
-            </div>
-            <br />
-          </b-container>
+          </a>
+          <div class="buttonfix2">
+            <strong>{{$t("p3s1Button2")}}</strong>
+          </div>
         </b-container>
-      </div>
+      </b-container>
     </div>
   </div>
 </template>
@@ -51,26 +47,21 @@ export default {
 };
 </script>
 
-<style>
-.p3s1h2 {
-  font-family: "Lato Heavy", sans-serif !important;
-  color: whitesmoke;
-  /*background: rgba(0, 0, 0, 0.4);*/
-  border-radius: 1em;
-  padding: 1em;
-}
+<style lang="scss">
 
 .p3s1fondoWhite {
+  h1 {
+    color: whitesmoke;
+    padding: 1em;
+  }
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.50) 100%), url("~@/assets/new_imgs/Banner-unete.jpg");
-  padding: 2rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("~@/assets/new_imgs/Banner-unete.jpg");
   vertical-align: middle;
   min-height: 500px;
-  height: auto;
 }
 </style>

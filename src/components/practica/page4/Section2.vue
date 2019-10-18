@@ -5,7 +5,7 @@
         <b-container>
           <br />
           <b-row>
-            <b-col sm="12" md="8">
+            <b-col sm="12" md="12" lg="8">
               <h2>{{$t("p4s2Title")}}</h2>
               <b-row>
                 <b-col 
@@ -20,7 +20,7 @@
                 </b-col>
               </b-row>
             </b-col>
-            <b-col sm="12" md="4">
+            <b-col sm="12" md="12" lg="4">
               <b-card class="p4card">
                 <b-card-title class="p4cardtitle">
                   {{$t("p4s2Title1")}}

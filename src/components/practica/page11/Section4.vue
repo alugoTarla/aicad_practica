@@ -32,9 +32,9 @@
                 <b-row>
                   <b-col md="6" sm="12" v-for="(item, idx) in p11s4list" :key="idx">
                     <div class="text-center">
-                      <a class="btn buttonTurqueza btn-lg" :href="item.p11s1url">
+                      <a class="btn buttonTurqueza" :href="item.p11s1url">
                         {{item.p11s4boton}}
-                        <strong>{{item.p11s4botonS}}</strong>
+                        <div>{{item.p11s4botonS}}</div>
                       </a>
                     </div>
                     <br />

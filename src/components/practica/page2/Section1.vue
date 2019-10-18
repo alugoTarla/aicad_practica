@@ -1,38 +1,38 @@
 <template>
   <div id="section1">
-    <div class="wrapper">
-      <div class="fondoGrisClarop2s1">
-        <b-container fluid>
-          <b-container class="text-center">
+    <div class="fondoGrisClarop2s1">
+      <b-container fluid>
+        <b-container class="text-center">
           <br />
           <h2>{{$t("s1title1")}}</h2>
           <h3>{{$t("s1title2")}}</h3>
-          <br />
-            <b-row align-h="center">
-              <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in s1items" :key="idx">
-                <div class="text-center p2s1Card">
-                  <div class="p2fondoIconos">
-                    <b-img :src="s1itemsI[idx].s1img" />
-                  </div>
-                  <div>
-                    <h2>{{item.s1ititle}}</h2>
-                  </div>
-                  <div class="p2s1ol">
-                    <ol>
-                      <li
-                        v-for="(sitem, idx1) in item.s1sub"
-                        :key="idx1" >
-                        {{sitem.s1subi}}
-                      </li>
-                    </ol>
-                  </div>
+          <b-row align-h="center">
+            <b-col
+              lg="4"
+              md="6"
+              sm="12"
+              class="text-center"
+              v-for="(item, idx) in s1items"
+              :key="idx"
+            >
+              <div class="text-center p2s1Card cardd">
+                <div class="p2fondoIconos">
+                  <b-img :src="s1itemsI[idx].s1img" />
                 </div>
-                <br>
-              </b-col>
-            </b-row>
-          </b-container>
+                <div>
+                  <h2>{{item.s1ititle}}</h2>
+                </div>
+                <div class="p2s1ol">
+                  <ol>
+                    <li v-for="(sitem, idx1) in item.s1sub" :key="idx1">{{sitem.s1subi}}</li>
+                  </ol>
+                </div>
+              </div>
+              <br />
+            </b-col>
+          </b-row>
         </b-container>
-      </div>
+      </b-container>
     </div>
   </div>
 </template>
@@ -155,28 +155,35 @@ export default {
           s1img: require("@/assets/images/vectores/page2/confirma.png")
         }
       ]
-    }
+    };
   },
   computed: {
     s1items() {
-      return this.$t("s1items"); 
+      return this.$t("s1items");
     }
   }
 };
 </script>
 
 <style lang="scss">
-.fondoGrisClarop2s1{
-  h2{font-family: "Lato Heavy", sans-serif !important; color: whitesmoke;}
-  h3{font-family: "Lato Medium", sans-serif !important; color: whitesmoke; background: rgba(200,200,200,0.4); border-radius: 20px; padding: 20px;}
-  li{font-family: "Lato Light", sans-serif !important; color: whitesmoke;}
-  background: linear-gradient(0deg, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.50) 100%), url("../../../assets/new_imgs/Banner-3-pasos.jpg");
+.fondoGrisClarop2s1 {
+  h2 {
+    color: whitesmoke;
+  }
+  h3 {
+    color: whitesmoke;
+    background: rgba(200, 200, 200, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  li {
+    color: whitesmoke;
+  }
+  background: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("~@/assets/new_imgs/Banner-3-pasos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
-  height: auto;
 }
-
-
 </style>

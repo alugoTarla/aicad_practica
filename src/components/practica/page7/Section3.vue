@@ -6,20 +6,23 @@
           <b-container class="text-center">
             <b-row align-h="center" >
               <b-col cols lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in p7s3items" :key="idx">
-                <div class="p7s3fondoIconos">
-                  <b-img :src="p7s3itemsI[idx].p7s3img" />
-                </div>
-                <br>
-                <h3>{{item.p7s3ititle}}</h3>
-                <div class="p7s3ul">
-                  <ul>
-                    <li
-                      class="text-justify p7s3li"
-                      v-for="(sitem, idx1) in item.p7s3sub"
-                      :key="idx1"
-                    >{{sitem.p7s3subi}}</li>
-                  </ul>
-                </div>
+                <b-card class="p2card cardd1" >
+                  <div class="p2fondoIconos">
+                    <b-img :src="p7s3itemsI[idx].p7s3img" />
+                  </div>
+                  <b-card-title class="p2cardtitle">{{item.p7s3ititle}}</b-card-title>
+                  <b-card-body class="p2cardbody">
+                    <div class="p7s3ul">
+                      <ul>
+                        <li
+                          class="text-justify p7s3li"
+                          v-for="(sitem, idx1) in item.p7s3sub"
+                          :key="idx1"
+                        >{{sitem.p7s3subi}}</li>
+                      </ul>
+                    </div>
+                  </b-card-body>
+                </b-card>
               </b-col>
             </b-row>
           </b-container>
@@ -153,16 +156,10 @@ export default {
 </script>
 
 <style>
-.p7s3fondoIconos img{
-  width: auto;
-  height: 6rem;
-}
+
 .p7s3ul {
   padding: 0 0.9rem;
+  font-size: 0.9em !important;
 }
-.p7s3li ul li{
-  font-size: 0.9em;
-  font-weight: 400;
-  line-height: 1.2em;
-}
+
 </style>

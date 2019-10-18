@@ -6,8 +6,10 @@
       @click="$emit('toggleMenu')"
     />
     <ul class="main-menu">
-      <li v-for="n in page_pe" :key="(n)" 
-          @click="menuClicked('page_pe'+n)">{{ $t('message.pe.page'+n) }} </li>      
+      <li v-for="n in page_pe" :key="(n)"  @click="menuClicked('page_pe'+n)">
+         {{n + '-'}} 
+         {{ $t('message.pe.page'+n) }}
+      </li>      
     </ul>
   </div>
 </template>

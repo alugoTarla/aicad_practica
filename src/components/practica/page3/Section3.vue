@@ -38,8 +38,6 @@
 export default {
   data() {
     return {
-      p3s3Title: "Cuéntanos más sobre ti y te ayudaremos a elegir el mejor puesto para crecer profesionalmente",
-      p3s3Texto1: "En AICAD Business School te brindamos la oportunidad de conocer nuestras ofertas en entornos laborales que te permitirán potenciar tus habilidades y crecer en la posición que sea la más adecuada para tu área y conocimientos. Tendrás de primera mano la experiencia del mundo laboral con nosotros mientras te ayudamos a convertirte en un profesional competente y altamente capacitado."
     }
   }
 };

@@ -11,7 +11,7 @@
             </span>
           </h2>
           <br />
-          <b-row>
+          <b-row align-h="center">
             <b-col lg="4" md="6" sm="13" 
             v-for="(item, idx) in p14s3list" :key="idx"
             class="text-center" >
@@ -50,12 +50,13 @@
                   </p>
                 </b-card-footer>
               </b-card>
+              <br>
             </b-col>
           </b-row>
           
           <div>
             <b-modal id="bm1p14s3" 
-              hide-footer 
+              hide-footer hide-header
               scrollable centered  >
               <br>
               <br>

@@ -56,12 +56,8 @@ export default {
 
 .p14s1fondoFwhite {
   h1 {
-    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
-    text-align: center !important;
-    padding: 1em;
-    margin: 0 auto;
-    max-width: 800px;
+    padding: 1.5em;
   };
   color: whitesmoke;
   background-size: cover;
@@ -69,9 +65,8 @@ export default {
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/banner-contratar-seguro.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5)), url("~@/assets/new_imgs/Banner-seguro.jpg");
   // background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner5.jpg");
   min-height: 500px;
-  height: auto;
 }
 </style>

@@ -64,16 +64,12 @@ export default {
 .p7s4fondoFwhite {
   color: whitesmoke;
   h1 {
-    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    background: rgba(0, 0, 0, 0.2);
     border-radius: 1em;
     padding: 0.3em;
   };
   h3 {
-    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    background: rgba(0, 0, 0, 0.2);
     border-radius: 1em;
     padding: 0.3em 1em;
   };

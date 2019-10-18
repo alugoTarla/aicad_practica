@@ -17,7 +17,7 @@
                 <b-img :src="p8s1itemsI[idx].p8s1img"></b-img>
               </div>
               <div class="p8s1sliderFoo">
-                <h1>{{item.p8s1title}}</h1>
+                <h2>{{item.p8s1title}}</h2>
               </div>
             </div>
           </slide>
@@ -113,22 +113,19 @@ export default {
 	top: 0;
   left: 0;
 	width: 100%;
+  height: 500px;
 	object-fit: cover;
   object-position: center;
-  @media (max-width: 768px) {
-    height: 100%;
-	  width: auto;
-  }
+  background: rgba(0,0,0,0.5);
 }
 
 .p8s1sliderFoo {
   top: -4em;
   bottom: 1em;
   position: relative;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.5);
   margin: 0 0 -10em;
-  h1 { 
-	  padding: 1em;
+  h2 {
     @media (max-width: 1024px) {
       font-size: 1.75em !important;
     }
@@ -138,7 +135,7 @@ export default {
     @media (max-width: 425px) {
       font-size: 1.1em !important;
     }
+    padding: 1em 0.5em !important;
   }
-
 }
 </style>

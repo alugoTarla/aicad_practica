@@ -5,14 +5,14 @@
         <b-container class="text-center">
           <b-row align-h="center">
             <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item, idx) in p3items" :key="idx">
-              <b-card :img-src="p3itemsI[idx].p3img" class="p3card cardd" footer-tag="footer">
+              <b-card :img-src="p3itemsI[idx].p3img" class="p3card cardd1" footer-tag="footer">
                 <div class="picon">
                   <font-awesome-icon :icon="['fas','user-circle']"  
                   style="background-color: silver; border-radius: 60px; border: 0.1rem; border-style: solid;" />
                 </div>
                 <b-card-title class="p3cardtitle">{{item.p3title}}</b-card-title>
                 <b-card-body class="p3cardbody">{{item.p3descript}}</b-card-body>
-                <b-card-footer class="p3cardfooter" >
+                <b-card-footer class="p3cardfooter" slot="footer">
                   <a :href="item.p3url">
                     {{item.p3link}}
                   </a>

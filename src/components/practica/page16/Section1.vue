@@ -1,25 +1,21 @@
 <template>
   <div id="section1">
     <div class="p16s1fondoFwhite">
-      <div class="overlay">
-        <b-container fluid>
-          <b-container class="text-center pt-5">
-            <br />
-            <h1>
-              <div v-for="(item, idx) in p16s1titulos" :key="idx">
-                {{item}}
-              </div>
-            </h1>
-            <br />
-            <b-row align-h="center" align-v="center">
-              <b-col md="10" sm="12">
-                <h3>{{$t("p16s1titulos2")}}</h3>
-              </b-col>
-            </b-row>            
-            <br />
-          </b-container>
+      <b-container fluid>
+        <b-container class="text-center pt-5">
+          <br />
+          <h1>
+            <div v-for="(item, idx) in p16s1titulos" :key="idx">{{item}}</div>
+          </h1>
+          <br />
+          <b-row align-h="center" align-v="center">
+            <b-col md="10" sm="12">
+              <h3>{{$t("p16s1titulos2")}}</h3>
+            </b-col>
+          </b-row>
+          <br />
         </b-container>
-      </div>
+      </b-container>
     </div>
   </div>
 </template>
@@ -57,34 +53,25 @@ export default {
 </script>
 
 <style lang="scss">
-
 .p16s1fondoFwhite {
   h1 {
-    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
-    text-align: center !important;
-    padding: 20px;
-    border-radius: 1em;
-    margin: 0 auto;
-    max-width: 800px;
-  };
+    padding: 1.5em;
+  }
+  p {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    padding: 0.5em;
+  }
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/new_imgs/Banner-work-travel.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("~@/assets/new_imgs/Banner-work-travel.jpg");
   min-height: 500px;
   height: auto;
-  p {
-    font-family: "Lato Medium", sans-serif !important;
-    color: whitesmoke;
-    text-align: center !important;
-    border-radius: 1em;
-    padding: 0.5em;
-    margin: 0 auto;
-    max-width: 800px;
-  };
 }
 </style>

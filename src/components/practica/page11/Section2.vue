@@ -28,7 +28,6 @@
           <br />
           <div>
             <a class="btn buttonTurqueza" :href="p11s4url">
-              {{$t("p11s4button")}}
               <strong>{{$t("p11s4buttonS")}}</strong>
             </a>
           </div>
@@ -48,8 +47,7 @@
         "p11s2titleS": true
       }
     ],
-    "p11s4button": "Check the",
-    "p11s4buttonS": "Internship offers in available companies",
+    "p11s4buttonS": "Check available offers",
       "p11s2items": [
       {
         "p11s2title": "We manage internships in companies since 2010",
@@ -95,9 +93,8 @@
         "p11s2titleS": true
       }
     ],
-    "p11s4button": "Consulta las",
-    "p11s4buttonS": "Ofertas de prácticas en empresas disponibles ",
-      "p11s2items": [
+    "p11s4buttonS": "Consulta ofertas disponibles",
+    "p11s2items": [
       {
         "p11s2title": "Gestionamos prácticas en empresas desde 2010",
         "p11s2descript":

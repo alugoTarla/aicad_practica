@@ -1,27 +1,19 @@
 <template>
   <div id="section1">
     <div class="p17s1fondoFwhite">
-      <div class="overlay">
-        <b-container fluid>
-          <b-container class="text-center pt-3">
-            <br />
-            <br />
-            <h1 >
-              <div v-for="(item, idx) in p17s1titulos" :key="idx">
-                {{item}}
-              </div>
-            </h1>
-            <br />
-            <b-row align-h="center" align-v="center">
-              <b-col md="10" sm="12">
-                <h3>{{$t("p17s1titulos2")}}</h3>
-              </b-col>
-            </b-row>            
-            <br />
-            <br />
-          </b-container>
+      <b-container fluid>
+        <b-container class="text-center pt-2">
+          <h1>
+            <div v-for="(item, idx) in p17s1titulos" :key="idx">{{item}}</div>
+          </h1>
+          <br />
+          <b-row align-h="center" align-v="center">
+            <b-col md="10" sm="12">
+              <h3>{{$t("p17s1titulos2")}}</h3>
+            </b-col>
+          </b-row>
         </b-container>
-      </div>
+      </b-container>
     </div>
   </div>
 </template>
@@ -38,8 +30,8 @@
   },
   "es":{
     "p17s1titulos": [
-        "Infórmate sobre los beneficios que ofrecemos a las universidades y agenciad "
-        ,"de Work and Travel para ayudar a estudiantes a encontrar prácticas profesionales en España"
+        "Infórmate sobre los beneficios que ofrecemos a las universidades y agenciad de "
+        ,"Work and Travel para ayudar a estudiantes a encontrar prácticas profesionales en España"
       ],
     "p17s1titulos2":
         "Facilitamos el acceso de los estudiantes a numerosas ofertas de prácticas en empresas de toda España para que vivan una experiencia profesional única."  
@@ -50,9 +42,7 @@
 <script>
 export default {
   data() {
-    return {
-      p17s1Img: require()
-    };
+    return {};
   },
   computed: {
     p17s1titulos() {
@@ -63,34 +53,23 @@ export default {
 </script>
 
 <style lang="scss">
-
 .p17s1fondoFwhite {
   h1 {
-    font-family: "Lato Heavy", sans-serif !important;
     color: whitesmoke;
-    text-align: center !important;
-    padding: 20px;
-    border-radius: 1em;
-    margin: 0 auto;
-    max-width: 800px;
-  };
+    padding: 1.5em;
+  }
+  p {
+    font-family: "Lato Medium", sans-serif !important;
+    color: whitesmoke;
+    padding: 0.5em;
+  }
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("~@/assets/images/banners/banner7.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("~@/assets/images/banners/banner7.jpg");
   min-height: 500px;
-  height: auto;
-  p {
-    font-family: "Lato Medium", sans-serif !important;
-    color: whitesmoke;
-    text-align: center !important;
-    border-radius: 1em;
-    padding: 0.5em;
-    margin: 0 auto;
-    max-width: 800px;
-  };
 }
 </style>

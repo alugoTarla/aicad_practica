@@ -6,9 +6,9 @@
           <br />
           <div class="ptab">
             <b-card no-body>
-              <b-tabs style="background: silver">
+              <b-tabs v-model="tabIndex" justified>
                 <b-tab align="left" v-for="(item ,idx) in p18s5tab" :key="idx" :title="item.tabT" v>
-                  <b-card-text style="background: silver">
+                  <b-card-text>
                     <b-row>
                       <b-col md="6" sm="12" v-for="(item1, idx1) in item.contenido" :key="idx1">
                         <div class="d-flex align-items-center">

@@ -28,8 +28,7 @@
           </p>
           <br>
           <a class="btn buttonTurqueza" @click="irTo(p7s5url)">
-            <span>{{$t("p7s5button1")}}</span>
-            <span><strong>{{$t("p7s5button1s")}}</strong></span>            
+            <strong>{{$t("p7s5button1s")}}</strong>           
           </a>
           <br>
           <div style="padding: 1em 0;">
@@ -70,8 +69,7 @@
         , "p7s5title2s": false
       }
     ],
-    "p7s5button1": "Learn more about ",
-    "p7s5button1s": "the Internship Agreements and Social Security"
+    "p7s5button1s": "More information"
   },
   "es":{
     "p7s5title1": [
@@ -98,8 +96,7 @@
         , "p7s5title2s": false
       }
     ],
-    "p7s5button1": "Mira más sobre los ",
-    "p7s5button1s": "Convenios de prácticas en empresas y Seguridad social"
+    "p7s5button1s": "Más Información"
   }
 }
 </i18n>
