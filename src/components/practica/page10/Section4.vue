@@ -147,7 +147,7 @@
 export default {
   data() {
     return {
-      p10s4url: "#",
+      p10s4url: "https://jobs.aicad.es",
       p10s4itemsI: [
         {
           p10s4icon: require("@/assets/images/vectores/page10/asesoriapermanente.png")

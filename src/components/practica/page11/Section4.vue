@@ -85,13 +85,11 @@
                           {{$t("p11s4card2Text1")}}
                           <br />
                           <strong>{{p11s4card2Text2_}}</strong>
-                        </div>                        
-                        <p class="text-left">
                           <strong>{{$t("p11s4card2Text3")}}</strong>
-                          <div class="text-left" v-for="(item, idx) in p11s4card2Text3l" :key="idx" >
+                        </div>                        
+                        <div class="text-left" v-for="(item, idx) in p11s4card2Text3l" :key="idx" >
                           {{item}}
-                          </div>
-                        </p>
+                        </div>
                       </b-card-body>  
                     </b-card>
                     <br>

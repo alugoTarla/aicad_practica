@@ -12,16 +12,6 @@ const router = new Router({
       name: 'page_pe1_es',
       component: () => import ('./views/practica/es/Page1.vue')
     },
-    // {
-    //   path: '/',
-    //   name: 'page_pe1_en',
-    //   component: () => import ('./views/practica/en/Page1.vue')
-    // },
-    // {
-    //   path: '/practicas',
-    //   name: 'page_pe1_es',
-    //   component: () => import ('./views/practica/es/Page1.vue')
-    // },
     {
       path: '/tres-pasos',
       name: 'page_pe2_es',

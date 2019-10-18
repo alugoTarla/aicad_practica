@@ -18,7 +18,7 @@
                       <div class="p-1 text-center" style="width: 20%">
                         <b-img :src="p1s51itemsI[idx].p1s5icon" class="p1s5iconos"></b-img>
                       </div>
-                      <div class="p-1 text-justify" style="width: 80%">
+                      <div class="p-1 text-left" style="width: 80%">
                         <h4><strong>{{item.p1s5title}}</strong></h4>
                       </div>                      
                     </div>
@@ -39,7 +39,7 @@
                       <div class="p-1 text-center" style="width: 20%">
                         <b-img :src="p1s53itemsI[idx].p1s5icon" class="p1s5iconos"></b-img>
                       </div>
-                      <div class="p-1 text-justify" style="width: 80%">
+                      <div class="p-1 text-left" style="width: 80%">
                         <h4><strong>{{item.p1s5title}}</strong></h4>
                       </div>                      
                     </div>

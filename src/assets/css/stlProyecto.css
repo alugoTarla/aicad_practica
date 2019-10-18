@@ -77,10 +77,10 @@ h5 {
 	letter-spacing: normal;
 }
 
-p {
+p, li {
 	font-family: "Lato Light", sans-serif !important;
 	font-size: 1rem !important;
-	line-height: 1.375em !important;
+	line-height: 1.2em !important;
 	letter-spacing: normal;
 }
 
@@ -364,28 +364,25 @@ p {
 }
 
 .p1cardContentH {
-	position: relative;
-	height: 6em;
+	height: 7em !important;
 	padding: 1.5em 1em !important;
 	vertical-align: middle !important;
 	border-top-left-radius: 2em !important;
 	border-top-right-radius: 2em !important;
 }
 
-.p1cardContentB {
+.card-body.p1cardContentB {
 	position: relative;
 	height: 12em;
-	margin: 1em;
+	padding: 1em !important;
 	overflow: auto;
 }
 
-.p1cardContentF {
-	position: relative;
-	height: 8em;
-	vertical-align: middle !important;
-	padding: 0.8em !important;
+.card-footer.p1cardContentF {
+	padding: 1em !important;
 	border-bottom-left-radius: 2em !important;
 	border-bottom-right-radius: 2em !important;
+	height: 8em;
 }
 
 .card.p2card {
@@ -735,16 +732,16 @@ p {
 }
 
 .p14cardImport {
-	position: absolute;
-	top: 7.2em;
-	left: calc(50% - 3em);
+	position: relative;
+	width: 7em;
+	left: calc(50% - 3.5em);
+	margin-bottom: -4em;
 	padding: 0.8em;
 	border-color: white;
 	border-width: 0.4rem;
 	border-style: solid;
 	border-radius: 3em;
 	background-color: gray;
-	font-weight: 700;
 	color: whitesmoke;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -854,6 +851,13 @@ p {
 	-moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 	box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 	transition: 0.3s;
+}
+
+.cardd2 {
+	position: relative;
+	-webkit-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .buttonfix{

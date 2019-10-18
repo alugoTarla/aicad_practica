@@ -41,7 +41,7 @@
 export default {
   data() {
     return {
-      s1url: "#"
+      s1url: "https://jobs.aicad.es"
     };
   }
 };

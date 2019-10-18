@@ -42,6 +42,7 @@ export default {
 <style lang="scss">
 .p7s1fondoFwhite {
   h2 {
+    font-size: 2.7rem !important;
     color: whitesmoke;
     padding: 1em;
   }

@@ -2,8 +2,7 @@
   <div id="section1">
     <div class="p14s1fondoFwhite pt-5 ">
       <b-container fluid>
-        <b-container class="text-center pt-5">
-          <br />
+        <b-container class="text-center pt-4">
           <h1>
             <span v-for="(item, index) in p14s1title" :key="index">
               <strong v-if="item.p14s1titleF">{{item.p14s1titleT}}</strong>

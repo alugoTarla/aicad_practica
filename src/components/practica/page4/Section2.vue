@@ -27,7 +27,7 @@
                   {{$t("p4s2Title1")}}
                 </b-card-title>
                 <b-card-body class="p4cardbody">
-                  <ul style="margin-bottom: 0">
+                  <ul style="margin-bottom: 0" class="p-3">
                     <li v-for="(item ,idx) of p4s2items"
                     :key="idx">
                       {{item}}
@@ -122,7 +122,7 @@
 export default {
   data() {
     return {
-      p4_1s1buttonUrl: "#"
+      p4_1s1buttonUrl: "https://jobs.aicad.es"
     }
   },
   computed: {

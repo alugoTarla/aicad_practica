@@ -9,7 +9,7 @@
               <h3 class="m-3 p-4">
                 {{item.titulo}}
               </h3>
-              <b-card no-body footer-tag="footer" class="p4card cardd1">
+              <b-card no-body footer-tag="footer" class="p4card cardd2">
                 <b-card-body>
                   <b-row align-h="center">
                     <b-col cols="11" v-for="(item2, idx2) in item.lista" :key="idx2">
@@ -43,9 +43,11 @@
                 </a>
                 </b-card-footer>
               </b-card>
+              <div style="margin: 0.5em">&nbsp;</div>
               <br>
             </b-col>
           </b-row>
+          <div style="margin: 0.5em">&nbsp;</div>
           <br>
         </b-container>
       </b-container>
