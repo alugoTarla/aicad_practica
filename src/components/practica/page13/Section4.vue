@@ -238,7 +238,7 @@ export default {
 	color: whitesmoke !important;
 	margin: 0 auto;
 	letter-spacing: 2px;
-	padding: 0.4em 3em !important;
+	padding: 0.4em 2em !important;
 	cursor: pointer;
 	font-size: 1.1em !important;
 	transition: 0.3s !important;

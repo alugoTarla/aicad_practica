@@ -2,15 +2,15 @@
   <div id="section6">
     <div class="fondoWhite">
       <b-container fluid>
-        <b-container class="text-center">
+        <b-container >
           <br />
           <b-row>
-            <b-col md="6" sm="12" class="text-left" order-sm="2" order-md="2">
+            <b-col md="6" sm="12" order-sm="2" order-md="2">
               <hr class="hrFondo" />
-              <h3 class="text-justify">{{$t("p5s6title1")}}</h3>
-              <p class="text-justify">{{$t("p5s6desc1")}}</p>
-              <br />
-              <p class="text-justify">{{$t("p5s6desc2")}}</p>
+              <h3>{{$t("p5s6title1")}}</h3>
+              <br>
+              <p>{{$t("p5s6desc1")}}</p>
+              <p>{{$t("p5s6desc2")}}</p>
             </b-col>
             <b-col md="6" sm="12" order-sm="1" order-md="1">
               <b-img :src="p5s6img" class="p5Imagenes"></b-img>

@@ -17,7 +17,7 @@
                 <b-img :src="p8s1itemsI[idx].p8s1img"></b-img>
               </div>
               <div class="p8s1sliderFoo">
-                <h2>{{item.p8s1title}}</h2>
+                <h3>{{item.p8s1title}}</h3>
               </div>
             </div>
           </slide>
@@ -125,10 +125,8 @@ export default {
   position: relative;
   background: rgba(0,0,0,0.5);
   margin: 0 0 -10em;
-  h2 {
-    @media (max-width: 1024px) {
-      font-size: 1.75em !important;
-    }
+  h3 {
+    font-size: 2em !important;
     @media (max-width: 768px) {
       font-size: 1.5em !important;
     }

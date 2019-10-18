@@ -12,14 +12,14 @@
     "p6ssubtitlep4": "Create and organize mobility programs and international internships",
     "p6ssubtitlep5":
       "We give you more information about our services for educational institutions and universities regarding the coordination of the Erasmus + Scholarship and European funds for international internships in companies",
-    "p6ssubtitlep6": "Contact the",
+    "p6ssubtitlep6": "Contact us",
     "p6ssubtitlep7": "Espamob Coordinators"
   },
   "es":{
     "p6ssubtitlep4": "Crea y organiza programas de movilidad y prácticas internacionales en empresas",
     "p6ssubtitlep5":
       "Te brindamos más información sobre nuestros servicios para instituciones educativas y universidades en cuanto a coordinación de la Beca Erasmus+ y los fondos europeos para prácticas internacionales en empresas",
-    "p6ssubtitlep6": "Contacte con los",
+    "p6ssubtitlep6": "Contactenos",
     "p6ssubtitlep7": "Coordinadores Espamob"
   }
 }

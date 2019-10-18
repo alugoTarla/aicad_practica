@@ -15,10 +15,15 @@
             <b-card no-body class="mb-1" v-for="(item, index) in p12s1list" :key="index">
               <b-card-header header-tag="header" class="p-1" role="tab">
                 <b-button block href="#" v-b-toggle="'accordion-'+index" class="buttonTurqueza1">
-                  <div class="text-left">
-                  <font-awesome-icon :icon="['fas', 'asterisk']" />
-                  {{item.p12s1Preg}}
-                  </div>
+                  <b-row align-h="center" align-v="center">
+                    <b-col md="11" sm="12" class="text-left">
+                      <font-awesome-icon :icon="['fas', 'asterisk']" />
+                      {{item.p12s1Preg}}
+                    </b-col>
+                    <b-col md="1" sm="12" class="text-center">
+                      <font-awesome-icon :icon="['fas', 'caret-square-down']" />
+                    </b-col>
+                  </b-row>
                 </b-button>
               </b-card-header>
               <b-collapse :id="'accordion-'+index" accordion="my-accordion" role="tabpanel">

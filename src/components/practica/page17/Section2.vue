@@ -7,6 +7,7 @@
           <h2>
             {{$t("p17s2titulo")}}
           </h2>
+          <br>
           <p class="text-justify">
             <span v-for="(item, idx) in p17s2texts" :key="idx">
               <strong v-if="item.textS">

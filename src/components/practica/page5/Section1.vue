@@ -2,24 +2,13 @@
   <div id="section1">
     <div class="p5s1fondoFwhite">
       <b-container fluid>
-        <b-container>
+        <b-container class="text-center pt-5">
           <br />
-          <b-row align-v="center" align-h="center">
-            <b-col md="9" sm="12" class="text-center pt-5">
-              <br>
-              <h1 style="font-size: 3em !important;">{{$t("p5s1title1")}}</h1>
-              <br>
-              <h1>
-                <div>
-                  {{$t("p5s1title2")}}
-                </div>   
-                <div>
-                  {{$t("p5s1title3")}}
-                </div> 
-              </h1>     
-              <br>         
-            </b-col>
-          </b-row>
+          <h1>{{$t("p5s1title1")}}</h1>
+          <br>
+          <p>
+            {{$t("p5s1title2")}}
+          </p>
           <br />
         </b-container>
       </b-container>
@@ -31,13 +20,11 @@
 {
   "en":{
     "p5s1title1": "Get VIP membership!",
-    "p5s1title2": "Post multitude offers",
-    "p5s1title3": "Find interns without borders"
+    "p5s1title2": "Post multitude offers find interns without borders"
   },
   "es":{
     "p5s1title1": "¡Consigue membresía VIP!",
-    "p5s1title2": "Publica multitud de ofertas",
-    "p5s1title3": "Encuentra becarios sin fronteras"
+    "p5s1title2": "Publica multitud de ofertas encuentra becarios sin fronteras"
   }
 }
 </i18n>
@@ -54,15 +41,13 @@ export default {
 <style lang="scss">
 .p5s1fondoFwhite {
   h1 {
-    color: whitesmoke;
-    padding: 0.5em;
+    padding: 1em;
   };
-  color: white;
+  color: whitesmoke;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-color: rgba(0, 0, 0, 0);
   background-image: linear-gradient(rgba(0,0,0,0.50)), url("~@/assets/new_imgs/Banner-membresia-vip2.jpg");
   // background-image: linear-gradient(rgba(0,0,0,0.50)), url("~@/assets/new_imgs/Banner-membresia-vip.jpg");
   min-height: 500px;

@@ -10,7 +10,7 @@
                 <b-tab align="left" v-for="(item ,idx) in p18s5tab" :key="idx" :title="item.tabT" v>
                   <b-card-text>
                     <b-row>
-                      <b-col md="6" sm="12" v-for="(item1, idx1) in item.contenido" :key="idx1">
+                      <b-col md="6" sm="12" v-for="(item1, idx1) in item.contenido" :key="idx1" class="p-3">
                         <div class="d-flex align-items-center">
                           <div class="text-center p-1" style="width: 20%">
                             <b-img :src="p18s5tabI[idx].contenido[idx1].icon" class="p8iconos" />

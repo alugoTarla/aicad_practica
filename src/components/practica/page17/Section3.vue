@@ -3,46 +3,50 @@
     <div class="fondoWhite" >
       <b-container fluid>
         <b-container class="text-center">
-          <br />
           <b-row>
-            <b-col md="6" sm="12" class="text-center"
+            <b-col lg="6" md="12" class="text-center"
             v-for="(item, idx) in p17s2columnas" :key="idx">
               <h3 class="m-3 p-4">
                 {{item.titulo}}
               </h3>
-              <hr class="hrFondo2">
-              <b-row align-h="center">
-                <b-col cols="11" v-for="(item2, idx2) in item.lista" :key="idx2">
-                  <div class="d-flex align-items-center m-2">
-                    <div class="text-center" style="width: 20%">
-                      <b-img :src="p17s2columnasI[idx].lista[idx2].icon" class="p8iconos"></b-img>
-                    </div>
-                    <div class="text-left" style="width: 80%">
-                      <h4><strong>{{item2.subtitulo}}</strong></h4>
-                    </div>                      
-                  </div>
-                  <div>
-                    <p class="text-justify">
-                      {{item2.texto}}
-                    </p>
-                  </div>
-                  <br>
-                </b-col>
-              </b-row>
-              <h3>
-                {{item.texto}}
-              </h3>
-              <a class="btn buttonTurqueza" :href="item.urlBtn" target="_blank">
-                <span v-for="(item2, idx2) in item.textBtn" :key="idx2">
-                  <strong v-if="item2.txtS">
-                    {{item2.txt}}
-                  </strong>
-                </span>
-              </a>
+              <b-card no-body footer-tag="footer" class="p4card cardd1">
+                <b-card-body>
+                  <b-row align-h="center">
+                    <b-col cols="11" v-for="(item2, idx2) in item.lista" :key="idx2">
+                      <div class="d-flex align-items-center m-2">
+                        <div class="text-center" style="width: 20%">
+                          <b-img :src="p17s2columnasI[idx].lista[idx2].icon" class="p8iconos"></b-img>
+                        </div>
+                        <div class="text-left" style="width: 80%">
+                          <h4><strong>{{item2.subtitulo}}</strong></h4>
+                        </div>                      
+                      </div>
+                      <div>
+                        <p class="text-justify">
+                          {{item2.texto}}
+                        </p>
+                      </div>
+                      <br>
+                    </b-col>
+                  </b-row>
+                  <h3>
+                    {{item.texto}}
+                  </h3>
+                </b-card-body>
+                <b-card-footer slot="footer" class="p4cardfooter">
+                <a class="btn buttonTurqueza" :href="item.urlBtn" target="_blank">
+                  <span v-for="(item2, idx2) in item.textBtn" :key="idx2">
+                    <strong v-if="item2.txtS">
+                      {{item2.txt}}
+                    </strong>
+                  </span>
+                </a>
+                </b-card-footer>
+              </b-card>
+              <br>
             </b-col>
           </b-row>
           <br>
-          <hr class="hrFondo2">
         </b-container>
       </b-container>
     </div>

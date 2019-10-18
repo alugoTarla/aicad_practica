@@ -1,28 +1,24 @@
 <template>
   <div id="tb">
-    <div class="wrapper">
-      <div class="fondoSilver">
-        <b-container fluid>
-          <b-container>
-            <br />
-            <div>
-              <div class="text-center">
-                <h2>{{TBtxt1}}</h2>
-                <p>{{TBtxt2}}</p>
-              </div>
-              <div class="text-center">
-                <a class="btn buttonTurqueza" :href="TBurl" target="_blank">
-                  {{TButton1}}
-                </a>
-              </div>
-              <div class="buttonfix2">
-                <strong>{{TButton2}}</strong>
-              </div>
+    <div class="fondoSilver">
+      <b-container fluid>
+        <b-container>
+          <br />
+          <div>
+            <div class="text-center">
+              <h2>{{TBtxt1}}</h2>
+              <p>{{TBtxt2}}</p>
             </div>
-          </b-container>
+            <div class="text-center">
+              <a class="btn buttonTurqueza" :href="TBurl" target="_blank">{{TButton1}}</a>
+            </div>
+            <div class="buttonfix2">
+              <strong>{{TButton2}}</strong>
+            </div>
+          </div>
         </b-container>
-        <br />
-      </div>
+      </b-container>
+      <br />
     </div>
   </div>
 </template>
@@ -35,6 +31,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-</style>

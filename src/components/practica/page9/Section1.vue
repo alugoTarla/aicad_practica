@@ -2,11 +2,12 @@
   <div id="section1">
     <div class="fondoWhite">
       <b-container fluid>
-        <b-container class="text-center">
+        <b-container class="text-center pt-5">
           <br />
           <h2>
             {{$t("p9s1title1")}}
           </h2>
+          <br>
           <p class="text-justify">
             {{$t("p9s1desc1")}}
           </p>

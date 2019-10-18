@@ -5,7 +5,7 @@
         <b-container class="text-center pt-3">
           <h1>{{$t("p3s1Title")}}</h1>
           <br />
-          <h1>{{$t("p3s1SubTitle")}}</h1>
+          <p>{{$t("p3s1SubTitle")}}</p>
           <br />
           <a class="btn buttonTurqueza" :href="s1url">
             {{$t("p3s1Button1")}}

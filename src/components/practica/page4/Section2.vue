@@ -7,6 +7,7 @@
           <b-row>
             <b-col sm="12" md="12" lg="8">
               <h2>{{$t("p4s2Title")}}</h2>
+              <br>
               <b-row>
                 <b-col 
                 cols="12"
@@ -21,24 +22,26 @@
               </b-row>
             </b-col>
             <b-col sm="12" md="12" lg="4">
-              <b-card class="p4card">
+              <b-card no-body class="p4card" footer-tag="footer">
                 <b-card-title class="p4cardtitle">
                   {{$t("p4s2Title1")}}
                 </b-card-title>
-                <b-card-text class="p4cardbody">
-                  <ul>
+                <b-card-body class="p4cardbody">
+                  <ul style="margin-bottom: 0">
                     <li v-for="(item ,idx) of p4s2items"
                     :key="idx">
                       {{item}}
                     </li>
                   </ul>
-                  <br>
-                  <div class="text-center" style="width: 100%">
+                </b-card-body>
+                <b-card-footer class="p4cardfooter text-center">
+                  <div>
                     <a :href="p4_1s1buttonUrl" class="btn buttonTurqueza">
-                    {{$t("p4_1s1button")}}
-                  </a>
+                      {{$t("p4_1s1button")}}
+                    </a>
                   </div>
-                </b-card-text>
+                  <br>
+                </b-card-footer>
               </b-card>
             </b-col>
           </b-row>
@@ -80,7 +83,7 @@
       ,"Agreements of foreign universities."
       ,"Insurance for university internship."
     ],
-    "p4_1s1button": "Contact us if you want to know more"
+    "p4_1s1button": "Contact us"
   },
   "es":{
     "p4s2Title": "Cuéntanos más sobre ti y te ayudaremos a elegir el mejor puesto para crecer profesionalmente",
@@ -110,7 +113,7 @@
       ,"Convenios de universidades extranjeras."
       ,"Seguros para prácticas universitarias."
     ],
-    "p4_1s1button": "Contáctanos si quieres saber más"
+    "p4_1s1button": "Contáctanos"
   }
 }
 </i18n>

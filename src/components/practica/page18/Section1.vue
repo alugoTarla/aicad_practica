@@ -6,14 +6,12 @@
           <h1>
             <div v-for="(item, idx) in p18s1Title" :key="idx">{{item}}</div>
           </h1>
-          <br />
-          <h3>
+          <p>
             <span v-for="(item, idx) in p18s1SubTitle" :key="idx">
               <strong v-if="item.txtS">{{item.txt}}</strong>
               <span v-else>{{item.txt}}</span>
             </span>
-          </h3>
-          <br />
+          </p>
           <div>
             <div class="buttonfix2">{{$t("p18s1Button1")}}</div>
               <a class="btn buttonTurqueza" :href="p18s1url">
@@ -82,7 +80,7 @@ export default {
 .p18s1fondoWhite {
   h1 {
     color: whitesmoke;
-    padding: 1em;
+    padding: 0.6em;
   };
   p {
     font-family: "Lato Medium", sans-serif !important;

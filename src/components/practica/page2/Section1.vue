@@ -3,9 +3,8 @@
     <div class="fondoGrisClarop2s1">
       <b-container fluid>
         <b-container class="text-center">
-          <br />
           <h2>{{$t("s1title1")}}</h2>
-          <h3>{{$t("s1title2")}}</h3>
+          <p>{{$t("s1title2")}}</p>
           <b-row align-h="center">
             <b-col
               lg="4"
@@ -20,7 +19,7 @@
                   <b-img :src="s1itemsI[idx].s1img" />
                 </div>
                 <div>
-                  <h2>{{item.s1ititle}}</h2>
+                  <h3>{{item.s1ititle}}</h3>
                 </div>
                 <div class="p2s1ol">
                   <ol>
@@ -168,17 +167,12 @@ export default {
 <style lang="scss">
 .fondoGrisClarop2s1 {
   h2 {
-    color: whitesmoke;
-  }
-  h3 {
-    color: whitesmoke;
-    background: rgba(200, 200, 200, 0.4);
-    border-radius: 20px;
-    padding: 20px;
-  }
+    padding-top: 0.5em;
+  };
   li {
     color: whitesmoke;
   }
+  color: whitesmoke;
   background: linear-gradient(rgba(0, 0, 0, 0.5)),
     url("~@/assets/new_imgs/Banner-3-pasos.jpg");
   background-repeat: no-repeat;

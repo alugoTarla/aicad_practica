@@ -2,17 +2,11 @@
   <div id="section1">
     <div class="p16s1fondoFwhite">
       <b-container fluid>
-        <b-container class="text-center pt-5">
-          <br />
+        <b-container class="text-center pt-3">
           <h1>
             <div v-for="(item, idx) in p16s1titulos" :key="idx">{{item}}</div>
           </h1>
-          <br />
-          <b-row align-h="center" align-v="center">
-            <b-col md="10" sm="12">
-              <h3>{{$t("p16s1titulos2")}}</h3>
-            </b-col>
-          </b-row>
+          <p>{{$t("p16s1titulos2")}}</p>
           <br />
         </b-container>
       </b-container>
@@ -56,10 +50,9 @@ export default {
 .p16s1fondoFwhite {
   h1 {
     color: whitesmoke;
-    padding: 1.5em;
+    padding: 0.5em;
   }
   p {
-    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
     padding: 0.5em;
   }

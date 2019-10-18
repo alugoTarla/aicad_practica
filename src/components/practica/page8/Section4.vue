@@ -17,7 +17,7 @@
                   <b-col md="6" sm="12" v-for="(item, idx) in p8s4list" :key="idx">
                     <div class="d-flex align-items-center">
                       <div class="p-1 text-center" style="width: 20%">
-                        <b-img :src="p8s4list[idx].p8s4icon" class="p8iconos"></b-img>
+                        <b-img :src="p8s4listI[idx].p8s4icon" class="p8iconos"></b-img>
                       </div>
                       <div class="p-1 text-justify " style="width: 80%">
                         <h4><strong>{{item.p8s4title}}</strong></h4>

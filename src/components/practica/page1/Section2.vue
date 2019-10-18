@@ -15,7 +15,7 @@
               </b-card-header>
               <b-card-body class="text-center p1cardContentB">
                 <div>
-                  <p class="text-justify">{{item.s2text}}</p>
+                  <p>{{item.s2text}}</p>
                 </div>
               </b-card-body>
               <b-card-footer class="text-center p1cardContentF">

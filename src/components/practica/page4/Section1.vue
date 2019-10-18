@@ -2,15 +2,10 @@
   <div id="section1">
     <div class="p4s1fondoFwhite">
       <b-container>
-        <b-container class="text-center pt-3 pb-5">
-          <br />
-          <b-row align-v="center" align-h="center">
-            <b-col sm="12" md="10" lg="9">
-              <br />
-              <h1>{{$t("p4s1Title")}}</h1>
-              <h3>{{$t("p4s1SubTitle")}}</h3>
-            </b-col>
-          </b-row>
+        <b-container class="text-center pt-3">
+          <br />  
+          <h1>{{$t("p4s1Title")}}</h1>
+          <p>{{$t("p4s1SubTitle")}}</p>
           <div>
             <div class="buttonfix2">
               <span>{{$t("p4s1Button1")}}</span>
@@ -63,9 +58,9 @@ export default {
 .p4s1fondoFwhite {
   h1 {
     color: whitesmoke;
-    padding: 1em;
+    padding: 0.5em;
   }
-  h3 {
+  p {
     color: whitesmoke;
     padding: 1em;
   }

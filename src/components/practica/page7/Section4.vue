@@ -15,7 +15,7 @@
             <br />
             <b-row align-v="center" align-h="center">
               <b-col md="9" sm="10" class="text-center">
-                <h1>{{$t("p7s4title1")}}</h1>
+                <h2>{{$t("p7s4title1")}}</h2>
                 <h3>{{$t("p7s4title2")}}</h3>
                 <br>
                 <a class="btn buttonWhite-outline" :href="p7s4url">

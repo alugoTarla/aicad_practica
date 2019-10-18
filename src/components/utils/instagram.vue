@@ -1,5 +1,5 @@
 <template>
-  <div class="cardd" style="background-color: white; padding: 0.5em; border-radius: 1em;">
+  <div class="cardd1" style="background-color: white; padding: 0.5em; border-radius: 1em;">
      <br>
     <iframe :src="urlPublicacion" class="iframeIG"
      frameborder="0" scrolling="no" allowtransparency="true"></iframe>

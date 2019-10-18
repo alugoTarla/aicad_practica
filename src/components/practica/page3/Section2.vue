@@ -5,10 +5,9 @@
         <b-container fluid>
           <b-container class="text-center">
             <br />
+            <h2>{{$t("p3s1Title")}}</h2>
+            <br />
             <b-row>
-              <b-col cols="12">
-                <h2>{{$t("p3s1Title")}}</h2>
-              </b-col>
               <b-col cols="12">
                 <p class="text-justify">{{$t("p3s2Texto1")}}</p>
                 <br>

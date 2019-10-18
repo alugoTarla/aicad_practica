@@ -2,16 +2,10 @@
   <div id="section1">
     <div class="p11s1fondoFwhite">
       <b-container fluid>
-        <b-container class="text-center">
+        <b-container class="text-center pt-3">
+        <h1>{{$t("p11s1title1")}}</h1>
         <br />
-        <b-row align-v="center" align-h="center">
-          <b-col md="8" sm="12">
-            <br />
-            <h1>{{$t("p11s1title1")}}</h1>
-            <br />
-            <p>{{$t("p11s1title2")}}</p>
-          </b-col>
-        </b-row>
+        <p>{{$t("p11s1title2")}}</p>
         <br />
         </b-container>
       </b-container>
@@ -50,12 +44,12 @@ export default {
 .p11s1fondoFwhite {
   h1 {
     color: whitesmoke;
-    padding: 20px;
+    padding: 1em 0.5em 0;
   };
   p {
     font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
-    padding: 0.5em;
+    padding-top: 0.5em;
   };
   color: white;
   background-size: cover;

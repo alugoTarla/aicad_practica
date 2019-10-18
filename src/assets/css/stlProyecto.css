@@ -24,13 +24,12 @@ a:hover {
 strong {
 	font-family: "Lato Heavy", sans-serif !important;
 	font-weight: bold !important;
-	font-size: 1em !important;
 }
 
 h1 {
 	font-family: "Lato Heavy", sans-serif !important;
 	font-weight: 700 !important;
-	font-size: 2.5rem !important;
+	font-size: 3.5rem !important;
 	line-height: 1em !important;
 	letter-spacing: normal;
 }
@@ -38,14 +37,15 @@ h1 {
 h2 {
 	font-family: "Lato Heavy", sans-serif !important;
 	font-weight: 600 !important;
-	font-size: 1.8rem !important;
-	line-height: 1.1em !important;
+	font-size: 2.2rem !important;
+	line-height: 1em !important;
 	letter-spacing: normal;
+	margin-bottom: 0.5em;
 }
 
 h2 strong {
-	font-family: "Lato Medium", sans-serif !important;
 	font-weight: 800 !important;
+	letter-spacing: normal !important;
 }
 
 h3 {
@@ -58,6 +58,7 @@ h3 {
 
 h3 strong {
 	font-weight: 700 !important;
+	letter-spacing: normal !important;
 }
 
 h4 {
@@ -83,68 +84,30 @@ p {
 	letter-spacing: normal;
 }
 
+@media (max-width: 425px) {
+	h1 {
+		font-size: 2rem !important;
+	}
+	h2{
+		font-size: 1.5rem !important;
+	}
+	h3{
+		font-size: 1rem !important;
+	}
+	h4, h5, p, li{
+		font-size: 0.8rem !important;
+	}
+}
+
 .fondoWhite {
 	background-color: white;
 	color: #2c3e50;
 }
 
-.fondoWhite h2 {
-	text-decoration: inherit;
-}
-
-.fondoWhite h2 a {
-	border: none;
-	text-decoration: inherit;
-	color: inherit;
-}
-
-.fondoWhite h2 a:hover {
-	opacity: .85;
-	text-decoration: inherit !important;
-}
-
-.fondoWhite p {
-	display: block;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	margin: 0 !important;
-}
-
 .fondoGrisClaro {
-	background-color: #d3d5d6;
+	background-color: #f3f3f3;
 	color: #2c3e50;
 	padding: 1em 0 0;
-}
-
-.fondoGrisClaro h2 {
-	text-decoration: inherit;
-	margin-bottom: 1em !important;
-}
-
-.fondoGrisClaro h2 a {
-	border: none;
-	text-decoration: inherit;
-	color: inherit;
-}
-
-.fondoGrisClaro h2 a:hover {
-	opacity: .85;
-	text-decoration: inherit !important;
-}
-
-.fondoGrisClaro a:hover h2 {
-	opacity: .85;
-	text-decoration: none !important;
-}
-
-.fondoGrisClaro p {
-	display: inline-block;
-	padding-top: 10px;
-	font-size: 1.15em;
-	font-weight: 300;
-	line-height: 24px;
 }
 
 .fondoSilver {
@@ -154,73 +117,14 @@ p {
 	color: white;
 }
 
-.fondoSilver>p {
-	display: inline-block;
-	padding-top: 10px;
-	font-weight: 300;
-	max-width: 800px;
-	line-height: 24px;
-}
-
 .fondoGris {
 	background-color: gray;
 	color: whitesmoke;
 }
 
-.fondoGris h2 {
-	text-decoration: inherit;
-	margin-bottom: 1em !important;
-}
-
-.fondoGris h2 a {
-	font-family: "Lato Heavy", sans-serif !important;
-	border: none;
-	text-decoration: inherit;
-	color: inherit;
-}
-
-.fondoGris h2 a:hover {
-	opacity: .85;
-	text-decoration: inherit !important;
-}
-
-.fondoGris a:hover h2 {
-	opacity: .85;
-	text-decoration: none !important;
-}
-
-.fondoGris p {
-	display: inline-block;
-	padding-top: 10px;
-	font-size: 1.15em;
-	font-weight: 300;
-	max-width: 800px;
-	line-height: 24px;
-}
-
-.fondoSilver>p {
-	display: inline-block;
-	padding-top: 10px;
-	font-weight: 300;
-	max-width: 800px;
-	line-height: 24px;
-}
-
 .fondoTurquesa {
 	background-color: #d8e8e7;
 	color: #2c3e50;
-}
-
-.fondoTurquesa h1 {
-	margin-bottom: 0.4em;
-}
-
-.fondoTurquesa h2 {
-	margin-bottom: 0.2em;
-}
-
-.fondoTurquesa h5 {
-	margin-bottom: 0.2em;
 }
 
 .container-fluid.fcontainer {
@@ -304,9 +208,9 @@ p {
 .buttonTurqueza1 {
 	border-color: #009090 !important;
 	background: linear-gradient(90deg, rgba(0,144,144,1) 0%, rgba(117,200,250,0.8) 100%);
-	color: #fff !important;
+	color: whitesmoke !important;
 	margin: 0 auto;
-	padding: 0.4em 3em !important;
+	padding: 0.4em !important;
 	cursor: pointer;
 	font-size: 1.1em !important;
 	transition: 0.3s !important;
@@ -462,10 +366,10 @@ p {
 .p1cardContentH {
 	position: relative;
 	height: 6em;
-	padding: 2em 1em 1em !important;
+	padding: 1.5em 1em !important;
 	vertical-align: middle !important;
-	border-top-left-radius: 40px !important;
-	border-top-right-radius: 40px !important;
+	border-top-left-radius: 2em !important;
+	border-top-right-radius: 2em !important;
 }
 
 .p1cardContentB {
@@ -479,9 +383,9 @@ p {
 	position: relative;
 	height: 8em;
 	vertical-align: middle !important;
-	padding: 0.5em !important;
-	border-bottom-left-radius: 40px !important;
-	border-bottom-right-radius: 40px !important;
+	padding: 0.8em !important;
+	border-bottom-left-radius: 2em !important;
+	border-bottom-right-radius: 2em !important;
 }
 
 .card.p2card {
@@ -500,7 +404,7 @@ p {
 
 .card-body.p2cardbody {
 	font-size: 1em !important;
-	text-align: justify !important;
+	/* text-align: justify !important; */
 	padding: 0 0 1em !important;
 	margin: 0 0 1em !important;
 }
@@ -556,14 +460,14 @@ p {
 
 .card-body.p3cardbody {
 	font-size: 1em !important;
-	text-align: justify !important;
+	/* text-align: justify !important; */
 	padding: 0 0.8em !important;
 	min-height: 15em;
 }
 
 .card-body.p7cardbody {
 	font-size: 0.9em !important;
-	text-align: justify !important;
+	/* text-align: justify !important; */
 	padding: 0 0.8em !important;
 	min-height: 16.5em;
 }
@@ -590,47 +494,38 @@ p {
 .card.p4card {
 	/*border: 5px;*/
 	border-style: solid;
-	border-radius: 40px;
+	border-radius: 3em;
 	border-color: gray;
 	background-color: whitesmoke;
-	padding: 10px !important;
+	padding: 1em !important;
+	height: calc(88%);
 }
 
 .card-title.p4cardtitle {
 	font-size: 1.25em !important;
 	font-weight: bold !important;
 	text-align: center;
+	padding: 0.5em !important;
 }
 
 .card-body.p4cardbody {
-	font-size: 1.1em !important;
-	text-align: justify !important;
-	padding: 1em !important;
+	padding: 1em 1em 0 !important;
 }
 
-.card-text.p4cardbody {
-	font-size: 1.1em !important;
-	text-align: justify !important;
-	padding: 1em !important;
-}
-
-.card-footer.p4cardfooter {
-	bottom: 0 !important;
-	text-align-last: center;
-	margin-top: 1em;
-}
-
-.card-footer.p4cardfooter a {
-	color: whitesmoke !important;
+.p4card .card-footer {
+	width: 100%;
+	border: 0 !important;
+	background: transparent !important;
+	padding: 0.5em;
+	bottom: 1 !important;
 }
 
 .card.p5card {
 	border: 1px;
 	border-style: solid;
-	border-radius: 16px;
-	border-top-color: gray;
-	border-top-width: 5px !important;
-	padding: 0.05rem !important;
+	border-radius: 1em;
+	padding: 0.5rem !important;
+	background-color: #f3f3f3 !important;
 }
 
 .card-title.p5cardtitle {
@@ -642,6 +537,7 @@ p {
 .p5card .card-body {
 	text-align: center !important;
 	padding: 0.5em !important;
+	background-color: #f3f3f3 !important;
 }
 
 .card.p5card>div.card-body p {
@@ -729,7 +625,7 @@ p {
 
 .ptab .card-text {
 		margin-top: 0;
-		padding: 1.2rem !important;
+		padding: 2em !important;
 		color: whitesmoke;
 		background: linear-gradient(to right, #7DE4CF, #7DC3F4);
     border-bottom-left-radius: 20px;
@@ -820,36 +716,31 @@ p {
 
 .p14cardContentH {
 	position: relative;
-	height: 9em;
+	padding-bottom: 2.5em !important;
 	border-top-left-radius: 2em !important;
 	border-top-right-radius: 2em !important;
 }
 
 .p14cardContentB {
 	position: relative;
-	height: 10em;
-	top: 1em;
+	top: 1.2em;
 	margin: 2em 1em;
 }
 
 .p14cardContentF {
 	position: relative;
-	height: 4em;
 	border-bottom-left-radius: 2em !important;
 	border-bottom-right-radius: 2em !important;
-}
-
-.p14cardContentF p {
-	font-weight: 600;
+	padding: 0.8em !important;
 }
 
 .p14cardImport {
 	position: absolute;
-	top: 7em;
+	top: 7.2em;
 	left: calc(50% - 3em);
 	padding: 0.8em;
 	border-color: white;
-	border-width: 0.5rem;
+	border-width: 0.4rem;
 	border-style: solid;
 	border-radius: 3em;
 	background-color: gray;
@@ -943,7 +834,7 @@ p {
 
 .iframeIG {
 	width: 100%;
-	height: 28em;
+	height: 30em;
 }
 
 .cardd {

@@ -2,19 +2,11 @@
   <div id="section1">
     <div class="p13s1fondoFwhite">
       <b-container>
-        <b-container class="text-center">
+        <b-container class="text-center pt-5">
           <br />
-          <b-row align-v="center" align-h="center">
-            <b-col sm="12" md="10" lg="9">
-              <br />
-              <br />
-              <br />
-              <h1>{{$t("p13s1Title")}}</h1>
-              <br />
-              <br />
-              <br />
-            </b-col>
-          </b-row>
+          <br />
+          <h1>{{$t("p13s1Title")}}</h1>
+          <br />
           <br />
         </b-container>
       </b-container>
@@ -46,7 +38,6 @@ export default {
 <style lang="scss">
 .p13s1fondoFwhite {
   h1 {
-    font-size: 4rem !important;
     padding: 1em;
   }
   color: white;

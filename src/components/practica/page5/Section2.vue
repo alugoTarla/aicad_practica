@@ -7,10 +7,10 @@
           <h2>
             {{$t("p5s2title1")}}
           </h2>
+          <br />
           <p class="text-justify">
             {{$t("p5s2desc1")}} <strong>{{$t("p5s2desc1_1")}}</strong>
           </p>
-          <br />
           <p class="text-justify">
             {{$t("p5s2desc2")}}
           </p>

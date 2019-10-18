@@ -4,14 +4,9 @@
       <b-container fluid>
         <b-container class="text-center">
           <br />
-          <b-row align-v="center" align-h="center">
-            <b-col md="11" sm="12">
-              <br />
-              <h1>{{$t("p7s1title1")}}</h1>
-              <br />
-              <p>{{$t("p7s1title2")}}</p>
-            </b-col>
-          </b-row>
+          <h2>{{$t("p7s1title1")}}</h2>
+          <br />
+          <p>{{$t("p7s1title2")}}</p>
           <br />
         </b-container>
       </b-container>
@@ -23,7 +18,7 @@
 {
   "en":{
     "p7s1title1":
-      "During our practice,  we have provided support and advice to hundreds of companies, SMEs and hotels to get the best candidates and fellows and choose the most qualified ones through pre-selection processes of interns.",
+      "During our practice, we have provided support and advice to hundreds of companies, SMEs and hotels to get the best candidates and fellows and choose the most qualified ones through pre-selection processes of interns.",
     "p7s1title2":
       "Contact our team of expert consultants to receive advice, and allow us to help you find the most suitable internship student for your company"
   },
@@ -46,12 +41,11 @@ export default {
 
 <style lang="scss">
 .p7s1fondoFwhite {
-  h1 {
+  h2 {
     color: whitesmoke;
     padding: 1em;
   }
   p {
-    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
     padding: 0.5em;
   }

@@ -1,18 +1,18 @@
 <template>
   <div id="section3">
-    <div class="fondoTurquesa">
+    <div class="fondoGrisClaro">
       <b-container fluid>
         <b-container>
           <br />
           <b-row align-v="center" align-h="center">
-            <b-col md="7" sm="12" class="text-center">
-              <h1>{{$t("s3title")}}</h1>
+            <b-col md="8" sm="12" class="text-center">
+              <h2>{{$t("s3title")}}</h2>
               <br />
-              <h3>
+              <p>
                 {{$t("s3subtitle1")}}
                 <br />
                 {{$t("s3subtitle2")}}
-              </h3>
+              </p>
               <br />
               <a class="btn buttonTurqueza-outline" @click="menuClicked('page_pe2')">
                 {{$t("s3button")}}

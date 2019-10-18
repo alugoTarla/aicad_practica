@@ -15,7 +15,7 @@
                     <div class="p7s3ul">
                       <ul>
                         <li
-                          class="text-justify p7s3li"
+                          class="text-left p7s3li"
                           v-for="(sitem, idx1) in item.p7s3sub"
                           :key="idx1"
                         >{{sitem.p7s3subi}}</li>

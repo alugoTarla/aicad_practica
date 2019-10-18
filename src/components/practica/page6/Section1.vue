@@ -8,9 +8,10 @@
             <br />
             <h1>
               {{$t("p6s1title1")}}
-              <br />
-              {{$t("p6s1title2")}}
             </h1>
+            <h3>
+              {{$t("p6s1title2")}}
+            </h3>
             <br />
             <p>{{$t("p6s1title3")}}</p>
           </b-col>
@@ -54,10 +55,13 @@ export default {
 .p6s1fondoFwhite {
   h1 {
     color: whitesmoke;
-    padding: 1em;
+    padding: 1em 1em 0.5em ;
+  };
+  h3 {
+    color: whitesmoke;
+    padding-bottom: 1.5em;
   };
   p {
-    font-family: "Lato Medium", sans-serif !important;
     color: whitesmoke;
   };
   color: white;

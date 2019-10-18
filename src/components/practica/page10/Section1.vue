@@ -4,14 +4,9 @@
       <b-container fluid>
         <b-container class="text-center pt-3">
           <br />
-          <b-row align-v="center" align-h="center">
-            <b-col md="8" sm="12">
-              <br />
-              <h1>{{$t("p10s1title1")}}</h1>
-              <br />
-              <p>{{$t("p10s1title2")}}</p>
-            </b-col>
-          </b-row>
+          <h1>{{$t("p10s1title1")}}</h1>
+          <br />
+          <p>{{$t("p10s1title2")}}</p>
           <br />
         </b-container>
       </b-container>

@@ -42,9 +42,9 @@
                 </b-row>
               </b-col>
               <b-col md="5" class="text-center">
-                <b-card class="p5card">
+                <b-card class="p5card cardd1" no-body>
                   <b-card-body >
-                  <h3>{{$t("p11s4cardTitle")}}</h3>
+                    <h2>{{$t("p11s4cardTitle")}}</h2>
                     <p class="text-justify">
                       {{$t("p11s4cardText1")}}
                     </p>
@@ -79,19 +79,18 @@
                         </b-card-text>
                       </b-tab>
                     </b-tabs>
-                    <b-card >
-                      <b-card-body >
-                        <p class="text-justify">
+                    <b-card no-body>
+                      <b-card-body class="text-left">
+                        <div class="text-left">
                           {{$t("p11s4card2Text1")}}
-                        </p>
-                        <p class="text-justify">
+                          <br />
                           <strong>{{p11s4card2Text2_}}</strong>
-                        </p>
-                        <p class="text-justify">
+                        </div>                        
+                        <p class="text-left">
                           <strong>{{$t("p11s4card2Text3")}}</strong>
-                        </p>
-                        <p class="text-justify" v-for="(item, idx) in p11s4card2Text3l" :key="idx" >
+                          <div class="text-left" v-for="(item, idx) in p11s4card2Text3l" :key="idx" >
                           {{item}}
+                          </div>
                         </p>
                       </b-card-body>  
                     </b-card>

@@ -19,7 +19,7 @@
     "p7ssubtitlep4": "Contáctanos para publicar una oferta de prácticas en empresas",
     "p7ssubtitlep5":
       "Es tan simple como completar el formulario, escribirnos o llamarnos. Nosotros te ayudaremos.",
-    "p7ssubtitlep6": "Publicar gratuitamente tu",
+    "p7ssubtitlep6": "Publica gratis",
     "p7ssubtitlep7": "Oferta de prácticas en empresas"
   }
 }

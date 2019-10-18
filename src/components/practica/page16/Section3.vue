@@ -10,6 +10,7 @@
               <span v-else>{{item.titulo}}</span>
             </span>
           </h2>
+          <br>
           <b-row align-v="start">
             <b-col md="4" sm="12" class="text-center" v-for="(item ,idx) of p16s3items" :key="idx">
               <div class="d-flex align-items-center">

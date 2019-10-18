@@ -14,6 +14,7 @@
                 </span>
               </span>
             </h2>
+            <br>
             <b-row align-h="center" align-v="center">
               <b-col lg="4" md="6" sm="12" class="text-center" v-for="(item ,idx) of videos" :key="idx">
                 <yt :idvideo="item" :key="idx" :activo="activo"></yt>
