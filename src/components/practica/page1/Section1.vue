@@ -36,7 +36,7 @@
     "s1subtitlep3": "and introduce yourself!"
     },
     "es":{
-    "s1title": "Práctias en empresas en cualquier lugar del mundo!",
+    "s1title": "Prácticas en empresas en cualquier lugar del mundo!",
     "s1subtitlep1": "¡AICAD te abre las puertas al mundo laboral!",
     "s1subtitlep2": "Elige el curso para empezar",
     "s1subtitlep3": "y preséntate!"
